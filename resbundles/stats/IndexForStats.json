@@ -6,15 +6,15 @@
 	 "Extension_Version_List":[	 
 		 { "18":
 		   {"Extension_Version":"1.0.4",
-			"Download_Link":"http://xxxx",
-			"Product_Maximum_Version":"23",
+		    "Download_Link":"http://xxxx",
+		    "Product_Maximum_Version":"23",
 			}
 		  },
 
 		 { "23":
 		   {"Extension_Version":"1.0.9",
-			"Download_Link":"http://xxxx",
-			"Product_Maximum_Version":"" }
+		    "Download_Link":"http://xxxx",
+		    "Product_Maximum_Version":"" }
 		  }]
 	}
 
