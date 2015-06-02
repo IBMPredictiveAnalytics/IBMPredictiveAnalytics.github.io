@@ -1,0 +1,19 @@
+{
+ ¡°Repository_Index":[
+
+	{ "Repository_Name":"STATS-APRIORI",
+	  "Description": "This command replaces the values of the specified variables with new values according to one of three methods. It is intended for situations where the  true values must be concealed for privacy or other reasons. It can also replace the variables names with anonymous equivalents.",
+	  "Type": "Extension",
+	  "Image":"default.png",
+	  "Developed_By":"IBM",
+	  "Product": "IBM Statisics",
+	  "Category":"Visualizaiton,Utility",
+	  "Language ": "R",
+	  "Promote_Level": "High"},
+
+	{"Repository_Name":"STATS-TRANS",
+
+	}
+ ]
+
+}
