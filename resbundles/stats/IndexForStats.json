@@ -7,15 +7,12 @@
 		 { "18":
 		   {"Extension_Version":"1.0.4",
 		    "Download_Link":"http://xxxx",
-		    "Product_Maximum_Version":"23",
-			}
-		  },
+		    "Product_Maximum_Version":"23",} },
 
 		 { "23":
 		   {"Extension_Version":"1.0.9",
 		    "Download_Link":"http://xxxx",
-		    "Product_Maximum_Version":"" }
-		  }]
+		    "Product_Maximum_Version":"" } } ]
 	}
 
  ]
