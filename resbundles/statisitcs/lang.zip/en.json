@@ -1,9 +1,9 @@
 {
 	"stats_extension_lang":[
 	
-		{"name":"STATS-APRIORI"
+		{"name":"STATS-APRIORI",
 		 "summary":"Discover frequent itemsets, association rules using the Apriori algorithm",
-		 "description": "The Apriori algorithm employs level-wise search to discover frequent itemsets and association rules within a dataset.This procedure has been rewritten so as to depend only on the R plugin" }	 
+		 "description":"The Apriori algorithm employs level-wise search to discover frequent itemsets and association rules within a dataset.This procedure has been rewritten so as to depend only on the R plugin" }	 
 
     ]
 }
