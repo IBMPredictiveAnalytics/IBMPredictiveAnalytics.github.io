@@ -1,0 +1,21 @@
+{
+ "stats_extension_index":[
+
+	{"name":"STATS-APRIORI",
+	 "plugins":"R",
+	 "product_minimum_version_list":["18","23"],
+	 "extension_version_list":[	 
+		 { "18":
+		   {"extension_version":"1.0.4",
+		    "download_link":"https://github.com/IBMPredictiveAnalytics/STATS-APRIORI/archive/v1.0.4.zip",
+		    "product_maximum_version":"22" } },
+
+		 { "23":
+		   {"extension_version":"1.0.5",
+		    "download_link":"https://github.com/IBMPredictiveAnalytics/STATS-APRIORI/archive/v1.0.5.zip",
+		    "product_maximum_version":"" } } ]
+	}
+
+ ]
+
+}

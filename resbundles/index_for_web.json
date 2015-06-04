@@ -1,0 +1,38 @@
+{
+ "Repository_Index":[
+
+	{ "repository":"STATS-APRIORI",
+	  "description": "This command replaces the values of the specified variables with new values according to one of three methods. It is intended for situations where the  true values must be concealed for privacy or other reasons. It can also replace the variables names with anonymous equivalents.",
+	  "type":"Extension",
+	  "provider":"IBM",
+	  "product":"IBM Statisics",
+	  "category":"Visualizaiton,Utility",
+	  "language":"R",
+	  "promotion":"Yes"},
+
+	{ "Repository_Name":"MODELER-Plot-Geospatial-Data",
+	  "description":"Plot data containing Latitude and Longitude on an interactive map.",
+	  "type":"Extension",
+	  "provider":"IBM",
+	  "product":"SPSS Modeler",
+	  "language":"R,Modeler Stream",
+	  "catetory":"Visualization,Geospatial",
+	  "promotion":"Yes"},
+	  
+	{ "Repository_Name":"STATS-DOCs",
+	  "description":"Documentations of product SPSS Statitistics.",
+	  "type":"Doc",
+	  "provider":"IBM",
+	  "product":"SPSS Statistics",
+	  "promotion":"No"},
+	  
+	{ "Repository_Name":"STATS-Samples",
+	  "description":"Sample data which can be used in product in SPSS Statistics.",
+	  "type":"Sample",
+	  "provider":"IBM",
+	  "product":"SPSS Statistics",
+	  "promotion":"No"},
+	  
+ ]
+
+}
