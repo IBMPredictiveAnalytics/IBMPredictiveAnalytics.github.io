@@ -10,7 +10,7 @@
 	  "language":"R",
 	  "promotion":"Yes"},
 
-	{ "Repository_Name":"MODELER-Plot-Geospatial-Data",
+	{ "repository":"MODELER-Plot-Geospatial-Data",
 	  "description":"Plot data containing Latitude and Longitude on an interactive map.",
 	  "type":"Extension",
 	  "provider":"IBM",
@@ -19,14 +19,14 @@
 	  "catetory":"Visualization,Geospatial",
 	  "promotion":"Yes"},
 	  
-	{ "Repository_Name":"STATS-DOCs",
+	{ "repository":"STATS-DOCs",
 	  "description":"Documentations of product SPSS Statitistics.",
 	  "type":"Doc",
 	  "provider":"IBM",
 	  "product":"SPSS Statistics",
 	  "promotion":"No"},
 	  
-	{ "Repository_Name":"STATS-Samples",
+	{ "repository":"STATS-Samples",
 	  "description":"Sample data which can be used in product in SPSS Statistics.",
 	  "type":"Sample",
 	  "provider":"IBM",
