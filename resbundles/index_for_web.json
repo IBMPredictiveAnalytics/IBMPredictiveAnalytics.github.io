@@ -1,5 +1,5 @@
 {
- "Repository_Index":[
+ "repository_index":[
 
 	{ "repository":"STATS-APRIORI",
 	  "description": "This command replaces the values of the specified variables with new values according to one of three methods. It is intended for situations where the  true values must be concealed for privacy or other reasons. It can also replace the variables names with anonymous equivalents.",
