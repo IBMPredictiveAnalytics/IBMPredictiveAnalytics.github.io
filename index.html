@@ -285,7 +285,7 @@
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		$(".card").css("height",maxValue(repos_height_list)+220);
+		$(".card").css("height",maxValue(repos_height_list)+200);
 		setMaxHeightForEachDiv('repos-name', maxValue(repos_name_height_list));
 		setMaxHeightForEachDiv('repos-desc', maxValue(repos_desc_height_list));
 		setMaxHeightForEachDiv('repos-cate', maxValue(repos_cate_height_list));
@@ -484,9 +484,6 @@
 				  }
 			  });
 			}
-			//$.each(allrepos_info, function(key, repo){
-			//	console.log(repo["isShown"]);
-			//});
 			addAllRepos(allrepos_info);
 		});
 	  }
@@ -531,8 +528,6 @@
 				ZeroCheckedMenuList.push($(this).find("input").attr("key"));
 			  } 
 		  });
-		  //for(var item in ZeroCheckedMenuList)
-		  //{console.log(ZeroCheckedMenuList[item]);}
 		  return ZeroCheckedMenuList;
 	  }
 	})(jQuery);
@@ -546,39 +541,6 @@
 		var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
 		return !~text.indexOf(val);
 	  }).hide();
-    
-    //// update repo count here
-    //n = $rows.length;
-    //for (r in $rows)
-    //{
-    //	row = $rows[r];
-    //	style = row.style;
-    //	if (style && style.cssText && style.cssText.match("none"))
-    //	{
-    //		n--;
-    //	}
-    //
-    //}
-    //
-    //$rows = $(".updated-card");
-    //$rows.show().filter(function() {
-    //  var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-    //  return !~text.indexOf(val);
-    //}).hide();
-    //
-    //m = 4;
-    //for (r in $rows)
-    //{
-    //	row = $rows[r];
-    //	style = row.style;
-    //	if (style && style.cssText && style.cssText.match("none"))
-    //	{
-    //		m--;
-    //	}
-    //
-    //}
-    //
-    //$(".nrepos").text("("+(n - m)+")");
     
 
     // ---------------------------------
