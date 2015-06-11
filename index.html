@@ -235,7 +235,8 @@
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
-		  var $repo_img = $("<div>").attr("id", "repos-img").attr("style","height:135px;width:240px;background-image:url('"+img_url+"');margin-bottom:15px;background-repeat: no-repeat").appendTo($item);
+		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
+		  var $img = $("<img>").attr("src", img_url).appendTo($repo_img);
 		  
 		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(repo.description).appendTo($item);
 		  $("<hr>").appendTo($item);			
@@ -284,7 +285,7 @@
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		$(".card").css("height",maxValue(repos_height_list)+220);
+		$(".card").css("height",maxValue(repos_height_list)+180);
 		setMaxHeightForEachDiv('repos-name', maxValue(repos_name_height_list));
 		setMaxHeightForEachDiv('repos-desc', maxValue(repos_desc_height_list));
 		setMaxHeightForEachDiv('repos-cate', maxValue(repos_cate_height_list));

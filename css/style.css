@@ -84,6 +84,9 @@
 }
 
 #repos-language{
+	padding-top:2px;
+	font-size: 9px;
+	font-weight:bold;
 	float: left;
 	background: #F7D358; /* Old browsers */
 	/*background: -webkit-linear-gradient(top, #F6E3CE 0%,#FF8000 100%); /* Chrome10+,Safari5.1+ */*/
@@ -92,12 +95,12 @@
 
 #repos-category{
 	float: left;
+	padding-top:2px;
+	font-size: 9px;
+	font-weight:bold;
 	background-color: #BDBDBD;
 	/*background: -webkit-linear-gradient(top, #E6E6E6 0%,#BDBDBD 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #E6E6E6 0%, #BDBDBD 100%); /* W3C */*/
-}
-#repos-cate{
-	height: auto;
 }
 
 #repos-developer{
@@ -380,7 +383,6 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	border: 1px solid #585858;
-	width: 270px;
 	padding: auto 5px auto 5px;
 }
 
@@ -400,7 +402,7 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-desc{
 	text-align: left;
-	font-size: 9px;
+	font-size: 10px;
 	font-family: Helvetica;
 	height: auto;
 }
