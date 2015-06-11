@@ -384,6 +384,8 @@ background:url(../imgs/news.jpg) no-repeat;
 	overflow: auto;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
+	max-width: 400px;
+	min-width: 270px;
 }
 
 #top-layer{
