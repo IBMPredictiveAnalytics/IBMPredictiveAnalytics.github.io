@@ -360,6 +360,13 @@
 		  var $arrow = $("<i>").attr("id", "arrow-icon").addClass("fa").addClass("fa-chevron-down");
 		  var $cur_a = $("<a>").attr("href", "#").append($menu_icon).append($text); 
 		  var $cur_dt = $("<dt>").attr("data-isfolded","false").attr("id",val.menu_name.toLowerCase()).append($cur_a).append($arrow).appendTo($cur_dl);
+		  $$arrow.mouseover(function(){
+			$(this).css("color", "grey");
+		  });
+		  $$arrow.mouseout(function(){
+			$(this).css("color", "#FFFFFF");
+		  });
+		  
 		  
 		  var parent_key = val.menu_name.toLowerCase();
 		  var item = new SidebarCheckboxState(parent_key);
