@@ -240,22 +240,21 @@
 		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(repo.description).appendTo($item);
 		  $("<hr>").appendTo($item);			
 		  
-		  var $repos_other_tag_area = $("<div>").attr("id", "repos-other-tag").appendTo($item);
 		  var lang_list = repo.language.split(',');
-		  var $repos_language = $("<div>").attr("id", "repos-lang").appendTo($repos_other_tag_area);
+		  var $repos_lang = $("<div>").attr("id", "repos-lang").attr("style", "margin-bottom:5px").appendTo($item);
 		  for(var lang_index=0;lang_index<lang_list.length;lang_index++)
 		  {
-			$("<div>").addClass("repos-tag").attr("id", "repos-language").text($.trim(lang_list[lang_index])).appendTo($repos_language);
+			$("<div>").addClass("repos-tag").attr("id", "repos-language").text($.trim(lang_list[lang_index])).appendTo($repos_lang);
 		  }
-		  $("<br>").appendTo($repos_other_tag_area);
+		  $("<div>").attr("style","clear:both").appendTo($repos_lang);
 		  
 		  var cate_list = repo.category.split(',');
-		  var $repos_category = $("<div>").attr("id", "repos-cate").appendTo($repos_other_tag_area);
+		  var $repos_cate = $("<div>").attr("id", "repos-cate").attr("style", "margin-bottom:5px").appendTo($item);
 		  for(var cate_index=0;cate_index<cate_list.length;cate_index++)
 		  {
-			$("<div>").addClass("repos-tag").attr("id", "repos-category").text($.trim(cate_list[cate_index])).appendTo($repos_category);
+			$("<div>").addClass("repos-tag").attr("id", "repos-category").text($.trim(cate_list[cate_index])).appendTo($repos_cate);
 		  }
-		  $("<br>").appendTo($item);
+		  $("<div>").attr("style","clear:both").appendTo($repos_cate);
 		  
 		  var repos_url = "https://github.com/IBMPredictiveAnalytics/"+repo.repository;
 		  var $repos_link =  $("<input>").attr("type", "button").attr("id", "repos-link").attr("onclick","window.open('"+repos_url+"')").attr("value","Go to Repository");
@@ -269,15 +268,15 @@
 		  
 		  repos_name_height_list.push($repos_name.css("height"));
 		  repos_desc_height_list.push($repos_desc.css("height"));
-		  repos_lang_height_list.push($repos_language.css("height"));
-		  repos_cate_height_list.push($repos_category.css("height"));
+		  repos_lang_height_list.push($repos_lang.css("height"));
+		  repos_cate_height_list.push($repos_cate.css("height"));
 
 		  repos_height_list.push(parseFloat($top_layer.css("height"))
 								+parseFloat($repos_name.css("height"))
 								+parseFloat($repo_img.css("height"))
 								+parseFloat($repos_desc.css("height"))
-								+parseFloat($repos_language.css("height"))
-								+parseFloat($repos_category.css("height"))
+								+parseFloat($repos_lang.css("height"))
+								+parseFloat($repos_cate.css("height"))
 								+parseFloat($repos_link.css("height")));
 		}
 		
@@ -285,10 +284,11 @@
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		$(".card").css("height",maxValue(repos_height_list)+240);
+		$(".card").css("height",maxValue(repos_height_list)+220);
 		setMaxHeightForEachDiv('repos-name', maxValue(repos_name_height_list));
 		setMaxHeightForEachDiv('repos-desc', maxValue(repos_desc_height_list));
-		setMaxHeightForEachDiv('repos-other-tag', maxValue(repos_lang_height_list)+maxValue(repos_cate_height_list)+5);
+		setMaxHeightForEachDiv('repos-cate', maxValue(repos_cate_height_list));
+		setMaxHeightForEachDiv('repos-lang', maxValue(repos_lang_height_list));
       }
 	  
 	  function setMaxHeightForEachDiv(div_id, max_height) {
@@ -320,16 +320,8 @@
 	  
 	  
 	  function addRepos(orgs, repos, page) {
-		//var org = orgs.name;
-		//repos = repos || [];
-		//page = page || 1;
-		//reposcmd = orgs.type === "repo" ? "" : "/repos";
-		//var url = "https://api.github.com/"+orgs.type+"s/"+org + reposcmd + "?per_page=1000&client_id=";
-		console.log("before getjson");
 		$.getJSON("./resbundles/index_for_web.json", function(info){
-		  console.log("in getjson");
 			var index_info = info.repository_index;
-			console.log(index_info);
 			if (index_info && index_info.length > 0) {
 			  allrepos = allrepos.concat(index_info);
 			
