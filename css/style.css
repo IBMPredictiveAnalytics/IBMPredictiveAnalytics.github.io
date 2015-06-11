@@ -400,10 +400,9 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-desc{
 	text-align: left;
-	font-size: 10px;
+	font-size: 8px;
 	font-family: Helvetica;
 	height: auto;
-	font-weight: bold;
 }
 
 .filter
