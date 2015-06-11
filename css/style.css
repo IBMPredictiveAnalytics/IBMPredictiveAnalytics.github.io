@@ -381,7 +381,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	border-radius: 10px;
 	height: auto;
 	text-overflow: ellipsis;
-	overflow: hidden;
+	overflow: auto;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
 }
