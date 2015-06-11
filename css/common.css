@@ -644,11 +644,13 @@ img,.size-auto,.size-full,.size-large,.size-medium,.size-thumbnail {
 }
 
 .links-std a,.links-std a:visited {
-	color: #2980b9
+	color: grey;
+	text-decoration: none;
 }
 
 .links-std a:hover,.links-std a:active,.links-std a:focus {
-	color: #e67e22
+	color: grey;
+	text-decoration: none;
 }
 
 .links-dw a,.links-dw a:visited,.links-dw a:hover {

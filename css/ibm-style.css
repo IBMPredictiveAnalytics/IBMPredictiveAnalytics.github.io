@@ -78,7 +78,8 @@ a:focus,
 .links-std a:active,
 .links-std a:focus,
 .pn-tree > li > a:hover {
-	color: #e67e22;
+	color: grey;
+	text-decoration: none;
 }
 
 .links-reverse a,
