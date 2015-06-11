@@ -391,7 +391,7 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-name{
 /*	height: auto;*/
-	font-size: 16px;
+	font-size: 15px;
 	margin-top: 0;
 	margin-bottom: 14px;
 	padding-top: 0;
@@ -400,7 +400,7 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-desc{
 	text-align: left;
-	font-size: 8px;
+	font-size: 9px;
 	font-family: Helvetica;
 	height: auto;
 }

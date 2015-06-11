@@ -357,8 +357,9 @@
 		  var $cur_dl = $("<dl>").addClass(val.menu_name.toLowerCase()+"-filter").appendTo(".leftsidebar-box");
 		  var $menu_icon = $("<i>").addClass("fa").addClass(val.menu_icon_name).addClass("sidebar-title-icon");
 		  var $text = $("<span>").addClass("sub-menu-title").text(delLinkSymbol(val.menu_name));
+		  var $arrow = $("<i>").attr("id", "arrow-icon").addClass("fa").addClass("fa-chevron-down").attr("style", "float:right");
 		  var $cur_a = $("<a>").attr("href", "#").append($menu_icon).append($text); 
-		  var $cur_dt = $("<dt>").attr("data-isfolded","false").attr("id",val.menu_name.toLowerCase()).append($cur_a).appendTo($cur_dl);
+		  var $cur_dt = $("<dt>").attr("data-isfolded","false").attr("id",val.menu_name.toLowerCase()).append($cur_a).append($arrow).appendTo($cur_dl);
 		  
 		  var parent_key = val.menu_name.toLowerCase();
 		  var item = new SidebarCheckboxState(parent_key);
@@ -383,11 +384,13 @@
 		if ($(this).attr("data-isfolded") == "false") {
 		  $(this).parent().children("dd").hide();
 		  $(this).attr("data-isfolded", "true");
+		  $(this).children("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
 		}
 		else if ($(this).attr("data-isfolded") == "true")
 		{
 		  $(this).parent().children("dd").show();
 		  $(this).attr("data-isfolded", "false");
+		  $(this).children("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
 		}
 		else
 		  $(this).parent().children("dd").show();
