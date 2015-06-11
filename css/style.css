@@ -405,6 +405,12 @@ background:url(../imgs/news.jpg) no-repeat;
 	height: auto;
 }
 
+#arrow-icon{
+	float: right;
+	margin-right: 10px;
+	color: grey;
+}
+
 .filter
 {
 	float: right;
