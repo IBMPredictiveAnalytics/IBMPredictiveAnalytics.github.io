@@ -8,7 +8,7 @@
 	  "software":"IBM Statisics",
 	  "category":"Visualizaiton,Utility",
 	  "language":"R",
-	  "promotion":"Yes"},
+	  "promotion":"No"},
 
 	{ "repository":"MODELER-Plot-Geospatial-Data",
 	  "description":"Plot data containing Latitude and Longitude on an interactive map.",
@@ -21,19 +21,19 @@
 	  
 	{ "repository":"STATS-DOCs",
 	  "description":"Documentations of product SPSS Statitistics.",
-	  "type":"Doc",
+	  "type":"Native Application",
 	  "provider":"IBM",
 	  "software":"SPSS Statistics",
 	  "language":"R, Python 2",
 	  "category":"Visualization,Geospatial",
-	  "promotion":"No"},
+	  "promotion":"Yes"},
 	  
 	{ "repository":"STATS-Samples",
 	  "description":"Sample data which can be used in product in SPSS Statistics.",
-	  "type":"Sample",
+	  "type":"Module",
 	  "provider":"IBM",
 	  "software":"SPSS Statistics",
-	  "language":"Native Application, R",
+	  "language":"Native Product",
 	  "category":"Visualization,Data Manipulation",
 	  "promotion":"No"}
 	  
