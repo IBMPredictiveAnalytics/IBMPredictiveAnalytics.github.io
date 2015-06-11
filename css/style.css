@@ -85,6 +85,7 @@
 
 #repos-language{
 	float: left;
+	margin-left: 0;
 	margin-right: 15px;
 	background: #F7D358; /* Old browsers */
 	/*background: -webkit-linear-gradient(top, #F6E3CE 0%,#FF8000 100%); /* Chrome10+,Safari5.1+ */*/
@@ -106,7 +107,7 @@
 }
 #repos-software{
 	border-radius: 5px;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight:bold;
 	text-align: center;
 	float: left;
@@ -374,11 +375,12 @@ background:url(../imgs/news.jpg) no-repeat;
 #wrapper .card
 {
 	border-radius: 10px;
-	height: 430px;
+	height: auto;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	border: 1px solid #585858;
 	width: 270px;
+	padding: auto 5px auto 5px;
 }
 
 #top-layer{
@@ -387,9 +389,10 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 
 #repos-name{
-	height: 20px;
+/*	height: auto;*/
+	font-size: 16px;
 	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: 14px;
 	padding-top: 0;
 	font-weight: bold;
 }
@@ -398,7 +401,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-align: left;
 	font-size: 10px;
 	font-family: Helvetica;
-	height: 40px;
+	height: auto;
 	font-weight: bold;
 }
 

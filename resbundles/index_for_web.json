@@ -15,7 +15,7 @@
 	  "type":"Extension",
 	  "provider":"IBM",
 	  "software":"SPSS Modeler",
-	  "language":"R,Modeler Stream",
+	  "language":"R, Python 3",
 	  "category":"Visualization,Geospatial",
 	  "promotion":"Yes"},
 	  
@@ -24,6 +24,8 @@
 	  "type":"Doc",
 	  "provider":"IBM",
 	  "software":"SPSS Statistics",
+	  "language":"R, Python 2",
+	  "category":"Visualization,Geospatial",
 	  "promotion":"No"},
 	  
 	{ "repository":"STATS-Samples",
@@ -31,7 +33,9 @@
 	  "type":"Sample",
 	  "provider":"IBM",
 	  "software":"SPSS Statistics",
-	  "promotion":"No"},
+	  "language":"Native Application, R",
+	  "category":"Visualization,Data Manipulation",
+	  "promotion":"No"}
 	  
  ]
 

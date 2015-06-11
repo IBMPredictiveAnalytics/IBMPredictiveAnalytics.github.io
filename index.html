@@ -206,6 +206,13 @@
       {
 		$("#allrepos").empty();
 		var has_filtered_repo = false;
+		var repos_name_height_list = [];
+		var repos_desc_height_list = [];
+		var repos_lang_height_list = [];
+		var repos_cate_height_list = [];
+		var repos_height_list = [];
+		
+		
 		for (i=0; i < allrepos.length; i++)
 		{
 		  repo = allrepos[i];
@@ -222,31 +229,33 @@
 		  var $software_text = $("<span>").text(repo.software);
 		  var $software_tag = $("<div>").attr("id", "repos-software").append($software_icon).append($software_text).appendTo($top_layer);
 		  var $developer_tag = $("<div>").addClass("repos-tag").attr("id", "repos-developer").text(repo.provider).appendTo($top_layer);
+		  
 		  $("<hr>").appendTo($item);
 
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
-		  var $repo_img = $("<div>").attr("style","height:135px;width:240px;background-image:url('"+img_url+"');margin-bottom:15px;background-repeat: no-repeat").appendTo($item);
+		  var $repo_img = $("<div>").attr("id", "repos-img").attr("style","height:135px;width:240px;background-image:url('"+img_url+"');margin-bottom:15px;background-repeat: no-repeat").appendTo($item);
 		  
 		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(repo.description).appendTo($item);
 		  $("<hr>").appendTo($item);			
 		  
 		  var $repos_other_tag_area = $("<div>").attr("id", "repos-other-tag").appendTo($item);
 		  var lang_list = repo.language.split(',');
-		  var $repos_language = $("<div>").addClass("repos-tag").appendTo($repos_other_tag_area);
+		  var $repos_language = $("<div>").attr("id", "repos-lang").appendTo($repos_other_tag_area);
 		  for(var lang_index=0;lang_index<lang_list.length;lang_index++)
 		  {
 			$("<div>").addClass("repos-tag").attr("id", "repos-language").text($.trim(lang_list[lang_index])).appendTo($repos_language);
 		  }
-		  
+		  $("<br>").appendTo($repos_other_tag_area);
 		  
 		  var cate_list = repo.category.split(',');
-		  var $repos_category = $("<div>").addClass("repos-tag").appendTo($repos_other_tag_area);
+		  var $repos_category = $("<div>").attr("id", "repos-cate").appendTo($repos_other_tag_area);
 		  for(var cate_index=0;cate_index<cate_list.length;cate_index++)
 		  {
 			$("<div>").addClass("repos-tag").attr("id", "repos-category").text($.trim(cate_list[cate_index])).appendTo($repos_category);
 		  }
+		  $("<br>").appendTo($item);
 		  
 		  var repos_url = "https://github.com/IBMPredictiveAnalytics/"+repo.repository;
 		  var $repos_link =  $("<input>").attr("type", "button").attr("id", "repos-link").attr("onclick","window.open('"+repos_url+"')").attr("value","Go to Repository");
@@ -257,13 +266,48 @@
 			$(this).css("background-color", "#D8D8D8");
 		  });
 		  $repos_link.appendTo($item)
+		  
+		  repos_name_height_list.push($repos_name.css("height"));
+		  repos_desc_height_list.push($repos_desc.css("height"));
+		  repos_lang_height_list.push($repos_language.css("height"));
+		  repos_cate_height_list.push($repos_category.css("height"));
+
+		  repos_height_list.push(parseFloat($top_layer.css("height"))
+								+parseFloat($repos_name.css("height"))
+								+parseFloat($repo_img.css("height"))
+								+parseFloat($repos_desc.css("height"))
+								+parseFloat($repos_language.css("height"))
+								+parseFloat($repos_category.css("height"))
+								+parseFloat($repos_link.css("height")));
 		}
 		
 		if(!has_filtered_repo) {
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
+		$(".card").css("height",maxValue(repos_height_list)+220);
+		setMaxHeightForEachDiv('repos-name', maxValue(repos_name_height_list));
+		setMaxHeightForEachDiv('repos-desc', maxValue(repos_desc_height_list));
+		setMaxHeightForEachDiv('repos-other-tag', maxValue(repos_lang_height_list)+maxValue(repos_cate_height_list)+5);
       }
+	  
+	  function setMaxHeightForEachDiv(div_id, max_height) {
+		$("#allrepos div[id='"+div_id+"']").css("height", max_height);
+	  }
+	  
+	  function maxValue(array){
+		if (array.length == 0) {
+		  return "0";
+		}
+		var val = parseFloat(array[0]);
+		for(var index=0;index<array.length;index++){
+		  if (parseFloat(array[index]) > val) {
+			
+			val = parseFloat(array[index]);
+		  }
+		}
+		return val;
+	  }
 	  
 	  function delLinkSymbol(str)
 	  {
@@ -281,9 +325,11 @@
 		//page = page || 1;
 		//reposcmd = orgs.type === "repo" ? "" : "/repos";
 		//var url = "https://api.github.com/"+orgs.type+"s/"+org + reposcmd + "?per_page=1000&client_id=";
-		
-		$.getJSON(".resbundles/index_for_web.json", function(info){
+		console.log("before getjson");
+		$.getJSON("./resbundles/index_for_web.json", function(info){
+		  console.log("in getjson");
 			var index_info = info.repository_index;
+			console.log(index_info);
 			if (index_info && index_info.length > 0) {
 			  allrepos = allrepos.concat(index_info);
 			
