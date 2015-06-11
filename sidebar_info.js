@@ -11,7 +11,7 @@ var sidebar_info = [
 	{
 		"menu_name":"Type",
 		"menu_icon_name": "fa-cubes",
-		"sub_menu_name":["Extension","Native Application","Module"],
+		"sub_menu_name":["Extension","Samples","Module"],
 		"sub_menu_icon_name":["fa-plus-square-o","fa-folder","fa-cube"]
 	},	
 	{

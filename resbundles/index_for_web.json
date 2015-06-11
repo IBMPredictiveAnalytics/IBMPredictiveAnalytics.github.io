@@ -21,7 +21,7 @@
 	  
 	{ "repository":"STATS-DOCs",
 	  "description":"Documentations of product SPSS Statitistics.",
-	  "type":"Native Application",
+	  "type":"Samples",
 	  "provider":"IBM",
 	  "software":"SPSS Statistics",
 	  "language":"R, Python 2",
