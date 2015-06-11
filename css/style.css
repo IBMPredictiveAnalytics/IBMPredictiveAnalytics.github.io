@@ -84,7 +84,6 @@
 }
 
 #repos-language{
-	padding-top:2px;
 	font-size: 9px;
 	font-weight:bold;
 	float: left;
@@ -95,7 +94,6 @@
 
 #repos-category{
 	float: left;
-	padding-top:2px;
 	font-size: 9px;
 	font-weight:bold;
 	background-color: #BDBDBD;
