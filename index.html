@@ -145,6 +145,7 @@
 	  //adjust sidebar margin-top to the window
 	  var navbar_h = $(".navbar").height();
 	  $(".main-field").css("margin-top", navbar_h);
+
 	});
 	
 	
@@ -206,11 +207,6 @@
       {
 		$("#allrepos").empty();
 		var has_filtered_repo = false;
-		var repos_name_height_list = [];
-		var repos_desc_height_list = [];
-		var repos_lang_height_list = [];
-		var repos_cate_height_list = [];
-		var repos_height_list = [];
 		
 		
 		for (i=0; i < allrepos.length; i++)
@@ -233,6 +229,7 @@
 		  $("<hr>").appendTo($item);
 
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
+		  $("<br>").appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
@@ -266,48 +263,58 @@
 			$(this).css("background-color", "#D8D8D8");
 		  });
 		  $repos_link.appendTo($item)
-		  
-		  repos_name_height_list.push($repos_name.css("height"));
-		  repos_desc_height_list.push($repos_desc.css("height"));
-		  repos_lang_height_list.push($repos_lang.css("height"));
-		  repos_cate_height_list.push($repos_cate.css("height"));
-
-		  repos_height_list.push(parseFloat($top_layer.css("height"))
-								+parseFloat($repos_name.css("height"))
-								+parseFloat($repo_img.css("height"))
-								+parseFloat($repos_desc.css("height"))
-								+parseFloat($repos_lang.css("height"))
-								+parseFloat($repos_cate.css("height"))
-								+parseFloat($repos_link.css("height")));
 		}
 		
 		if(!has_filtered_repo) {
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		$(".card").css("height",maxValue(repos_height_list)+200);
-		setMaxHeightForEachDiv('repos-name', maxValue(repos_name_height_list));
-		setMaxHeightForEachDiv('repos-desc', maxValue(repos_desc_height_list));
-		setMaxHeightForEachDiv('repos-cate', maxValue(repos_cate_height_list));
-		setMaxHeightForEachDiv('repos-lang', maxValue(repos_lang_height_list));
+		
+		setReposSize();
       }
 	  
-	  function setMaxHeightForEachDiv(div_id, max_height) {
-		$("#allrepos div[id='"+div_id+"']").css("height", max_height);
+	  $(window).resize(function () {
+		  setReposSize();
+		  console.log($(".card").css("height"));
+		});
+	  
+	  function getMaxHeightForEachDiv(div_id, attr){
+		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
+		for(var i=0;i<$("#allrepos div["+attr+"="+div_id+"]").length;i++){
+		  if (max_height < parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"))) {
+			max_height = parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"));
+		  }
+		  
+		}
+		return max_height;
 	  }
 	  
-	  function maxValue(array){
-		if (array.length == 0) {
-		  return "0";
-		}
-		var val = parseFloat(array[0]);
-		for(var index=0;index<array.length;index++){
-		  if (parseFloat(array[index]) > val) {
-			
-			val = parseFloat(array[index]);
+	  function getImgMaxWidth(){
+		var max_width = parseFloat($("#allrepos div[id='repos-img']:eq(0)").css("width"));
+		for(var i=0;i<$("#allrepos div[id='repos-img']").length;i++){
+		  if (max_width < parseFloat($("#allrepos div[id='repos-img']:eq("+i+")").css("width"))) {
+			max_width = parseFloat($("#allrepos div[id='repos-img']:eq("+i+")").css("width"));
 		  }
 		}
-		return val;
+		return max_width
+	  }
+	  
+	  function setReposSize(){
+		var name = getMaxHeightForEachDiv('repos-name','id');
+		$("#allrepos div[id='repos-name']").css("height",name);
+		var desc = getMaxHeightForEachDiv('repos-desc','id');
+		$("#allrepos div[id='repos-desc']").css("height",desc);
+		var cate = getMaxHeightForEachDiv('repos-cate','id');
+		$("#allrepos div[id='repos-cate']").css("height",cate);
+		var lang = getMaxHeightForEachDiv('repos-lang','id');
+		$("#allrepos div[id='repos-lang']").css("height",lang);
+		
+		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
+						+parseFloat($("#top-layer").css("height"))
+						+parseFloat($("#repos-img").css("height"))
+						+parseFloat($("#repos-link").css("height"))+200;
+		$(".card").css("height",tot_height);
+		$(".card").css("width",getImgMaxWidth()+20);
 	  }
 	  
 	  function delLinkSymbol(str)
@@ -341,7 +348,7 @@
 	  }
 	  
 	  //Create Repository Field
-	  var $item = $("<div id='allrepos'>").addClass("#allrepos").attr("style", "padding-left:15px").appendTo("#wrapper");
+	  var $item = $("<div id='allrepos'>").addClass("#allrepos").attr("style", "padding-left:30px").appendTo("#wrapper");
 	  
 	  //orgs has been defined in orgs.js
 	  for (var r in orgs)
