@@ -209,7 +209,6 @@
 body
 {
 	overflow: auto;
-	height:100%;
 	margin:0;
 	padding-bottom: 0;
 	background-color: #f0f0f0;
@@ -378,7 +377,6 @@ background:url(../imgs/news.jpg) no-repeat;
 {
 	border-radius: 10px;
 	height: auto;
-	min-height: 400px;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
@@ -406,6 +404,8 @@ background:url(../imgs/news.jpg) no-repeat;
 	font-size: 10px;
 	font-family: Helvetica;
 	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 #arrow-icon{

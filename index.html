@@ -331,12 +331,16 @@
 	  function setReposSize(){
 		var name = getMaxHeightForEachDiv('repos-name','id');
 		$("#allrepos div[id='repos-name']").css("height",name);
+		console.log("name: "+name);
 		var desc = getMaxHeightForEachDiv('repos-desc','id');
 		$("#allrepos div[id='repos-desc']").css("height",desc);
+		console.log("desc: "+desc);
 		var cate = getMaxHeightForEachDiv('repos-cate','id');
 		$("#allrepos div[id='repos-cate']").css("height",cate);
+		console.log("cate: "+cate);
 		var lang = getMaxHeightForEachDiv('repos-lang','id');
 		$("#allrepos div[id='repos-lang']").css("height",lang);
+		console.log("lang: "+lang);
 		
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
 						+parseFloat($("#top-layer").css("height"))
