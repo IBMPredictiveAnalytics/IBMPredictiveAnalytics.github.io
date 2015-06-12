@@ -378,12 +378,12 @@ background:url(../imgs/news.jpg) no-repeat;
 {
 	border-radius: 10px;
 	height: auto;
+	min-height: 430px;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
 	max-width: 400px;
 	min-width: 270px;
-	min-height: 60%;
 	overflow:auto;
 }
 
