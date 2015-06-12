@@ -437,13 +437,13 @@
 		if ($(this).attr("data-isfolded") == "false") {
 		  $(this).parent().children("dd").hide();
 		  $(this).attr("data-isfolded", "true");
-		  $(this).children("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
+		  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
 		}
 		else if ($(this).attr("data-isfolded") == "true")
 		{
 		  $(this).parent().children("dd").show();
 		  $(this).attr("data-isfolded", "false");
-		  $(this).children("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
+		  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
 		}
 		else
 		  $(this).parent().children("dd").show();
