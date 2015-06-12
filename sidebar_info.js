@@ -23,7 +23,7 @@ var sidebar_info = [
 	{
 		"menu_name":"Language",
 		"menu_icon_name": "fa-code",
-		"sub_menu_name":["Java","Native product","Python 2","Python 3","R"],
+		"sub_menu_name":["Java","Native Product","Python 2","Python 3","R"],
 		"sub_menu_icon_name":["fa-code","fa-code","fa-code","fa-code","fa-code"]
 	},
 	{
