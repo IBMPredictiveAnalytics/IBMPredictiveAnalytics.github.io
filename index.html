@@ -283,7 +283,7 @@
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
 		
-		
+		setReposSize();
       }
 	  
 	  $(window).resize(function () {
@@ -376,7 +376,6 @@
 			  
 			  allrepos = sortByPromotion(allrepos);
 			  addAllRepos(allrepos);
-			  setReposSize();
 			}
 		  
 			var side_bar_checkbox_state = {};
