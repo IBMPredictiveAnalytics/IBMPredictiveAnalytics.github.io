@@ -234,8 +234,22 @@
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
 		  var $img = $("<img>").attr("src", img_url).appendTo($repo_img);
 		  
-		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(repo.description).appendTo($item);
-		  $("<hr>").appendTo($item);			
+		  var desc_tip = repo.description;
+		  if (repo.description.length>180) {
+			desc_tip = '';
+			for(var leng=180;leng>=0;leng--){
+			  if (repo.description[leng] ==' ') {
+				desc_tip = repo.description.substring(0,leng)+' ...';
+				break;
+			  }
+			}
+		  }
+		  
+		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(desc_tip).appendTo($item);
+		  if (repo.description.length>180) {
+			$repos_desc.ToolTips(repo.description); 
+		  }
+		  $("<hr>").appendTo($item);
 		  
 		  var lang_list = repo.language.split(',');
 		  var $repos_lang = $("<div>").attr("id", "repos-lang").attr("style", "margin-bottom:5px").appendTo($item);
@@ -286,6 +300,23 @@
 		}
 		return max_height;
 	  }
+	  
+	  $.fn.ToolTips=function(tip_text){ 
+		var div = document.createElement("div"); 
+		div.style.cssText = 'text-align:left;width:300px; line-height:15px; border:solid 1px #000000; background-color:#F2F2F2; padding:6px 10px; font-size:10px;position:absolute;border-radius: 0.5rem'; 
+		div.onclick=function(){$(div).remove();}; 
+		$(this).mouseover(function(e){ 
+		  if(!e){e=window.event;} 
+		  div.innerHTML= tip_text; 
+		  var doc = document.documentElement ? document.documentElement : document.body; 
+		  div.style.left=(e.clientX+doc.scrollLeft + 5)+"px"; 
+		  div.style.top=(e.clientY+doc.scrollTop + 5)+"px"; 
+		  document.body.appendChild(div);
+		}).mouseout(function(){ 
+		  $(div).remove(); 
+		}); 
+	  } 
+	  
 	  
 	  function getImgMaxWidth(){
 		var max_width = parseFloat($("#allrepos div[id='repos-img']:eq(0)").css("width"));
