@@ -84,7 +84,7 @@
 }
 
 #repos-language{
-	font-size: 9px;
+	font-size: 10px;
 	font-weight:bold;
 	float: left;
 	background: #F7D358; /* Old browsers */
@@ -94,7 +94,7 @@
 
 #repos-category{
 	float: left;
-	font-size: 9px;
+	font-size: 10px;
 	font-weight:bold;
 	background-color: #BDBDBD;
 	/*background: -webkit-linear-gradient(top, #E6E6E6 0%,#BDBDBD 100%); /* Chrome10+,Safari5.1+ */*/
