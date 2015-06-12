@@ -229,7 +229,6 @@
 		  $("<hr>").appendTo($item);
 
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
-		  //$("<br>").appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
@@ -311,7 +310,7 @@
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
 						+parseFloat($("#top-layer").css("height"))
 						+parseFloat($("#repos-img").css("height"))
-						+parseFloat($("#repos-link").css("height"))+220;
+						+parseFloat($("#repos-link").css("height"))+180;
 		$(".card").css("height",tot_height);
 		$(".card").css("width",getImgMaxWidth()+20);
 	  }
