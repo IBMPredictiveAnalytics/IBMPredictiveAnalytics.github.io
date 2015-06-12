@@ -402,8 +402,8 @@
 		  var $cur_dl = $("<dl>").addClass(val.menu_name.toLowerCase()+"-filter").appendTo(".leftsidebar-box");
 		  var $menu_icon = $("<i>").addClass("fa").addClass(val.menu_icon_name).addClass("sidebar-title-icon");
 		  var $text = $("<span>").addClass("sub-menu-title").text(delLinkSymbol(val.menu_name));
-		  var $arrow = $("<i>").addClass("fa").addClass("fa-chevron-down");
-		  var $arrow_a = $("<a>").attr("href", "#").attr("id", "arrow-icon").append($arrow);
+		  var $arrow = $("<i>").attr("id", "arrow-icon").addClass("fa").addClass("fa-chevron-down");
+		  var $arrow_a = $("<a>").attr("href", "#").append($arrow);
 		  var $cur_a = $("<a>").attr("href", "#").append($menu_icon).append($text); 
 		  var $cur_dt = $("<dt>").attr("data-isfolded","false").attr("id",val.menu_name.toLowerCase()).append($cur_a).append($arrow_a).appendTo($cur_dl);
 		  $arrow_a.mouseover(function(){
