@@ -83,6 +83,10 @@
 	background-color: #D8D8D8;
 }
 
+#repos-img{
+	height: 135px;
+}
+
 #repos-language{
 	font-size: 10px;
 	font-weight:bold;
