@@ -383,6 +383,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	padding: auto 5px auto 5px;
 	max-width: 400px;
 	min-width: 270px;
+	min-height: 60%;
 	overflow:auto;
 }
 
