@@ -84,7 +84,7 @@
 }
 
 #repos-img{
-	height: auto;
+	min-height: 135px;
 }
 
 #repos-language{
