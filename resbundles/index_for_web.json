@@ -1,42 +1,125 @@
 {
- "repository_index":[
-
-	{ "repository":"STATS-APRIORI",
-	  "description": "This command replaces the values of the specified variables with new values according to one of three methods. It is intended for situations where the  true values must be concealed for privacy or other reasons. It can also replace the variables names with anonymous equivalents.",
-	  "type":"Extension",
-	  "provider":"IBM",
-	  "software":"SPSS Statistics",
-	  "category":"Visualizaiton,Utility",
-	  "language":"R",
-	  "promotion":"No"},
-
-	{ "repository":"MODELER-Plot-Geospatial-Data",
-	  "description":"Plot data containing Latitude and Longitude on an interactive map.",
-	  "type":"Extension",
-	  "provider":"IBM",
-	  "software":"SPSS Modeler",
-	  "language":"R, Python 3",
-	  "category":"Visualization,Geospatial",
-	  "promotion":"Yes"},
-	  
-	{ "repository":"STATS-DOCs",
-	  "description":"Documentations of product SPSS Statitistics.",
-	  "type":"Samples",
-	  "provider":"IBM",
-	  "software":"SPSS Statistics",
-	  "language":"R, Python 2",
-	  "category":"Visualization,Geospatial",
-	  "promotion":"Yes"},
-	  
-	{ "repository":"STATS-Samples",
-	  "description":"Sample data which can be used in product in SPSS Statistics.",
-	  "type":"Module",
-	  "provider":"IBM",
-	  "software":"SPSS Statistics",
-	  "language":"Native Product",
-	  "category":"Visualization, Geospatial",
-	  "promotion":"No"}
-	  
+ "repository_index":[	 
+	{ 
+		"repository":"SPSSINC_CENSOR_TABLES",
+		"description":"Censor cells of a pivot table based on the values of a test statistic.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No"
+	},
+	
+	{ 
+		"repository":"SPSSINC_CREATE_DUMMIES",
+		"description":"Censor cells of a pivot table based on the values of a test statistic.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No"
+	},
+	
+	{ 
+		"repository":"SPSSINC_HETCOR",
+		"description":"Calculate correlations between nominal, ordinal, and scale variables.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2,R",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_MERGE_TABLES",
+		"description":"Merge the contents of one pivot table in the Viewer into another.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_MFP_GLM",
+		"description":"Estimate a regression with fractional polynomials for the scale variables.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2,R",
+		"category":"Data manipulation",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_MODIFY_OUTPUT",
+		"description":"Modify output titles and other aspects of objects in the View.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Data manipulation",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_PROCESS_FILES",
+		"description":"Apply a file of syntax to a set of data files.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_MODIFY_TABLES",
+		"description":"Modify the appearance of pivot tables.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_GETURI_DATA",
+		"description":"Open an SPSS, Excel, SAS, or Stata dataset from a web url.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_COMPARE_DATASETS",
+		"description":"Compare two open datasets.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No" 
+	},
+	
+	{ 
+		"repository":"SPSSINC_COMPARE_DATASETS",
+		"description":"Estimate a linear model and perform a heteroscedasticity test.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Visualization",
+		"promotion":"No" 
+	}
  ]
 
 }
