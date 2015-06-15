@@ -346,7 +346,7 @@
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
 						+parseFloat($("#top-layer").css("height"))
 						+parseFloat($("#repos-img").css("height"))
-						+parseFloat($("#repos-link").css("height"))+80;
+						+parseFloat($("#repos-link").css("height"))+90;
 		
 		$(".card").css("height",tot_height+'px');
 		$(".card").css("width",getImgMaxWidth()+20+'px');
@@ -573,6 +573,29 @@
 		  });
 		  return ZeroCheckedMenuList;
 	  }
+	  i = 0;
+	  
+	  
+	  $(window).scroll(function(){		
+		var sidebar_h = $(".leftsidebar-box").height();
+		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
+		var scroll_top = document.documentElement.scrollTop;
+		$(".leftsidebar-box").css("height", sidebar_h);
+		
+		if (sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
+			$(".leftsidebar-box").css("position", "fixed");
+			$(".leftsidebar-box").css("bottom", "0");
+			$(".leftsidebar-box").css("left", "0");
+			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
+		}
+		else{
+		  $(".leftsidebar-box").css("position", "static");
+		}
+	});
+	
+	
+	
+	
 	})(jQuery);
 
 	
