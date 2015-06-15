@@ -353,11 +353,15 @@
 	  }
 	  
 	  function getExtraDis(){
-		if(navigator.userAgent.indexOf("Firefox")>0){  
-			 return 90;  
+		if(navigator.userAgent.indexOf("Firefox")>0){
+		  console.log("It fire fox");
+		  return 110;  
 		}
 		else
-			return 120;
+		{
+			console.log("It other IE");
+			return 140;
+		}
 	  }
 	  
 	  function delLinkSymbol(str)
