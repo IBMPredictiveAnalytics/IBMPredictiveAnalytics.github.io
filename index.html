@@ -589,9 +589,6 @@
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
 		$(".leftsidebar-box").css("height", sidebar_h);
 
-		console.log("sidebar_h: "+sidebar_h);
-		console.log("screen_h: "+screen_h);
-		console.log("scroll_top: "+scroll_top);
 		if (sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
 			$(".leftsidebar-box").css("position", "fixed");
 			$(".leftsidebar-box").css("bottom", "0");
