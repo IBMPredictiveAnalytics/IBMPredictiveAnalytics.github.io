@@ -395,6 +395,7 @@ background:url(../imgs/news.jpg) no-repeat;
 #top-layer{
 	height: 10px;
 	margin: 0;
+	margin-bottom: 20px;
 }
 
 #repos-name{

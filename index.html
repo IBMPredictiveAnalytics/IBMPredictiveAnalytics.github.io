@@ -226,7 +226,7 @@
 		  var $software_tag = $("<div>").attr("id", "repos-software").append($software_icon).append($software_text).appendTo($top_layer);
 		  var $developer_tag = $("<div>").addClass("repos-tag").attr("id", "repos-developer").text(repo.provider).appendTo($top_layer);
 		  
-		  $("<hr>").appendTo($item);
+		  //$("<hr>").appendTo($item);
 
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
 		  
@@ -353,11 +353,11 @@
 	  
 	  function getExtraDis(){
 		if(navigator.userAgent.indexOf("Firefox")>0){
-			return 110;  
+			return 100;  
 		}
 		else
 		{
-			return 140;
+			return 130;
 		}
 	  }
 	  
