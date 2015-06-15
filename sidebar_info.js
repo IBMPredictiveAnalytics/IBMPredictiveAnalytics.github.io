@@ -17,8 +17,8 @@ var sidebar_info = [
 	{
 		"menu_name":"Category",
 		"menu_icon_name": "fa-dashboard",
-		"sub_menu_name":["Analysis","Data Manipulation","Utility","Geospatial","Visualization","Watson"],
-		"sub_menu_icon_name":["fa-line-chart","fa-database","fa-wrench","fa-globe","fa-bar-chart","fa-cloud"]
+		"sub_menu_name":["Analysis","Data Manipulation","Utility","Geospatial","Visualization","Watson","Presentation"],
+		"sub_menu_icon_name":["fa-line-chart","fa-database","fa-wrench","fa-globe","fa-bar-chart","fa-cloud","fa-file-powerpoint-o"]
 	},
 	{
 		"menu_name":"Language",
