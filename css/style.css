@@ -84,7 +84,7 @@
 }
 
 #repos-img{
-	min-height: 135px;
+	-webkit-min-height: 135px;
 }
 
 #repos-language{
@@ -194,6 +194,7 @@
 	padding-left: auto;
 	padding-right: auto;
 	overflow: auto;
+	-webkit-min-height: 400px;
 }
 
 .jumbotron
