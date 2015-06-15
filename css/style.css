@@ -88,9 +88,11 @@
 }
 
 #repos-language{
-	font-size: 10px;
+	font-size: 9px;
 	font-weight:bold;
 	float: left;
+	padding-bottom: auto;
+	padding-top: auto;
 	background: #F7D358; /* Old browsers */
 	/*background: -webkit-linear-gradient(top, #F6E3CE 0%,#FF8000 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #F6E3CE 0%, #FF8000 100%); /* W3C */*/
@@ -98,9 +100,11 @@
 
 #repos-category{
 	float: left;
-	font-size: 10px;
+	font-size: 9px;
 	font-weight:bold;
 	background-color: #BDBDBD;
+	padding-bottom: auto;
+	padding-top: auto;
 	/*background: -webkit-linear-gradient(top, #E6E6E6 0%,#BDBDBD 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #E6E6E6 0%, #BDBDBD 100%); /* W3C */*/
 }
@@ -128,7 +132,7 @@
 	text-align: center;
 	background-color: #282832;
 	width: 16rem;
-	height: auto;
+	height: 100%;
 	padding-top: 0;
 	min-width: 10%;
 	margin-top: auto;
@@ -410,6 +414,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	height: auto;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	margin-bottom: 10px;
 }
 
 #arrow-icon{

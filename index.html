@@ -235,9 +235,10 @@
 		  var $img = $("<img>").attr("src", img_url).appendTo($repo_img);
 		  
 		  var desc_tip = repo.description;
-		  if (repo.description.length>180) {
+		  var max_desc_leng = 120;
+		  if (repo.description.length>max_desc_leng) {
 			desc_tip = '';
-			for(var leng=180;leng>=0;leng--){
+			for(var leng=max_desc_leng;leng>=0;leng--){
 			  if (repo.description[leng] ==' ') {
 				desc_tip = repo.description.substring(0,leng)+' ...';
 				break;
@@ -246,10 +247,10 @@
 		  }
 		  
 		  var $repos_desc = $("<div>").attr("id", "repos-desc").text(desc_tip).appendTo($item);
-		  if (repo.description.length>180) {
+		  if (repo.description.length>max_desc_leng) {
 			$repos_desc.ToolTips(repo.description); 
 		  }
-		  $("<hr>").appendTo($item);
+		  //$("<hr>").appendTo($item);
 		  
 		  var lang_list = repo.language.split(',');
 		  var $repos_lang = $("<div>").attr("id", "repos-lang").attr("style", "margin-bottom:5px").appendTo($item);
@@ -257,7 +258,7 @@
 		  {
 			$("<div>").addClass("repos-tag").attr("id", "repos-language").text($.trim(lang_list[lang_index])).appendTo($repos_lang);
 		  }
-		  $("<div>").attr("style","clear:both").appendTo($repos_lang);
+		  //$("<div>").attr("style","clear:both").appendTo($repos_lang);
 		  
 		  var cate_list = repo.category.split(',');
 		  var $repos_cate = $("<div>").attr("id", "repos-cate").attr("style", "margin-bottom:5px").appendTo($item);
@@ -345,7 +346,7 @@
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
 						+parseFloat($("#top-layer").css("height"))
 						+parseFloat($("#repos-img").css("height"))
-						+parseFloat($("#repos-link").css("height"))+180;
+						+parseFloat($("#repos-link").css("height"))+120;
 		
 		$(".card").css("height",tot_height+'px');
 		$(".card").css("width",getImgMaxWidth()+20+'px');
