@@ -391,7 +391,6 @@ background:url(../imgs/news.jpg) no-repeat;
 	max-width: 400px;
 	min-width: 270px;
 	overflow:auto;
-	-webkit-min-height: 400px;
 }
 
 #top-layer{
