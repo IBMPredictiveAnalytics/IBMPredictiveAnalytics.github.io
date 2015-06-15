@@ -2,7 +2,7 @@
  "repository_index":[	 
 	{ 
 		"repository":"SPSSINC_CENSOR_TABLES",
-		"description":"Censor cells of a pivot table based on the values of a test statistic.",
+		"description":"Censor cells of a pivot table based on the values of a test statistic",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
