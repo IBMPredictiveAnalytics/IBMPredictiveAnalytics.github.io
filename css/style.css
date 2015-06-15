@@ -384,7 +384,7 @@ background:url(../imgs/news.jpg) no-repeat;
 {
 	border-radius: 10px;
 	height: auto;
-	min-height: 400px;
+	min-height: 350px;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
