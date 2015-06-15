@@ -84,7 +84,7 @@
 }
 
 #repos-img{
-	-webkit-min-height: 135px;
+	min-height: 135px;
 }
 
 #repos-language{
@@ -384,7 +384,6 @@ background:url(../imgs/news.jpg) no-repeat;
 {
 	border-radius: 10px;
 	height: auto;
-	min-height: 20rem;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
