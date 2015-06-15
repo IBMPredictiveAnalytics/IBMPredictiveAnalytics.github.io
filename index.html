@@ -586,9 +586,9 @@
 	  $(window).scroll(function(){		
 		var sidebar_h = $(".leftsidebar-box").height();
 		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
-		var scroll_top = document.documentElement.scrollTop;
+		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
 		$(".leftsidebar-box").css("height", sidebar_h);
-		
+
 		console.log("sidebar_h: "+sidebar_h);
 		console.log("screen_h: "+screen_h);
 		console.log("scroll_top: "+scroll_top);
@@ -596,14 +596,13 @@
 			$(".leftsidebar-box").css("position", "fixed");
 			$(".leftsidebar-box").css("bottom", "0");
 			$(".leftsidebar-box").css("left", "0");
-			console.log("in pos set");
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
 					
 		}
 		else{
 		  $(".leftsidebar-box").css("position", "static");
 		}
-	});
+	  });
 	
 	
 	
