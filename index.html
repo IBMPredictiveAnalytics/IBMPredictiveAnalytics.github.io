@@ -571,13 +571,12 @@
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
 			
 			//to solve blink of IE, set CSS style
-			var explorer_info = navigator.userAgent.toLowerCase();
-			var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
-			if (reg_msie.exec(explorer_info)) {
-			  $("html").css("background-image","url(about:blank)");
-			  $("html").css("background-attachment","fixed");
-			}
-					
+			//var explorer_info = navigator.userAgent.toLowerCase();
+			//var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
+			//if (reg_msie.exec(explorer_info)) {
+			//  $("html").css("background-image","url(about:blank)");
+			//  $("html").css("background-attachment","fixed");
+			//}			
 		}
 		else{
 		  $(".leftsidebar-box").css("position", "static");
