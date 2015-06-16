@@ -140,11 +140,11 @@
 				
 	//to solve blink of IE, set CSS style
 	//<!--<meta http-equiv="X-UA-Compatible"content="IE=8″>-->
-	var explorer_info = navigator.userAgent.toLowerCase();
-	var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
-	if (reg_msie.exec(explorer_info)) {
-	  $("<meta>").attr("http-equiv","X-UA-Compatible").attr("content","EmulateIE8").appendTo("head");
-	}
+	//var explorer_info = navigator.userAgent.toLowerCase();
+	//var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
+	//if (reg_msie.exec(explorer_info)) {
+	//  $("<meta>").attr("http-equiv","X-UA-Compatible").attr("content","EmulateIE8").appendTo("head");
+	//}
 	
 	var navbar_h = $(".navbar").height();
 	$(".main-field").css("margin-top", navbar_h);
