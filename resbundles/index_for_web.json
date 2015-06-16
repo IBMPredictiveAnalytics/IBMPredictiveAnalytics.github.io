@@ -111,6 +111,17 @@
 	},
 	
 	{ 
+		"repository":"Plot-Heatmaps",
+		"description":"Plot spatial data on a density heatmap in SPSS Modeler",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Geospatial",
+		"promotion":"No" 
+	},
+	
+	{ 
 		"repository":"SPSSINC_BREUSCH_PAGAN",
 		"description":"Estimate a linear model and perform a heteroscedasticity test.",
 		"type":"Extension",
