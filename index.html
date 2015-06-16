@@ -341,6 +341,11 @@
 		var lang = getMaxHeightForEachDiv('repos-lang','id');
 		$("#allrepos div[id='repos-lang']").css("height",lang);
 		
+		$(window).load(function(){
+		  console.log("in load img_h:  "+parseFloat($("#repos-img").css("height")));
+		});
+		console.log("img_h:  "+parseFloat($("#repos-img").css("height")));
+		
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
 						+parseFloat($("#top-layer").css("height"))
 						+parseFloat($("#repos-img").css("height"))
