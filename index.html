@@ -571,6 +571,7 @@
 			$(".leftsidebar-box").css("left", "0");
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
 			
+			alert("Explorer type: "+navigator.userAgent.indexOf("MSIE"));
 			if (navigator.userAgent.indexOf("MSIE") > -1) {
 			  alert("It is an IE");
 			  $(".leftsidebar-box").css("background-image", "url(about:blank)");
