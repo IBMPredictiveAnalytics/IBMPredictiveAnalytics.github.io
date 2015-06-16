@@ -17,11 +17,6 @@
 	min-width: 80%;
 }
 
-*html{
-	background-image:url(about:blank);
-	background-attachment:fixed;
-}
-
 #menu-main >li >a:hover{
 	color:#DF8428;
 	text-decoration: underline;
