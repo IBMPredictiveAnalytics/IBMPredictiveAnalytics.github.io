@@ -137,15 +137,6 @@
 	<script type="text/javascript" src="sidebar_info.js"></script>
     <script type="text/javascript">
 	
-				
-	//to solve blink of IE, set CSS style
-	//<!--<meta http-equiv="X-UA-Compatible"content="IE=8″>-->
-	//var explorer_info = navigator.userAgent.toLowerCase();
-	//var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
-	//if (reg_msie.exec(explorer_info)) {
-	//  $("<meta>").attr("http-equiv","X-UA-Compatible").attr("content","EmulateIE8").appendTo("head");
-	//}
-	
 	var navbar_h = $(".navbar").height();
 	$(".main-field").css("margin-top", navbar_h);
 	
@@ -578,16 +569,20 @@
 			$(".leftsidebar-box").css("bottom", "0");
 			$(".leftsidebar-box").css("left", "0");
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
+			
+			//to solve blink of IE, set CSS style
+			var explorer_info = navigator.userAgent.toLowerCase();
+			var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
+			if (reg_msie.exec(explorer_info)) {
+			  $("*html").css("background-image","url(about:blank)");
+			  $("*html").css("background-attachment","fixed");
+			}
 					
 		}
 		else{
 		  $(".leftsidebar-box").css("position", "static");
 		}
-	  });
-	
-	
-	
-	
+	  });	
 	})(jQuery);
 
 	
