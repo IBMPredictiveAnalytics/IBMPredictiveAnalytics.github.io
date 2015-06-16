@@ -77,6 +77,17 @@
 		"promotion":"No" 
 	},
 	
+		{ 
+		"repository":"Present-Value",
+		"description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No" 
+	},
+	
 	{ 
 		"repository":"SPSSINC_MODIFY_TABLES",
 		"description":"Modify the appearance of pivot tables.",
