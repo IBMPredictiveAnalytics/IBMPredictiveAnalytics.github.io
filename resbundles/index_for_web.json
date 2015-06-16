@@ -2,23 +2,23 @@
  "repository_index":[	 
 	{ 
 		"repository":"SPSSINC_CENSOR_TABLES",
-		"description":"Censor cells of a pivot table based on the values of a test statistic",
+		"description":"Censor cells of a pivot table based on the values of a tests.",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Presentation",
 		"promotion":"No"
 	},
 	
 	{ 
 		"repository":"SPSSINC_CREATE_DUMMIES",
-		"description":"Censor cells of a pivot table based on the values of a test statistic.",
+		"description":"Create a set of dummy variables representing the values of on.",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Data manipulation",
 		"promotion":"No"
 	},
 	
@@ -29,7 +29,7 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2,R",
-		"category":"Visualization",
+		"category":"Analysis",
 		"promotion":"No" 
 	},
 	
@@ -40,7 +40,7 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Presentation",
 		"promotion":"No" 
 	},
 	
@@ -73,7 +73,7 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Presentation",
 		"promotion":"No" 
 	},
 	
@@ -95,7 +95,7 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Utility",
 		"promotion":"No" 
 	},
 	
@@ -106,18 +106,18 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
-		"category":"Visualization",
+		"category":"Utility",
 		"promotion":"No" 
 	},
 	
 	{ 
-		"repository":"SPSSINC_COMPARE_DATASETS",
+		"repository":"SPSSINC_BREUSCH_PAGAN",
 		"description":"Estimate a linear model and perform a heteroscedasticity test.",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"R",
-		"category":"Visualization",
+		"category": "Analysis",
 		"promotion":"No" 
 	}
  ]

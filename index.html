@@ -153,7 +153,6 @@
     allrepos = [];
 	img_name = "default.png";
 	
-	
     (function ($, undefined) {	  
 	  function sortByPromotion(allrepos){
 		var repos = [];
@@ -409,16 +408,8 @@
 		  var $cur_dl = $("<dl>").addClass(val.menu_name.toLowerCase()+"-filter").appendTo(".leftsidebar-box");
 		  var $menu_icon = $("<i>").addClass("fa").addClass(val.menu_icon_name).addClass("sidebar-title-icon");
 		  var $text = $("<span>").addClass("sub-menu-title").text(delLinkSymbol(val.menu_name));
-		  var $arrow = $("<i>").attr("id", "arrow-icon").addClass("fa").addClass("fa-chevron-down");
-		  var $arrow_a = $("<a>").attr("href", "#").append($arrow);
 		  var $cur_a = $("<a>").attr("href", "#").append($menu_icon).append($text); 
-		  var $cur_dt = $("<dt>").attr("data-isfolded","false").attr("id",val.menu_name.toLowerCase()).append($cur_a).append($arrow_a).appendTo($cur_dl);
-		  $arrow.mouseover(function(){
-			$(this).css("color", "#FFFFFF");
-		  });
-		  $arrow.mouseout(function(){
-			$(this).css("color", "grey");
-		  });
+		  var $cur_dt = $("<dt>").attr("id",val.menu_name.toLowerCase()).append($cur_a).appendTo($cur_dl);
 		  
 		  
 		  var parent_key = val.menu_name.toLowerCase();
@@ -440,22 +431,22 @@
 	  }
 	  
 	  //side-bar fold
-	  $(".leftsidebar-box").delegate("dt", "click", function(){
-		if ($(this).attr("data-isfolded") == "false") {
-		  $(this).parent().children("dd").hide();
-		  $(this).attr("data-isfolded", "true");
-		  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
-		}
-		else if ($(this).attr("data-isfolded") == "true")
-		{
-		  $(this).parent().children("dd").show();
-		  $(this).attr("data-isfolded", "false");
-		  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
-		}
-		else
-		  $(this).parent().children("dd").show();
-		  
-	  });
+	//  $(".leftsidebar-box").delegate("dt", "click", function(){
+	//	if ($(this).attr("data-isfolded") == "false") {
+	//	  $(this).parent().children("dd").hide();
+	//	  $(this).attr("data-isfolded", "true");
+	//	  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
+	//	}
+	//	else if ($(this).attr("data-isfolded") == "true")
+	//	{
+	//	  $(this).parent().children("dd").show();
+	//	  $(this).attr("data-isfolded", "false");
+	//	  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
+	//	}
+	//	else
+	//	  $(this).parent().children("dd").show();
+	//	  
+	//  });
 	  function toggleCheckbox(cur_state){
 		if (cur_state == "true") {
 		  return "false";
