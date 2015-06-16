@@ -143,7 +143,7 @@
 	var explorer_info = navigator.userAgent.toLowerCase();
 	var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
 	if (reg_msie.exec(explorer_info)) {
-	  $("<meta>").attr("http-equiv","X-UA-Compatible").attr("content","IE=8").appendTo("head");
+	  $("<meta>").attr("http-equiv","X-UA-Compatible").attr("content","EmulateIE8").appendTo("head");
 	}
 	
 	var navbar_h = $(".navbar").height();
