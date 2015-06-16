@@ -571,10 +571,10 @@
 			$(".leftsidebar-box").css("left", "0");
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
 			
+			//to solve blink of IE, set CSS style
 			var explorer_info = navigator.userAgent.toLowerCase();
 			var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
 			if (reg_msie.exec(explorer_info)) {
-			  alert("It is an IE");
 			  $(".leftsidebar-box").css("background-image", "url(about:blank)");
 			  $(".leftsidebar-box").css("background-attachment","fixed");
 			}
