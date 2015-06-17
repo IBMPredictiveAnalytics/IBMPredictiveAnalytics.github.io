@@ -60,7 +60,8 @@
 	font-weight:bold;
 	text-align: center;
 	height:18px;
-	padding: 0 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 }
@@ -87,8 +88,6 @@
 	font-size: 9px;
 	font-weight:bold;
 	float: left;
-	padding-bottom: auto;
-	padding-top: auto;
 	background: #F7D358; /* Old browsers */
 	/*background: -webkit-linear-gradient(top, #F6E3CE 0%,#FF8000 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #F6E3CE 0%, #FF8000 100%); /* W3C */*/
@@ -99,8 +98,6 @@
 	font-size: 9px;
 	font-weight:bold;
 	background-color: #BDBDBD;
-	padding-bottom: auto;
-	padding-top: auto;
 	/*background: -webkit-linear-gradient(top, #E6E6E6 0%,#BDBDBD 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #E6E6E6 0%, #BDBDBD 100%); /* W3C */*/
 }

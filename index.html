@@ -257,7 +257,7 @@
 		  {
 			$("<div>").addClass("repos-tag").attr("id", "repos-language").text($.trim(lang_list[lang_index])).appendTo($repos_lang);
 		  }
-		  
+				  
 		  var cate_list = repo.category.split(',');
 		  var $repos_cate = $("<div>").attr("id", "repos-cate").attr("style", "margin-bottom:5px").appendTo($item);
 		  for(var cate_index=0;cate_index<cate_list.length;cate_index++)
@@ -278,9 +278,15 @@
 		}
 		
 		if(!has_filtered_repo) {
-		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
+		  var $no_repo_msg = $("<span>").text("No items found. Please change the filter on the sidebar.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
+		
+		//to deal that the text of repos-tag in moz is not at vertical center
+		if (navigator.userAgent.indexOf("Firefox") > -1) {
+			$(".repos-tag").css("padding-top","2px");
+		}
+		
 		if (first_load_img) {
 		  $(window).load(function(){
 			setReposSize();
