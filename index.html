@@ -295,11 +295,17 @@
 		
 		var rChrome = /(chrome)\/([\w.]+)/;
 		var isChrome =  rChrome.exec(ua);
-		if (isChrome && first_load_img) {
+		if (isChrome) {
+		  if (first_load_img) {
 			$(window).load(function(){
 			  setReposSize();
 			  setFooterPos();
 			});
+		  }
+		  else{
+			setReposSize();
+			setFooterPos();
+		  }
 		}else{
 		  setReposSize();
 		  setFooterPos();
