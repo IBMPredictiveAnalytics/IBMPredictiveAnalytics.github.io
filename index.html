@@ -288,22 +288,21 @@
 			$("#allrepos div[id='repos-category']").css("padding-top","2px");
 		}
 		
-		var rChrome = "/(chrome)\/([\w.]+)/";
+		var rChrome = /(firefox)\/([\w.]+)/;
 		var ua = navigator.userAgent.toLowerCase();
 		var isChrome =  rChrome.exec(ua);
-		alert("isIE: "+isChrome);
+		console.log('ff: '+isChrome);
 		if (isChrome) {
 		  if (first_load_img) {
 			$(window).load(function(){
 			  setReposSize();
 			  setFooterPos();
 			});
+		  }
 		}else{
 		  setReposSize();
 		  setFooterPos();
 		}
-		
-		
       }
 	  
 	  $(window).resize(function () {
