@@ -224,7 +224,7 @@
 		  var $top_layer = $("<div>").attr("id", "top-layer").appendTo($item);
 		  
 		  var $software_icon = $("<i>").addClass("fa").addClass(getSoftwareIconName(repo.software));
-		  var $software_text = $("<span>").text(repo.software);
+		  var $software_text = $("<span>").text(" "+repo.software);
 		  var $software_tag = $("<div>").attr("id", "repos-software").append($software_icon).append($software_text).appendTo($top_layer);
 		  var $developer_tag = $("<div>").addClass("repos-tag").attr("id", "repos-developer").text(repo.provider).appendTo($top_layer);
 
