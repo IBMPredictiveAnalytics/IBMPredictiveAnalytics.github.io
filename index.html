@@ -291,7 +291,7 @@
 		var rChrome = "/(chrome)\/([\w.]+)/";
 		var ua = navigator.userAgent.toLowerCase();
 		var isChrome =  rChrome.exec(ua);
-		alert("isIE: "+isIE);
+		alert("isIE: "+isChrome);
 		if (isChrome) {
 		  if (first_load_img) {
 			$(window).load(function(){
