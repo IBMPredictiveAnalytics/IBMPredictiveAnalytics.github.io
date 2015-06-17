@@ -150,7 +150,7 @@
     allrepos = [];
 	img_name = "default.png";
 	
-    $(window).load(function(evt) {	  
+    $(function($, undefined){	  
 	  function sortByPromotion(allrepos){
 		var repos = [];
 		for(var index in allrepos)
@@ -275,8 +275,9 @@
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		
-		setReposSize();
+		$(window).load(function(){
+		  setReposSize();
+		});
       }
 	  
 	  $(window).resize(function () {
@@ -286,7 +287,6 @@
 	  function getMaxHeightForEachDiv(div_id, attr){
 		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
 		for(var i=0;i<$("#allrepos div["+attr+"="+div_id+"]").length;i++){
-		  if('repos-desc' == div_id)		  {console.log(i+":  "+parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height")));}
 		  if (max_height < parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"))) {
 			max_height = parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"));
 		  }
@@ -323,7 +323,6 @@
 	  }
 	  
 	  function setReposSize(){
-		console.log("in load");
 		var name = getMaxHeightForEachDiv('repos-name','id');
 		$("#allrepos div[id='repos-name']").css("height",name);
 		
@@ -582,7 +581,7 @@
 		  $(".leftsidebar-box").css("position", "static");
 		}
 	  });	
-	});
+	})(jQuery);
 
 	
 	
