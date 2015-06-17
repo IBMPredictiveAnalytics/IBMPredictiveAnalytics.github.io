@@ -295,7 +295,6 @@
 		
 		var rChrome = /(chrome)\/([\w.]+)/;
 		var isChrome =  rChrome.exec(ua);
-		console.log('ff: '+isChrome);
 		if (isChrome) {
 		  if (first_load_img) {
 			$(window).load(function(){
