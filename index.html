@@ -149,6 +149,7 @@
 	
     allrepos = [];
 	img_name = "default.png";
+	first_load_img = true;
 	
     $(function($, undefined){	  
 	  function sortByPromotion(allrepos){
@@ -275,15 +276,20 @@
 		  var $no_repo_msg = $("<span>").text("No repository is founded. Please change the filter conditions on left sidear.");
 		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
-		$(window).load(function(){
+		if (first_load_img) {
+		  $(window).load(function(){
+			setReposSize();
+		  });
+		}
+		else{
 		  setReposSize();
-		});
+		}
+		
       }
 	  
 	  $(window).resize(function () {
 		  setReposSize();
 		});
-	  setReposSize();
 	  
 	  function getMaxHeightForEachDiv(div_id, attr){
 		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
@@ -366,6 +372,7 @@
 			  
 			  allrepos = sortByPromotion(allrepos);
 			  addAllRepos(allrepos);
+			  first_load_img = false;
 			}
 		  
 			var side_bar_checkbox_state = {};
