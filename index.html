@@ -283,13 +283,17 @@
 		}
 		
 		//to deal that the text of repos-tag in moz is not at vertical center
-		if (navigator.userAgent.indexOf("Firefox") > -1) {
+		var rMSIE = /(msie\s|trident.*rv:)([\w.]+)/;
+		var rFirefox = /(firefox)\/([\w.]+)/;
+		var ua = navigator.userAgent.toLowerCase();
+		var isIE =  rMSIE.exec(ua);
+		var isFirefox = rFirefox.exec(ua);
+		if (isIE || isFirefox) {
 			$("#allrepos div[id='repos-language']").css("padding-top","2px");
 			$("#allrepos div[id='repos-category']").css("padding-top","2px");
 		}
 		
 		var rChrome = /(chrome)\/([\w.]+)/;
-		var ua = navigator.userAgent.toLowerCase();
 		var isChrome =  rChrome.exec(ua);
 		console.log('ff: '+isChrome);
 		if (isChrome) {
