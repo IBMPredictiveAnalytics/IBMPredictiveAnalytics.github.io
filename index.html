@@ -117,13 +117,18 @@
 			<hr>
 		  </div>
 		</div>
+		
 	  </div>
-	</div>  
-	<footer>
+	  <div id="space"></div>
+	  <div id="footer">
+		<p>© IBM 2015</p>
+	  </div>
+	</div>
+	<!--<footer>
 	  <div class="container">
 		<p>© IBM 2015</p>
 	  </div>
-	</footer>
+	</footer>-->
 	<!-- /container -->
 
 
@@ -284,7 +289,7 @@
 		else{
 		  setReposSize();
 		}
-		
+		setFooterPos();
       }
 	  
 	  $(window).resize(function () {
@@ -318,7 +323,16 @@
 		}); 
 	  } 
 	  
-	  
+	  function setFooterPos(){
+		var sidebar_h = $(".leftsidebar-box").height();
+		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
+		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
+		var repos_field_h = parseFloat($(".repos-field").css("height"));
+
+		if (sidebar_h>repos_field_h) {
+		  $("#space").css("height",sidebar_h-repos_field_h-parseFloat($("#footer").css("height")));
+		}
+	  }
 	  function getImgMaxWidth(){
 		var max_width = parseFloat($("#allrepos div[id='repos-img']:eq(0)").css("width"));
 		for(var i=0;i<$("#allrepos div[id='repos-img']").length;i++){
@@ -569,27 +583,25 @@
 		var sidebar_h = $(".leftsidebar-box").height();
 		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
+		var repos_field_h = parseFloat($(".repos-field").css("height"));
 		$(".leftsidebar-box").css("height", sidebar_h);
-
-		if (sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
+		
+		console.log("sidebar height: "+sidebar_h);
+		console.log("screen height: "+screen_h);
+		console.log("scroll height: "+scroll_top);
+		console.log("repos-field height:"+$(".repos-field").css("height"))
+		
+		if (sidebar_h<repos_field_h && sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
 			$(".leftsidebar-box").css("position", "fixed");
 			$(".leftsidebar-box").css("bottom", "0");
 			$(".leftsidebar-box").css("left", "0");
-			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
-			
-			//to solve blink of IE, set CSS style, not solved
-			//var explorer_info = navigator.userAgent.toLowerCase();
-			//var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
-			//if (reg_msie.exec(explorer_info)) {
-			//  $("html").css("background-image","url(about:blank)");
-			//  $("html").css("background-attachment","fixed");
-			//}			
+			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());	
 		}
 		else{
 		  $(".leftsidebar-box").css("position", "static");
 		}
 	  });	
-	})(jQuery);
+	});(jQuery)
 
 	
 	

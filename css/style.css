@@ -190,6 +190,7 @@
 	padding-left: auto;
 	padding-right: auto;
 	overflow: auto;
+	margin-bottom: 0;
 }
 
 .jumbotron
