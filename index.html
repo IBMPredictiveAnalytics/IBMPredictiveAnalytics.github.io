@@ -150,7 +150,7 @@
     allrepos = [];
 	img_name = "default.png";
 	
-    (function ($, undefined) {	  
+    $(document).ready(function() {	  
 	  function sortByPromotion(allrepos){
 		var repos = [];
 		for(var index in allrepos)
@@ -226,7 +226,7 @@
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
-		  var $img = $("<img>").attr("src", img_url).appendTo($repo_img);
+		  var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
 		  
 		  var desc_tip = repo.description;
 		  var max_desc_leng = 150;
@@ -286,6 +286,7 @@
 	  function getMaxHeightForEachDiv(div_id, attr){
 		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
 		for(var i=0;i<$("#allrepos div["+attr+"="+div_id+"]").length;i++){
+		  //if('repos-desc' == div_id)		  {console.log(i+":  "+parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height")));}
 		  if (max_height < parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"))) {
 			max_height = parseFloat($("#allrepos div["+attr+"="+div_id+"]:eq("+i+")").css("height"));
 		  }
@@ -322,7 +323,6 @@
 	  }
 	  
 	  function setReposSize(){
-		$(window).load(function(){		  
 		  var name = getMaxHeightForEachDiv('repos-name','id');
 		  $("#allrepos div[id='repos-name']").css("height",name);
 		  
@@ -341,7 +341,6 @@
 						  +parseFloat($("#repos-link").css("height"))+110;//set the amount of the space between different div as 100px
 		  $(".card").css("height",tot_height+'px');
 		  $(".card").css("width",getImgMaxWidth()+20+'px');
-		});
 	  }
 	  
 	  function delLinkSymbol(str)
@@ -570,7 +569,7 @@
 			$(".leftsidebar-box").css("left", "0");
 			$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
 			
-			//to solve blink of IE, set CSS style
+			//to solve blink of IE, set CSS style, not solved
 			//var explorer_info = navigator.userAgent.toLowerCase();
 			//var reg_msie = /(msie\s|trident.*rv:)([\w.]+)/;
 			//if (reg_msie.exec(explorer_info)) {
