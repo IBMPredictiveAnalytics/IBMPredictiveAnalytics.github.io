@@ -284,12 +284,15 @@
 		if (first_load_img) {
 		  $(window).load(function(){
 			setReposSize();
+			setFooterPos();
 		  });
 		}
 		else{
 		  setReposSize();
+		  setFooterPos();
 		}
-		setFooterPos();
+		
+		
       }
 	  
 	  $(window).resize(function () {
@@ -327,11 +330,27 @@
 		var sidebar_h = $(".leftsidebar-box").height();
 		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
-		var repos_field_h = parseFloat($(".repos-field").css("height"));
+		var repos_field_h = $(".repos-field").height();
 
 		if (sidebar_h>repos_field_h) {
-		  $("#space").css("height",sidebar_h-repos_field_h-parseFloat($("#footer").css("height")));
+		  $("#space").css("height",sidebar_h-repos_field_h-$("#footer").height());
 		}
+		else{
+		  $("#space").css("height", 100);
+		}
+		
+		$("#footer").css("margin-left", "16%");
+		//var sidebar_w = $(".leftsidebar-box").width();
+		//var repos_field_w = $(".repos-field").width();
+		//var footer_w = $("#footer").width();
+		//$("#footer").css("margin-left","500px");
+		//$("#footer").css("background-color", "blue");
+		//var margin_left = (repos_field_w-footer_w)/2+sidebar_w;
+		////var margin_right = (repos_field_w-footer_w)/2;
+		//console.log(sidebar_w);
+		//console.log(repos_field_w);
+		//$("#footer").css("margin-left", margin_left);
+		////$("#footer").css("margin-right", margin_right)
 	  }
 	  function getImgMaxWidth(){
 		var max_width = parseFloat($("#allrepos div[id='repos-img']:eq(0)").css("width"));
@@ -585,11 +604,11 @@
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
 		var repos_field_h = parseFloat($(".repos-field").css("height"));
 		$(".leftsidebar-box").css("height", sidebar_h);
-		
-		console.log("sidebar height: "+sidebar_h);
-		console.log("screen height: "+screen_h);
-		console.log("scroll height: "+scroll_top);
-		console.log("repos-field height:"+$(".repos-field").css("height"))
+		//
+		//console.log("sidebar height: "+sidebar_h);
+		//console.log("screen height: "+screen_h);
+		//console.log("scroll height: "+scroll_top);
+		//console.log("repos-field height:"+$(".repos-field").css("height"))
 		
 		if (sidebar_h<repos_field_h && sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
 			$(".leftsidebar-box").css("position", "fixed");
