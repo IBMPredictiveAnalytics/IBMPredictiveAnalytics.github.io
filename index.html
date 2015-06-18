@@ -295,22 +295,22 @@
 		
 		var rChrome = /(chrome)\/([\w.]+)/;
 		var isChrome =  rChrome.exec(ua);
-		if (isChrome) {
-		  if (first_load_img) {
-			$(window).load(function(){
-			  setReposSize();
-			  setFooterPos();
-			});
-		  }
-		  else{
+		//if (isChrome) {
+		if (first_load_img) {
+		  $(window).load(function(){
 			setReposSize();
 			setFooterPos();
-		  }
-		}else{
+		  });
+		}
+		//  else{
+		//	setReposSize();
+		//	setFooterPos();
+		//  }
+		else{
 		  setReposSize();
 		  setFooterPos();
 		}
-      }
+      //}
 	  
 	  $(window).resize(function () {
 		  setReposSize();
