@@ -1,213 +1,344 @@
 {
- "repository_index":[	 
-	{ 
-		"repository":"SPSSINC_CENSOR_TABLES",
-		"description":"Censor cells of a pivot table based on the values of a tests.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Presentation",
-		"promotion":"No"
-	},
-	
-		{ 
-		"repository":"Plot-Bubbles-Map",
-		"description":"Plot an interactive Bubble Map",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Geospatial",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_CREATE_DUMMIES",
-		"description":"Create a set of dummy variables representing the values of on.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Data manipulation",
-		"promotion":"No"
-	},
-	
-		{ 
-		"repository":"Model-Random-Forest",
-		"description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Analysis",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_HETCOR",
-		"description":"Calculate correlations between nominal, ordinal, and scale variables.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2,R",
-		"category":"Analysis",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"Multicolor-Plot",
-		"description":"Plot different intervals of a same curve in various colors.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Visualization",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_MERGE_TABLES",
-		"description":"Merge the contents of one pivot table in the Viewer into another.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Presentation",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_MFP_GLM",
-		"description":"Estimate a regression with fractional polynomials for the scale variables.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2,R",
-		"category":"Data Manipulation",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"Plot-Geospatial-Data",
-		"description":"Plot data containing Latitude and Longitude on an interactive map. ",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Geospatial",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"IsHoliday",
-		"description":"Enrich your date data with holiday calendars from different countries ",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Utility",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_MODIFY_OUTPUT",
-		"description":"Modify output titles and other aspects of objects in the View.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Data Manipulation",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_PROCESS_FILES",
-		"description":"Apply a file of syntax to a set of data files.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Presentation",
-		"promotion":"No" 
-	},
-	
-		{ 
-		"repository":"Present-Value",
-		"description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Utility",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_MODIFY_TABLES",
-		"description":"Modify the appearance of pivot tables.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Visualization",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_GETURI_DATA",
-		"description":"Open an SPSS, Excel, SAS, or Stata dataset from a web url.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Utility",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_COMPARE_DATASETS",
-		"description":"Compare two open datasets.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"Python 2",
-		"category":"Utility",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"Plot-Heatmaps",
-		"description":"Plot spatial data on a density heatmap in SPSS Modeler",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Geospatial",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"Great-Circle-Distance",
-		"description":"Compute the shortest distance distance between two points on the surface of the Earth",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Geospatial",
-		"promotion":"No" 
-	},
-	
-	{ 
-		"repository":"SPSSINC_BREUSCH_PAGAN",
-		"description":"Estimate a linear model and perform a heteroscedasticity test.",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"R",
-		"category": "Analysis",
-		"promotion":"No" 
-	}
- ]
-
+"repository_index":[
+    {
+        "repository":"Plot-Geospatial-Data",
+        "description":"Plot data containing Latitude and Longitude on an interactive map.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Model-Random-Forest",
+        "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"Multicolor-Plot",
+        "description":"Plot different intervals of a same curve in various colors.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Visualization ",
+        "promotion":"No"
+    },
+    {
+        "repository":"Great-Circle-Distance",
+        "description":"Compute the shortest distance distance between two points on the surface of the Earth",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial ",
+        "promotion":"No"
+    },
+    {
+        "repository":"Plot-Heatmaps",
+        "description":"Plot spatial data on a density heatmap in SPSS Modeler",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Plot-Bubbles-Map",
+        "description":"Plot an interactive Bubble Map",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Present-Value",
+        "description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"IsHoliday",
+        "description":"Enrich your date data with holiday calendars from different countries",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS-APRIORI",
+        "description":"This command replaces the values of the specified variables with new values according to one of three methods.  It is intended for situations where the true values must be concealed for privacy or other reasons.  It can also replace the variables names with anonymous equivalents.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"R,Statistics Syntax",
+        "category":"Visualization,Utility",
+        "promotion":"Yes"
+    },
+    {
+        "repository":"SPSSINC_CENSOR_TABLES",
+        "description":" Censor cells of a pivot table based on the values of a tests",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Presentation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_COMPARE_DATASETS",
+        "description":" Compare two open datasets.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_CREATE_DUMMIES",
+        "description":" Create a set of dummy variables representing the values of on",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_GETURI_DATA",
+        "description":" Open an SPSS, Excel, SAS, or Stata dataset from a web url.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_HETCOR",
+        "description":" Calculate correlations between nominal, ordinal, and scale va",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" Python,R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_MERGE_TABLES",
+        "description":" Merge the contents of one pivot table in the Viewer into anot",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Presentation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_MODIFY_TABLES",
+        "description":" Modify the appearance of pivot tables.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Presentation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_PROCESS_FILES",
+        "description":" Apply a file of syntax to a set of data files",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_MFP_GLM",
+        "description":" Estimate a regression with fractional polynomials for the scale variables",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" Python,R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_MODIFY_OUTPUT",
+        "description":" Modify output titles and other aspects of objects in the View",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Presentation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_PROCESS_FILES_SEARCH",
+        "description":" Search the cases in a set of SPSS SAV files",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_PROGRAM",
+        "description":" Extension command to run arbitrary Python programs without tu",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_QQPLOT2",
+        "description":" Two variable or two group Q-Q plot",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Visualization",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_QUANTREG",
+        "description":" Estimate one or more conditional quantiles for a linear model.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_RAKE",
+        "description":" Calculate weights to control totals in up to ten dimensions by rim weighting, i.e. raking",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_RANFOR",
+        "description":" Estimate random forest",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_RANPRED",
+        "description":" Compute predicted values for new data using forests from SPSS",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_RASCH",
+        "description":" Estimate a Rasch model for item response data.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_ROBUST_REGR",
+        "description":" Estimate a linear regression model by robust regression, using an M estimator",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_SELECT_VARIABLES",
+        "description":" Define a macro listing variables selected according to variable dictionary properties",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_BREUSCH_PAGAN",
+        "description":" Estimate a linear model and perform a heteroscedasticity test.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_SPLIT_DATASET",
+        "description":" Split a dataset into separate files according to splitting va",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_TOBIT_REGR",
+        "description":" Estimate a regression model whose dependent variable has a fi",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_TRANS",
+        "description":" Apply a Python function to case data.",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"SPSSINC_TRANSLATE_OUTPUT",
+        "description":" Framework for translating Viewer output",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Utility",
+        "promotion":"No"
+    }
+]
 }
