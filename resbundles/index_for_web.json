@@ -81,16 +81,6 @@
         "promotion":"No"
     },
     {
-        "repository":"STATS-APRIORI",
-        "description":"This command replaces the values of the specified variables with new values according to one of three methods.  It is intended for situations where the true values must be concealed for privacy or other reasons.  It can also replace the variables names with anonymous equivalents.",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R,Statistics Syntax",
-        "category":"Visualization,Utility",
-        "promotion":"Yes"
-    },
-    {
         "repository":"SPSSINC_CENSOR_TABLES",
         "description":" Censor cells of a pivot table based on the values of a tests",
         "type":"Extension",
