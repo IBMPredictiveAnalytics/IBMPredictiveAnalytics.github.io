@@ -369,6 +369,56 @@
         "language":"Python 2",
         "category":"Data Manipulation",
         "promotion":"No"
+    },
+    {
+        "repository":"STATS_CLUS_SIL",
+        "description":" compute silhouette measure for cluster analysis",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Visualization",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_COMPRISK",
+        "description":" Competing risk survival regression",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_COXREGR",
+        "description":" Cox (proportional hazards) regression",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_DATA_DATE",
+        "description":" Define date structure based on dataset values",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_DATASET",
+        "description":" Combine several DATASET commands into one",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Utility",
+        "promotion":"No"
     }
 ]
 }
