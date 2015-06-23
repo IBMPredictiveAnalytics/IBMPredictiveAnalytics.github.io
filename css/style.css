@@ -184,9 +184,9 @@
 	padding-top: 0;
 	overflow: auto;
 	margin-bottom: 0;
-	padding-left: 10px;
-	padding-right: 10px;
-	overflow-x: hidden;
+	padding-left: auto;
+	padding-right: auto;
+	overflow-x: auto;
 }
 
 .jumbotron
