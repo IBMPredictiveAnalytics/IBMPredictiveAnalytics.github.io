@@ -14,7 +14,6 @@
 .main-field{
 	overflow: auto;
 	width: auto;
-	display: inline;
 }
 
 #menu-main >li >a:hover{
@@ -128,7 +127,6 @@
 	height: 100%;
 	padding-top: 0;
 	min-width: 10%;
-	margin-top: auto;
 }
 
 .leftsidebar-box dt{
