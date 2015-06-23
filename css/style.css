@@ -186,6 +186,7 @@
 	margin-bottom: 0;
 	padding-left: auto;
 	padding-right: auto;
+	overflow-x: hidden;
 }
 
 .jumbotron
@@ -380,8 +381,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
-	max-width: 270px;
-	min-width: 240px;
+	max-width: 240px;
 	overflow:auto;
 }
 
