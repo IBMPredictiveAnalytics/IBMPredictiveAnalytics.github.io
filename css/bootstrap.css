@@ -1584,17 +1584,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 620px;/*750*/
+    width: 700px;/*750*/
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 770px;/*970*/
+    width: 900px;/*970*/
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;/*1170*/
+    width: 1100px;/*1170*/
   }
 }
 .container-fluid {
