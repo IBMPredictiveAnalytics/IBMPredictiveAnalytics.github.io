@@ -141,6 +141,9 @@
     <script type="text/javascript" src="orgs.js"></script>
 	<script type="text/javascript" src="sidebar_info.js"></script>
     <script type="text/javascript">
+	
+	var repos_title_h = parseFloat($("#repos-title h1").height());
+	$("#search").css("margin-top", repos_title_h*2+30);
 	  
 	var navbar_h = $(".navbar").height();
 	$(".main-field").css("margin-top", navbar_h);
@@ -153,6 +156,8 @@
 	  //adjust sidebar margin-top to the window
 	  var navbar_h = $(".navbar").height();
 	  $(".main-field").css("margin-top", navbar_h);
+	  var repos_title_h = parseFloat($("#repos-title h1").height());
+	  $("#search").css("margin-top", repos_title_h*2+30);
 	});
 	
     allrepos = [];
