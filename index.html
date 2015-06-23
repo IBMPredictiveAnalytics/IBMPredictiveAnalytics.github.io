@@ -102,7 +102,7 @@
 		<div class="jumbotron">
 			<div id="repos-title" style="padding-left: auto;padding-right: auto">
 			  <h1 style="margin-left: auto;margin-right: auto">
-				IBM <span style="font-weight:600; color:#00aed1">SPSS</span> Predictive Analytics Gallery
+				<span>IBM <span style="font-weight:600; color:#00aed1">SPSS</span> Predictive Analytics Gallery</span>
 			  </h1>
 			</div>
 		</div>	
@@ -231,7 +231,7 @@
 		  var $software_text = $("<span>").text(repo.software).attr("style","margin-left: 3px");
 		  var $software_tag = $("<div>").attr("id", "repos-software").append($software_icon).append($software_text).appendTo($top_layer);
 		  var $developer_tag = $("<div>").addClass("repos-tag").attr("id", "repos-developer").text(repo.provider).appendTo($top_layer);
-
+		  
 		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
@@ -405,7 +405,8 @@
 		$(".card").css("height",tot_height+'px');
 		var img_max_width = getImgMaxWidth();
 		var repos_name_max_width = getReposNameMaxWidth();
-		$(".card").css("width",parseFloat(img_max_width>repos_name_max_width?img_max_width:repos_name_max_width)+20);
+		var card_w = parseFloat(img_max_width>repos_name_max_width?img_max_width:repos_name_max_width)+20;
+		$(".card").css("width", card_w+'px');
 	  }
 	  
 	  function delLinkSymbol(str)
@@ -644,7 +645,7 @@
 		else{
 		  $(".leftsidebar-box").css("position", "static");
 		}
-	  });	
+	  });
 	});(jQuery)
 
 	
