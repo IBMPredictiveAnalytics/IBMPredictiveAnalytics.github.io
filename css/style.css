@@ -381,7 +381,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
-	max-width: 250px;
+	max-width: 240px;
 	overflow:auto;
 }
 
