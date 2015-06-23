@@ -122,7 +122,7 @@
 	overflow: auto;
 	text-align: center;
 	background-color: #282832;
-	width: 16rem;
+	width: 15rem;
 	max-width: 18%;
 	height: 100%;
 	padding-top: 0;
@@ -178,15 +178,14 @@
 }
 
 .repos-field{
-	margin-left: 16rem;
+	margin-left: 15rem;
 	margin-right: 0;
 	text-align: center;
 	padding-top: 0;
-	padding-left: auto;;
-	padding-right: auto;
 	overflow: auto;
 	margin-bottom: 0;
-
+	padding-left: auto;
+	padding-right: auto;
 }
 
 .jumbotron
@@ -380,7 +379,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
-	max-width: 300px;
+	max-width: 320px;
 	min-width: 220px;
 	overflow:auto;
 }
@@ -393,12 +392,13 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-name{
 /*	height: auto;*/
-	font-size: 13px;
+	text-align: center;
+	font-size: 12px;
 	margin-top: 0;
 	margin-bottom: 16px;
 	padding-top: 0;
 	font-weight: bold;
-	white-space: normal;
+	width: auto;
 }
 
 #repos-desc{
