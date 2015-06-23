@@ -180,9 +180,9 @@
 .repos-field{
 	margin-left: 16rem;
 	margin-right: 0;
-	text-align: center;
+	text-align: left;
 	padding-top: 0;
-	padding-left: auto;
+	padding-left: auto;;
 	padding-right: auto;
 	overflow: auto;
 	margin-bottom: 0;
@@ -196,7 +196,7 @@
 	margin-top: 20px;
 	margin-left: auto;
 	height:100px;
-	margin-right: 0
+	margin-right: auto;
 }
 
 .jumbotron h1
@@ -380,8 +380,8 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
-	max-width: 380px;
-	min-width: 270px;
+	max-width: 300px;
+	min-width: 220px;
 	overflow:auto;
 }
 
@@ -393,11 +393,12 @@ background:url(../imgs/news.jpg) no-repeat;
 
 #repos-name{
 /*	height: auto;*/
-	font-size: 14px;
+	font-size: 13px;
 	margin-top: 0;
 	margin-bottom: 16px;
 	padding-top: 0;
 	font-weight: bold;
+	white-space: normal;
 }
 
 #repos-desc{
