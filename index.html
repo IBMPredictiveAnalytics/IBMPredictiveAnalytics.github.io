@@ -101,7 +101,7 @@
 	  <div class="repos-field">
 		<div class="jumbotron">
 			<div id="repos-title" style="padding-left: auto;padding-right: auto">
-			  <h1 style="margin-left: auto;margin-right: auto;white-space: nowrap">
+			  <h1 style="white-space: nowrap">
 				IBM <span style="font-weight:600; color:#00aed1">SPSS</span> Predictive Analytics Gallery
 			  </h1>
 			</div>
@@ -141,7 +141,7 @@
     <script type="text/javascript" src="orgs.js"></script>
 	<script type="text/javascript" src="sidebar_info.js"></script>
     <script type="text/javascript">
-	
+	  
 	var navbar_h = $(".navbar").height();
 	$(".main-field").css("margin-top", navbar_h);
 	
@@ -293,19 +293,12 @@
 			$("#allrepos div[id='repos-category']").css("padding-top","2px");
 		}
 		
-		var rChrome = /(chrome)\/([\w.]+)/;
-		var isChrome =  rChrome.exec(ua);
-		//if (isChrome) {
 		if (first_load_img) {
 		  $(window).load(function(){
 			setReposSize();
 			setFooterPos();
 		  });
 		}
-		//  else{
-		//	setReposSize();
-		//	setFooterPos();
-		//  }
 		else{
 		  setReposSize();
 		  setFooterPos();

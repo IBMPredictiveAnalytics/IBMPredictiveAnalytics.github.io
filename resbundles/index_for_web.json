@@ -11,7 +11,7 @@
 		"promotion":"No"
 	},
 	
-		{ 
+	{ 
 		"repository":"Plot-Bubbles-Map",
 		"description":"Plot an interactive Bubble Map",
 		"type":"Extension",
