@@ -10,22 +10,22 @@
 	font-family: 'Lubalin-Md';
 	src: url('/fonts/Lubalin/LubalinGraphStd-Medium.otf') format('opentype');
 }
-/*
+
 @media (min-width: 768px) {
-  .jumbotron h1 {
-    font-size: 30px;
+  #repos-title h1 {
+    font-size: 24px;
   }
 }
 @media (min-width: 992px) {
-  .jumbotron h1 {
-    font-size: 45px;
+  #repos-title h1 {
+    font-size: 36px;
   }
 }
 @media (min-width: 1200px) {
-  .jumbotron h1 {
-    font-size: 63px;
+  #repos-title h1 {
+    font-size: 48px;
   }
-}*/
+}
 
 .main-field{
 	overflow: auto;
