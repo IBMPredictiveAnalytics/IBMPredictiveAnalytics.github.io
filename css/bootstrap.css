@@ -1595,7 +1595,7 @@ pre code {
 }
 @media (min-width: 992px) and (-webkit-min-device-pixel-ratio:0) {
   .container {
-    width: 750px;/*970*/
+    width: 700px;/*970*/
   }
 }
 @media (min-width: 1200px) {
