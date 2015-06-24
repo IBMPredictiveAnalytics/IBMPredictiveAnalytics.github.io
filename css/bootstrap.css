@@ -1604,7 +1604,7 @@ pre code {
 
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 650px;/*750*/
+    width: 500px;/*750*/
   }
 }
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
