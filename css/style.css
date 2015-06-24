@@ -401,12 +401,12 @@ background:url(../imgs/news.jpg) no-repeat;
 /*for moz and IE 11*/
 @media (min-width: 768px) {
 	#wrapper .card{
-		max-width: 220px;
+		max-width: 200px;
 	}
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 230px;
+		max-width: 220px;
 	}
 }
 
