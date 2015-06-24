@@ -1609,13 +1609,13 @@ pre code {
 }
 @media (min-width: 968px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 1000px;/*970*/
+    width: 900px;/*970*/
   }
 }
 
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 1150px;/*1170*/
+    width: 1050px;/*1170*/
   }
 }
 
