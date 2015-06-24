@@ -1604,18 +1604,18 @@ pre code {
 /*for webkit*/
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 500px;/*750*/
+    width: 700px;/*750*/
   }
 }
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 950px;/*970*/
+    width: 1000px;/*970*/
   }
 }
 
 @media (min-width: 1366px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 1050px;/*1170*/
+    width: 1200px;/*1170*/
   }
 }
 
