@@ -1593,16 +1593,30 @@ pre code {
     width: 800px;/*970*/
   }
 }
-@media (min-width: 992px) and (-webkit-min-device-pixel-ratio:0) {
-  .container {
-    width: 700px;/*970*/
-  }
-}
+
 @media (min-width: 1200px) {
   .container {
     width: 1050px;/*1170*/
   }
 }
+
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
+  .container {
+    width: 650px;/*750*/
+  }
+}
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio:0){
+  .container {
+    width: 750px;/*970*/
+  }
+}
+
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio:0){
+  .container {
+    width: 1000px;/*1170*/
+  }
+}
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
