@@ -1589,7 +1589,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 900px;/*970*/
+    width: 800px;/*970*/
   }
 }
 @media (min-width: 1200px) {
@@ -4886,7 +4886,7 @@ a.badge:focus {
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-right: 60px;
+    padding-right: 60px; 
     padding-left: 60px;
   }
   .jumbotron h1,
