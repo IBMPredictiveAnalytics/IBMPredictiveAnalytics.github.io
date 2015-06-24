@@ -1583,7 +1583,7 @@ pre code {
   margin-left: auto;
 }
 
-
+/*for moz and IE 11*/
 @media (min-width: 768px) {
   .container {
     width: 700px;/*750*/
@@ -1601,6 +1601,7 @@ pre code {
   }
 }
 
+/*for webkit*/
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
   .container {
     width: 500px;/*750*/
