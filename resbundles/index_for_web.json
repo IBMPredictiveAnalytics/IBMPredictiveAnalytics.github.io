@@ -419,6 +419,56 @@
         "language":"Python 2",
         "category":"Utility",
         "promotion":"No"
+    },
+    {
+        "repository":"STATS_DBPRED",
+        "description":" Prediction based on density-based clustering",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_DBSCAN",
+        "description":" Density-based clustering",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_DISAGG",
+        "description":" Disaggregate a time series into a series at a higher frequency",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_DISTFIT",
+        "description":" Fit probability distributions",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_EQNSYSTEM",
+        "description":" Estimate system of linear equations",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
     }
 ]
 }
