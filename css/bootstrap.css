@@ -1586,7 +1586,7 @@ pre code {
 /*for moz and IE 11*/
 @media (min-width: 768px) {
   .container {
-    width: 700px;/*750*/
+    width: 600px;/*750*/
   }
 }
 @media (min-width: 992px){
