@@ -11,6 +11,22 @@
 	src: url('/fonts/Lubalin/LubalinGraphStd-Medium.otf') format('opentype');
 }
 
+@media (min-width: 768px) {
+  #repos-title {
+    font-weight: 400;
+  }
+}
+@media (min-width: 992px) {
+  #repos-title {
+    font-weight: 500;
+  }
+}
+@media (min-width: 1200px) {
+  #repos-title {
+    font-weight: 600;
+  }
+}
+
 .main-field{
 	overflow: auto;
 	width: auto;
