@@ -152,8 +152,18 @@
 		$(".main-field").css("margin-top", navbar_h);
 	  }
 	  
+	  function getAllReposPadding(){
+		var card_w = parseFloat($(".card").css("width"));
+		var allrepos_w = parseFloat($("#allrepos").css("width"));
+		var card_num = parseFloat(Math.floor(allrepos_w/card_w));
+		var padding = (allrepos_w - card_w*card_num - 2*(card_num-1))/2;
+		console.log(padding);
+		return padding || 0;
+	  }
+	  
 	  function adjustReposFieldPos(){
 		$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
+		$("#allrepos").css("padding-left", getAllReposPadding());
 	  }
 	  
 	  function sortByPromotion(allrepos){
@@ -294,14 +304,16 @@
 		
 		if (first_load_img) {
 		  $(window).load(function(){
-			setReposSize();
+			setReposHeight();
+			setReposWidth()
 			setFooterPos();
 			adjustBannerPos();
 			adjustReposFieldPos();
 		  });
 		}
 		else{
-		  setReposSize();
+		  setReposHeight();
+		  setReposWidth()
 		  setFooterPos();
 		  adjustBannerPos();
 		  adjustReposFieldPos();
@@ -377,7 +389,7 @@
 		return max_width == NaN?0:max_width;
 	  }
 	  
-	  function setReposSize(){
+	  function setReposHeight(){
 		var name = getMaxHeightForEachDiv('repos-name','id');
 		$("#allrepos div[id='repos-name']").css("height",name);
 		
@@ -395,6 +407,10 @@
 						+parseFloat($("#repos-img").css("height"))
 						+parseFloat($("#repos-link").css("height"))+90;//set the amount of the space between different div as 100px
 		$(".card").css("height",tot_height+'px');
+
+	  }
+	  
+	  function setReposWidth(){
 		var img_max_width = getMaxWidth("repos-img");
 		var repos_name_max_width = getMaxWidth("repos-name");
 		var card_w = parseFloat(img_max_width>repos_name_max_width?img_max_width:repos_name_max_width)+20;
@@ -433,7 +449,7 @@
 	  }
 	  
 	  //Create Repository Field
-	  var $item = $("<div id='allrepos'>").addClass("#allrepos").attr("style", "padding-left:30px").appendTo("#wrapper");
+	  var $item = $("<div id='allrepos'>").addClass("#allrepos").appendTo("#wrapper");
 	  
 	  //orgs has been defined in orgs.js
 	  for (var r in orgs)
