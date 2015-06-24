@@ -100,7 +100,7 @@
 	  <!--Repository Field-->
 	  <div class="repos-field">
 		<div class="jumbotron">
-			<div id="repos-title" style="padding-left: auto;padding-right: auto;background-color: blue">
+			<div id="repos-title" style="padding-left: auto;padding-right: auto">
 			  <h1 id="fff" style="margin-left: auto;margin-right: auto">
 				IBM <span style="font-weight:600; color:#00aed1">SPSS</span> Predictive Analytics Gallery
 			  </h1>
@@ -298,10 +298,6 @@
 			setFooterPos();
 			adjustBannerPos();
 			adjustReposFieldPos();
-			//$("#repos-title h1[id='fff']").css("font-size", "3rem");
-			console.log("font-size:"+$("#repos-title h1[id='fff']").css("font-size"));
-			console.log("h1 height"+$("#repos-title").css("height"));
-			console.log("margin-top:"+$("#search").css("margin-top"));
 		  });
 		}
 		else{
@@ -309,10 +305,6 @@
 		  setFooterPos();
 		  adjustBannerPos();
 		  adjustReposFieldPos();
-		  //$("#repos-title h1[id='fff']").css("font-size", "3rem");
-		  console.log("font-size:"+$("#repos-title h1[id='fff']").css("font-size"));
-		  console.log("h1 height"+$("#repos-title").css("height"));
-		  console.log("margin-top:"+$("#search").css("margin-top"));
 		}
 	  }
 	  
@@ -630,11 +622,6 @@
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
 		var repos_field_h = parseFloat($(".repos-field").css("height"));
 		$(".leftsidebar-box").css("height", sidebar_h);
-		//
-		//console.log("sidebar height: "+sidebar_h);
-		//console.log("screen height: "+screen_h);
-		//console.log("scroll height: "+scroll_top);
-		//console.log("repos-field height:"+$(".repos-field").css("height"))
 		
 		if (sidebar_h<repos_field_h && sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
 			$(".leftsidebar-box").css("position", "fixed");
