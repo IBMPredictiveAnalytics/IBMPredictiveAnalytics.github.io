@@ -1613,9 +1613,9 @@ pre code {
   }
 }
 
-@media (min-width: 1366px) and (-webkit-min-device-pixel-ratio:0){
+@media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
   .container {
-    width: 1250px;/*1170*/
+    width: 1150px;/*1170*/
   }
 }
 
