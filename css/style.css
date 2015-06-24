@@ -396,6 +396,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
 	max-width: 240px;
+	min-width: 200px;
 	overflow:auto;
 }
 
