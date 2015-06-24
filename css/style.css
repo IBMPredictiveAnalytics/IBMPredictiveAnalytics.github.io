@@ -399,6 +399,12 @@ background:url(../imgs/news.jpg) no-repeat;
 	overflow:auto;
 }
 
+@media (-webkit-min-device-pixel-ratio:0){
+	#wrapper .card{
+		max-width: 300px;
+	}
+}
+
 #top-layer{
 	height: 10px;
 	margin: 0;
