@@ -156,14 +156,15 @@
 		var card_w = parseFloat($(".card").css("width"));
 		var allrepos_w = parseFloat($("#allrepos").css("width"));
 		var container_w = parseFloat($(".container").css("width"));
-		var card_num = parseFloat(Math.floor(allrepos_w/card_w));
-		var padding = ((allrepos_w<container_w?allrepos_w:container_w) - card_w*card_num - 2*(card_num-1))/2;
+		var actual_repos_w = (allrepos_w<container_w?allrepos_w:container_w);
+		var card_num = parseFloat(Math.floor(actual_repos_w/card_w));
+		var padding = (actual_repos_w - card_w*card_num - 4*(card_num-1))/2;
 		return padding || 0;
 	  }
 	  
 	  function adjustReposFieldPos(){
 		$(".repos-field").css("margin-left", $(".leftsidebar-box").width());
-		//$("#allrepos").css("padding-left", getAllReposPadding());
+		$("#allrepos").css("padding-left", getAllReposPadding());
 	  }
 	  
 	  function sortByPromotion(allrepos){
