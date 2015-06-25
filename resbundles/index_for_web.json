@@ -3,6 +3,7 @@
     {
         "repository":"Plot-Geospatial-Data",
         "description":"Plot data containing Latitude and Longitude on an interactive map.",
+        "pushed_at":"2015-06-17T02:31:27Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -13,6 +14,7 @@
     {
         "repository":"Model-Random-Forest",
         "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
+        "pushed_at":"2015-06-16T19:15:38Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -23,6 +25,7 @@
     {
         "repository":"Multicolor-Plot",
         "description":"Plot different intervals of a same curve in various colors.",
+        "pushed_at":"2015-06-16T17:26:39Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -33,6 +36,7 @@
     {
         "repository":"Great-Circle-Distance",
         "description":"Compute the shortest distance distance between two points on the surface of the Earth",
+        "pushed_at":"2015-06-16T17:32:26Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -43,6 +47,7 @@
     {
         "repository":"Plot-Heatmaps",
         "description":"Plot spatial data on a density heatmap in SPSS Modeler",
+        "pushed_at":"2015-06-16T17:53:45Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -53,6 +58,7 @@
     {
         "repository":"Plot-Bubbles-Map",
         "description":"Plot an interactive Bubble Map",
+        "pushed_at":"2015-06-17T02:25:38Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -63,6 +69,7 @@
     {
         "repository":"Present-Value",
         "description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
+        "pushed_at":"2015-06-16T17:51:51Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -73,6 +80,7 @@
     {
         "repository":"IsHoliday",
         "description":"Enrich your date data with holiday calendars from different countries",
+        "pushed_at":"2015-06-16T19:21:11Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -83,6 +91,7 @@
     {
         "repository":"SPSSINC_CENSOR_TABLES",
         "description":" Censor cells of a pivot table based on the values of a tests",
+        "pushed_at":"2015-06-16T16:48:03Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -93,6 +102,7 @@
     {
         "repository":"SPSSINC_COMPARE_DATASETS",
         "description":" Compare two open datasets.",
+        "pushed_at":"2015-06-19T01:54:50Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -103,6 +113,7 @@
     {
         "repository":"SPSSINC_CREATE_DUMMIES",
         "description":" Create a set of dummy variables representing the values of on",
+        "pushed_at":"2015-06-16T16:48:56Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -113,6 +124,7 @@
     {
         "repository":"SPSSINC_GETURI_DATA",
         "description":" Open an SPSS, Excel, SAS, or Stata dataset from a web url.",
+        "pushed_at":"2015-06-19T01:55:20Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -123,6 +135,7 @@
     {
         "repository":"SPSSINC_HETCOR",
         "description":" Calculate correlations between nominal, ordinal, and scale va",
+        "pushed_at":"2015-06-19T01:55:10Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -133,6 +146,7 @@
     {
         "repository":"SPSSINC_MERGE_TABLES",
         "description":" Merge the contents of one pivot table in the Viewer into anot",
+        "pushed_at":"2015-06-16T16:50:09Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -143,6 +157,7 @@
     {
         "repository":"SPSSINC_MODIFY_TABLES",
         "description":" Modify the appearance of pivot tables.",
+        "pushed_at":"2015-06-16T16:51:01Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -153,6 +168,7 @@
     {
         "repository":"SPSSINC_PROCESS_FILES",
         "description":" Apply a file of syntax to a set of data files",
+        "pushed_at":"2015-06-16T16:51:24Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -163,6 +179,7 @@
     {
         "repository":"SPSSINC_MFP_GLM",
         "description":" Estimate a regression with fractional polynomials for the scale variables",
+        "pushed_at":"2015-06-19T01:54:59Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -173,6 +190,7 @@
     {
         "repository":"SPSSINC_MODIFY_OUTPUT",
         "description":" Modify output titles and other aspects of objects in the View",
+        "pushed_at":"2015-06-16T16:50:48Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -183,6 +201,7 @@
     {
         "repository":"SPSSINC_PROCESS_FILES_SEARCH",
         "description":" Search the cases in a set of SPSS SAV files",
+        "pushed_at":"2015-06-16T17:14:10Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -193,6 +212,7 @@
     {
         "repository":"SPSSINC_PROGRAM",
         "description":" Extension command to run arbitrary Python programs without tu",
+        "pushed_at":"2015-06-19T01:54:29Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -203,6 +223,7 @@
     {
         "repository":"SPSSINC_QQPLOT2",
         "description":" Two variable or two group Q-Q plot",
+        "pushed_at":"2015-06-19T01:46:10Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -213,6 +234,7 @@
     {
         "repository":"SPSSINC_QUANTREG",
         "description":" Estimate one or more conditional quantiles for a linear model.",
+        "pushed_at":"2015-06-19T01:53:16Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -223,6 +245,7 @@
     {
         "repository":"SPSSINC_RAKE",
         "description":" Calculate weights to control totals in up to ten dimensions by rim weighting, i.e. raking",
+        "pushed_at":"2015-06-16T17:16:12Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -233,6 +256,7 @@
     {
         "repository":"SPSSINC_RANFOR",
         "description":" Estimate random forest",
+        "pushed_at":"2015-06-19T01:50:57Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -243,6 +267,7 @@
     {
         "repository":"SPSSINC_RANPRED",
         "description":" Compute predicted values for new data using forests from SPSS",
+        "pushed_at":"2015-06-19T01:50:46Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -253,6 +278,7 @@
     {
         "repository":"SPSSINC_RASCH",
         "description":" Estimate a Rasch model for item response data.",
+        "pushed_at":"2015-06-19T01:50:36Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -263,6 +289,7 @@
     {
         "repository":"SPSSINC_ROBUST_REGR",
         "description":" Estimate a linear regression model by robust regression, using an M estimator",
+        "pushed_at":"2015-06-19T01:50:24Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -273,6 +300,7 @@
     {
         "repository":"SPSSINC_SELECT_VARIABLES",
         "description":" Define a macro listing variables selected according to variable dictionary properties",
+        "pushed_at":"2015-06-16T17:23:42Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -283,6 +311,7 @@
     {
         "repository":"SPSSINC_BREUSCH_PAGAN",
         "description":" Estimate a linear model and perform a heteroscedasticity test.",
+        "pushed_at":"2015-06-16T16:44:44Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -293,6 +322,7 @@
     {
         "repository":"SPSSINC_SPLIT_DATASET",
         "description":" Split a dataset into separate files according to splitting va",
+        "pushed_at":"2015-06-18T17:04:59Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -303,6 +333,7 @@
     {
         "repository":"SPSSINC_TOBIT_REGR",
         "description":" Estimate a regression model whose dependent variable has a fi",
+        "pushed_at":"2015-06-18T17:05:29Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -313,6 +344,7 @@
     {
         "repository":"SPSSINC_TRANS",
         "description":" Apply a Python function to case data.",
+        "pushed_at":"2015-06-18T20:32:23Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -323,6 +355,7 @@
     {
         "repository":"SPSSINC_TRANSLATE_OUTPUT",
         "description":" Framework for translating Viewer output",
+        "pushed_at":"2015-06-18T17:05:43Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -333,6 +366,7 @@
     {
         "repository":"STATS_ADJUST_WIDTHS",
         "description":" Adjust widths of string variables across files",
+        "pushed_at":"2015-06-19T16:04:40Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -343,6 +377,7 @@
     {
         "repository":"STATS_CANCORR",
         "description":" Calculate canonical correlations",
+        "pushed_at":"2015-06-19T16:05:03Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -353,6 +388,7 @@
     {
         "repository":"STATS_CARTPROD",
         "description":" Compute the Cartesian product of two sets of variables",
+        "pushed_at":"2015-06-19T16:05:14Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -363,6 +399,7 @@
     {
         "repository":"STATS_CATEGORY_ORDER",
         "description":" Create a macro or multiple dichotomy set with a specified var",
+        "pushed_at":"2015-06-22T14:28:35Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -373,6 +410,7 @@
     {
         "repository":"STATS_CLUS_SIL",
         "description":" compute silhouette measure for cluster analysis",
+        "pushed_at":"2015-06-22T14:49:31Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -383,6 +421,7 @@
     {
         "repository":"STATS_COMPRISK",
         "description":" Competing risk survival regression",
+        "pushed_at":"2015-06-22T14:29:09Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -393,6 +432,7 @@
     {
         "repository":"STATS_COXREGR",
         "description":" Cox (proportional hazards) regression",
+        "pushed_at":"2015-06-22T14:29:29Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -403,6 +443,7 @@
     {
         "repository":"STATS_DATA_DATE",
         "description":" Define date structure based on dataset values",
+        "pushed_at":"2015-06-22T14:29:41Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -413,6 +454,7 @@
     {
         "repository":"STATS_DATASET",
         "description":" Combine several DATASET commands into one",
+        "pushed_at":"2015-06-22T14:50:59Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -423,6 +465,7 @@
     {
         "repository":"STATS_DBPRED",
         "description":" Prediction based on density-based clustering",
+        "pushed_at":"2015-06-23T18:03:52Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -433,6 +476,7 @@
     {
         "repository":"STATS_DBSCAN",
         "description":" Density-based clustering",
+        "pushed_at":"2015-06-23T18:04:12Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -443,6 +487,7 @@
     {
         "repository":"STATS_DISAGG",
         "description":" Disaggregate a time series into a series at a higher frequency",
+        "pushed_at":"2015-06-23T18:04:47Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -453,6 +498,7 @@
     {
         "repository":"STATS_DISTFIT",
         "description":" Fit probability distributions",
+        "pushed_at":"2015-06-24T14:26:08Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -463,6 +509,7 @@
     {
         "repository":"STATS_EQNSYSTEM",
         "description":" Estimate system of linear equations",
+        "pushed_at":"2015-06-24T14:26:23Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",

@@ -147,6 +147,21 @@
 	first_load_img = true;
 	
     $(function($, undefined){
+	  var reg = /[^0-9]/ig;
+	  function sortByPushedTime(allrepos){
+		var repos = allrepos;
+		for(var i=0; i<repos.length; i++){
+		  for(var j=repos.length-1; j>i; j--){
+			if (parseInt(repos[j].pushed_at.replace(reg,"")) > parseInt(repos[j-1].pushed_at.replace(reg,""))) {
+			  temp = repos[j-1];
+			  repos[j-1] = repos[j];
+			  repos[j] = temp;
+			}
+		  }
+		}
+		return repos;
+	  }
+	  
 	  function adjustBannerPos(){
 		var navbar_h = $(".navbar").height();
 		$(".main-field").css("margin-top", navbar_h);
@@ -438,6 +453,7 @@
 			  });
 			  
 			  allrepos = sortByPromotion(allrepos);
+			  allrepos = sortByPushedTime(allrepos);
 			  addAllRepos(allrepos);
 			  first_load_img = false;
 			}

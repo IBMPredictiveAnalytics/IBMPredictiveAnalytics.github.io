@@ -406,7 +406,7 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 220px;
+		max-width: 240px;
 	}
 }
 
