@@ -157,7 +157,8 @@
 		var allrepos_w = parseFloat($("#allrepos").css("width"));
 		var card_num = parseFloat(Math.floor(allrepos_w/card_w));
 		var padding = (allrepos_w - card_w*card_num - 2*(card_num-1))/2;
-		console.log(padding);
+		alert("container"+$(".container").css("width"));
+		alert("allrepos"+$("#allrepos").css("width"));
 		return padding || 0;
 	  }
 	  
