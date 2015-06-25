@@ -155,10 +155,9 @@
 	  function getAllReposPadding(){
 		var card_w = parseFloat($(".card").css("width"));
 		var allrepos_w = parseFloat($("#allrepos").css("width"));
+		var container_w = parseFloat($(".container").css("width"));
 		var card_num = parseFloat(Math.floor(allrepos_w/card_w));
-		var padding = (allrepos_w - card_w*card_num - 2*(card_num-1))/2;
-		alert("container"+$(".container").css("width"));
-		alert("allrepos"+$("#allrepos").css("width"));
+		var padding = ((allrepos_w<container_w?allrepos_w:container_w) - card_w*card_num - 2*(card_num-1))/2;
 		return padding || 0;
 	  }
 	  
@@ -310,6 +309,7 @@
 			setFooterPos();
 			adjustBannerPos();
 			adjustReposFieldPos();
+			alert($(".card").css("width"));
 		  });
 		}
 		else{
@@ -318,6 +318,7 @@
 		  setFooterPos();
 		  adjustBannerPos();
 		  adjustReposFieldPos();
+		  alert($(".card").css("width"));
 		}
 	  }
 	  
