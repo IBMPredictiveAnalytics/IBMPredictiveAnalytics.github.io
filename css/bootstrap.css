@@ -1608,7 +1608,7 @@ pre code {
     }
   }
 }
-
+/*for ie*/
 <!--[if IE]>
 @media (min-width: 768px) {
   .container {
@@ -1629,7 +1629,7 @@ pre code {
 
 @media (min-width: 1366px) {
   .container {
-    width: 1100px;/*1170*/
+    width: 1050px;/*1170*/
   }
 }
 <![endif]-->
