@@ -1584,30 +1584,29 @@ pre code {
 }
 
 /*for moz*/
-@-moz-document url-prefix(){
-  @media (min-width: 768px) {
-    .container {
-      width: 600px;/*750*/
-    }
-  }
-  @media (min-width: 992px){
-    .container {
-      width: 780px;/*970*/
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      width: 1000px;/*1170*/
-    }
-  }
-  
-  @media (min-width: 1366px) {
-    .container {
-      width: 1100px;/*1170*/
-    }
+@media (min-width: 768px) {
+  .container {
+    width: 600px;/*750*/
   }
 }
+@media (min-width: 992px){
+  .container {
+    width: 780px;/*970*/
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;/*1170*/
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    width: 1100px;/*1170*/
+  }
+}
+
 /*for ie*/
 <!--[if IE]>
 @media (min-width: 768px) {
