@@ -1607,6 +1607,13 @@ pre code {
   }
 }
 
+/*IE 9,10,11*/
+@media screen and (min-width:0\0){
+  .container {
+    width: 900px;/*1170*/
+  }
+}
+
 /*for webkit*/
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
   .container {
