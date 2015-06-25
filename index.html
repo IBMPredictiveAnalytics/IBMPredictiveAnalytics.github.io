@@ -451,9 +451,9 @@
 			  $.each(allrepos, function (i, repo) {//repo is ith item in repos
 				repo.isShown = true;
 			  });
-			  
-			  allrepos = sortByPromotion(allrepos);
 			  allrepos = sortByPushedTime(allrepos);
+			  allrepos = sortByPromotion(allrepos);
+			  
 			  addAllRepos(allrepos);
 			  first_load_img = false;
 			}
