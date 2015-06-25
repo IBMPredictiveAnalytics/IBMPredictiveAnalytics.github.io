@@ -1597,32 +1597,12 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;/*1170*/
-  }
-}
-
-@media (min-width: 1366px) {
-  .container {
-    width: 1100px;/*1170*/
-  }
-}
-
-/*for ie*/
-<!--[if gte IE 7]>
-@media (min-width: 768px) {
-  .container {
-    width: 600px;/*750*/
-  }
-}
-@media (min-width: 992px){
-  .container {
-    width: 780px;/*970*/
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
     width: 900px;/*1170*/
+  }
+  @-moz-document url-prefix(){
+    .container {
+      width: 1000px;/*1170*/
+    }
   }
 }
 
@@ -1630,8 +1610,12 @@ pre code {
   .container {
     width: 1050px;/*1170*/
   }
+  @-moz-document url-prefix(){
+    .container {
+      width: 1100px;/*1170*/
+    }
+  }
 }
-<![endif]-->
 
 /*for webkit*/
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
