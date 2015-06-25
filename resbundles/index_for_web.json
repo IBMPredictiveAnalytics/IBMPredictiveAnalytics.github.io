@@ -1,93 +1,6 @@
 {
 "repository_index":[
-    {
-        "repository":"Plot-Geospatial-Data",
-        "description":"Plot data containing Latitude and Longitude on an interactive map.",
-        "pushed_at":"2015-06-24T02:31:27Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Geospatial",
-        "promotion":"No"
-    },
-    {
-        "repository":"Model-Random-Forest",
-        "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
-        "pushed_at":"2015-06-16T19:15:38Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"Multicolor-Plot",
-        "description":"Plot different intervals of a same curve in various colors.",
-        "pushed_at":"2015-06-16T17:26:39Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Visualization ",
-        "promotion":"No"
-    },
-    {
-        "repository":"Great-Circle-Distance",
-        "description":"Compute the shortest distance distance between two points on the surface of the Earth",
-        "pushed_at":"2015-06-16T17:32:26Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Geospatial ",
-        "promotion":"No"
-    },
-    {
-        "repository":"Plot-Heatmaps",
-        "description":"Plot spatial data on a density heatmap in SPSS Modeler",
-        "pushed_at":"2015-06-16T17:53:45Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Geospatial",
-        "promotion":"No"
-    },
-    {
-        "repository":"Plot-Bubbles-Map",
-        "description":"Plot an interactive Bubble Map",
-        "pushed_at":"2015-06-17T02:25:38Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Geospatial",
-        "promotion":"No"
-    },
-    {
-        "repository":"Present-Value",
-        "description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
-        "pushed_at":"2015-06-16T17:51:51Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Utility",
-        "promotion":"No"
-    },
-    {
-        "repository":"IsHoliday",
-        "description":"Enrich your date data with holiday calendars from different countries",
-        "pushed_at":"2015-06-16T19:21:11Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Utility",
-        "promotion":"No"
-    },
+   
     {
         "repository":"SPSSINC_CENSOR_TABLES",
         "description":" Censor cells of a pivot table based on the values of a tests",
@@ -515,6 +428,94 @@
         "software":"SPSS Statistics",
         "language":" R",
         "category":"Analysis",
+        "promotion":"No"
+    },
+     {
+        "repository":"Plot-Geospatial-Data",
+        "description":"Plot data containing Latitude and Longitude on an interactive map.",
+        "pushed_at":"2015-06-24T02:31:27Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Model-Random-Forest",
+        "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
+        "pushed_at":"2015-06-16T19:15:38Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"Multicolor-Plot",
+        "description":"Plot different intervals of a same curve in various colors.",
+        "pushed_at":"2015-06-16T17:26:39Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Visualization ",
+        "promotion":"No"
+    },
+    {
+        "repository":"Great-Circle-Distance",
+        "description":"Compute the shortest distance distance between two points on the surface of the Earth",
+        "pushed_at":"2015-06-16T17:32:26Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial ",
+        "promotion":"No"
+    },
+    {
+        "repository":"Plot-Heatmaps",
+        "description":"Plot spatial data on a density heatmap in SPSS Modeler",
+        "pushed_at":"2015-06-16T17:53:45Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Plot-Bubbles-Map",
+        "description":"Plot an interactive Bubble Map",
+        "pushed_at":"2015-06-17T02:25:38Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Present-Value",
+        "description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
+        "pushed_at":"2015-06-16T17:51:51Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"IsHoliday",
+        "description":"Enrich your date data with holiday calendars from different countries",
+        "pushed_at":"2015-06-16T19:21:11Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
         "promotion":"No"
     }
 ]
