@@ -1583,7 +1583,33 @@ pre code {
   margin-left: auto;
 }
 
-/*for moz and IE 11*/
+/*for moz*/
+@-moz-document url-prefix(){
+  @media (min-width: 768px) {
+    .container {
+      width: 600px;/*750*/
+    }
+  }
+  @media (min-width: 992px){
+    .container {
+      width: 780px;/*970*/
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1000px;/*1170*/
+    }
+  }
+  
+  @media (min-width: 1366px) {
+    .container {
+      width: 1100px;/*1170*/
+    }
+  }
+}
+
+<!--[if IE]>
 @media (min-width: 768px) {
   .container {
     width: 600px;/*750*/
@@ -1597,20 +1623,13 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;/*1170*/
+    width: 900px;/*1170*/
   }
 }
 
 @media (min-width: 1366px) {
   .container {
     width: 1100px;/*1170*/
-  }
-}
-
-<!--[if IE]>
-@media (min-width: 1200px) {
-  .container {
-    width: 900px;/*1170*/
   }
 }
 <![endif]-->
