@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!DOCTYPE html> 
 <html lang="en">
   <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -13,6 +13,10 @@
 	<link id='pnext-css' href='./css/common.css' rel='stylesheet' type='text/css' media='screen' />
 	<link id='pnext-css' href='./css/ibm-style.css' rel='stylesheet' type='text/css' media='screen' />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- DataTables CSS -->
+	<link rel="stylesheet" type="text/css" href="./datatable/css/jquery.dataTables.css">
+	
   </head>
   
   <body>
@@ -101,7 +105,7 @@
 	  <div class="repos-field">
 		<div class="jumbotron">
 			<div id="repos-title" style="padding-left: auto;padding-right: auto">
-			  <h1 id="fff" style="margin-left: auto;margin-right: auto">
+			  <h1 style="margin-left: auto;margin-right: auto">
 				IBM <span style="font-weight:600; color:#00aed1">SPSS</span> Predictive Analytics Gallery
 			  </h1>
 			</div>
@@ -110,7 +114,19 @@
 		  <div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
 			  <div id="wrapper">
-				<input id="search" class="pn-search-input" placeholder="Search Our Repos ..." style='background-image:url("https://developer.ibm.com/predictiveanalytics/wp-content/themes/projectnext/css/searchicon.png");background-repeat: no-repeat;background-position:200px;'>
+				<input id="search" class="pn-search-input" placeholder="Search Our Repos ..." style='background-image:url("https://developer.ibm.com/predictiveanalytics/wp-content/themes/projectnext/css/searchicon.png");background-repeat: no-repeat;background-position:16rem;'>
+				<div id="view-selector">
+				  <div id="grid-view" style="margin-bottom: 0;margin-top: 0;display: inline">
+					<button class="btn btn-default" type="button"  aria-expanded="true" style="background-color:#D8D8D8">
+					<i  class="fa fa-th-large"></i>
+					</button>
+				  </div>
+				  <div id="list-view" style="margin-bottom: 0;margin-top: 0;display: inline">
+					<button class="btn btn-default" type="button"  aria-expanded="true">
+					<i class="fa fa-th-list"></i>
+					</button>
+				  </div>
+				</div>
 				<hr class="hr-style">
 			  </div>
 			</div>
@@ -124,31 +140,33 @@
 		<p>© IBM 2015</p>
 	  </div>
 	</div>
-	<!--<footer>
-	  <div class="container">
-		<p>© IBM 2015</p>
-	  </div>
-	</footer>-->
-	<!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/strftime.js"></script>
     <script type="text/javascript" src="orgs.js"></script>
 	<script type="text/javascript" src="sidebar_info.js"></script>
-    <script type="text/javascript">
-	
+	<script type="text/javascript" language="javascript" src="./datatable/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="./datatable/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="./js/jquery.ba-resize.js"></script>
+	<script type="text/javascript" language="javascript">
+	  	
     allrepos = [];
 	img_name = "default.png";
-	first_load_img = true;
+	isGridView = true;
 	
-    $(function($, undefined){
-	  var reg = /[^0-9]/ig;
+    $(document).ready(function() {
+	  //set search-box pos
+	  function setSearchBoxPos(){
+		var view_selector_mr = parseFloat($("#view-selector").css("margin-right"));
+		var search_box_ml = parseFloat($("#search").css("margin-left"));
+		$("#search").css("margin-left",(view_selector_mr*2)+search_box_ml);
+	  }
+	  
+	  //sort the repos by pushed time
 	  function sortByPushedTime(allrepos){
+		var reg = /[^0-9]/ig;
 		var repos = allrepos;
 		for(var i=0; i<repos.length; i++){
 		  for(var j=repos.length-1; j>i; j--){
@@ -230,12 +248,51 @@
 		return icon_name;
 	  }
 	  
-	  function addAllRepos(allrepos)
-      {
-		$("#allrepos").empty();
-		var has_filtered_repo = false;
+	  function addColNameForTable(){
+		var $software_col = $("<th>").attr("id", "software-col").text("Software");
+		var $name_col = $("<th>").attr("id", "name-col").text("Name");
+		var $desc_col = $("<th>").attr("id", "desc-col").text("Description");
+		var $cate_col = $("<th>").attr("id", "cate-col").text("Category");
+		var $lang_col = $("<th>").attr("id", "lang-col").text("Language");
+		var $repo_link_col = $("<th>").attr("id", "repo-link-col").text("Github Link");
+		var $pushed_time = $("<th>").attr("id", "time-col").text("Time");
+		return ($("<tr>").addClass("table_title").append($software_col).append($name_col).append($desc_col).append($cate_col).append($lang_col).append($repo_link_col).append($pushed_time));
+	  }
+	  
+	  function createReposLink(repo_name, repo_id){
+		var repos_url = "https://github.com/IBMPredictiveAnalytics/"+repo_name;
+		  var $repos_link =  $("<input>").attr("type", "button").attr("id", repo_id).attr("onclick","window.open('"+repos_url+"')").attr("value","Go to Repository");
+		  $repos_link.mouseover(function(){
+			$(this).css("background-color", "#BDBDBD");
+		  });
+		  $repos_link.mouseout(function(){
+			$(this).css("background-color", "#D8D8D8");
+		  });
+		  return $repos_link;
+	  }
+	  
+	  function addListRepos(allrepos)
+	  {
+		var searching_word = arguments[1] || "";
+		$("#list_repos").empty();
+		if ($.fn.dataTable.isDataTable($("#example"))) {
+		  $("#example").destroy();
+		}
+		var $repos_table = $("<table>").attr("id","example").addClass("display").addClass("repos_table").appendTo("#list_repos");
 		
+		//table head
+		var $table_head = $("<thead>").addClass("table-head").appendTo($repos_table);
+		var $head_name_tr = addColNameForTable();
+		$head_name_tr.appendTo($table_head);
 		
+		//table foot
+		var $table_foot = $("<tfoot>").addClass("table-foot").appendTo($repos_table);
+		var $foot_name_tr = addColNameForTable();
+		$foot_name_tr.appendTo($table_foot);
+		$(".table_title th").attr("rowspan",'1').attr("colspan",'1').attr("style","width:auto;font-size:14px");
+		
+		//table body
+		var $table_body = $("<tbody>").addClass("table-body").appendTo($repos_table);
 		for (i=0; i < allrepos.length; i++)
 		{
 		  repo = allrepos[i];
@@ -243,8 +300,63 @@
 		  if (repo.isShown == false) {
 			  continue;
 		  }
+		  if (searching_word!="") {
+			var val = $.trim(searching_word).replace(/ +/g, ' ').toLowerCase();
+			var isContainSearchingWord = (~repo.software.toLowerCase().indexOf(val)) || (~repo.repository.toLowerCase().indexOf(val))
+									  || (~repo.description.toLowerCase().indexOf(val)) || (~repo.category.toLowerCase().indexOf(val))
+									  || (~repo.language.toLowerCase().indexOf(val));
+			if(!isContainSearchingWord) {
+			  continue;
+			}
+		  }
+		  var $software_item = $("<td>").attr("id", "software-item").text(repo.software);
+		  var $name_item = $("<td>").attr("id", "name-item").text(repo.repository);
+		  var $desc_item = $("<td>").attr("id", "desc-item").text(repo.description);
+		  var $cate_item = $("<td>").attr("id", "cate-item").text(repo.category);
+		  var $lang_item = $("<td>").attr("id", "lang-item").text(repo.language);
+		  var $repo_link_item = $("<td>").attr("id", "repo-link-item");
+		  var $repos_link = createReposLink(repo.repository, "repo-link-for-table")
+
+		  $repos_link.appendTo($repo_link_item);
+		  var $pushed_time = $("<td>").attr("id", "time-col").text(repo.pushed_at);
+		  $("<tr>").attr("role","row").addClass("table_row").append($software_item).append($name_item).append($desc_item).append($cate_item).append($lang_item).append($repo_link_item).append($pushed_time).appendTo($table_body);
+		}
+				
+		$('#example').DataTable( {
+			"searching": false,
+			"columnDefs": [
+			  {
+				  "targets": [ 6 ],
+				  "visible": false,
+				  "searchable": false
+			  },
+			  {
+				  "targets": [ 5 ],
+				  "orderable": false
+			  }
+			],
+			"aaSorting": [
+			  [ 6, "desc" ]
+			],
+			"aLengthMenu": [[10,20,30,-1], ["10","20","30","all"]]
+		});
+		setFooterPos();
+		$("#list_repos").find('table').resize(function(){
+		  setFooterPos();
+		});
+	  }
+	  
+	  function addAllRepos(allrepos_info)
+      {
+		$("#allrepos").empty();		
+		for (i=0; i < allrepos_info.length; i++)
+		{
+		  repo = allrepos_info[i];
 		  
-		  has_filtered_repo = true;
+		  if (repo.isShown == false) {
+			  continue;
+		  }
+		  
 		  var $item = $("<div>").addClass("card pin col-lg-3 col-md-4"+ (repo.language || '').toLowerCase()+ " "+repo.repository.toLowerCase()).appendTo("#allrepos");
 		  var $top_layer = $("<div>").attr("id", "top-layer").appendTo($item);
 		  
@@ -259,8 +371,9 @@
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
 		  var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
 		  
+		  //description length should not exceed 150 characters; otherwise there will be a tool tip poping up when mouse being over it
 		  var desc_tip = repo.description;
-		  var max_desc_leng = 150;
+		  var max_desc_leng = 150; 
 		  if (repo.description.length>max_desc_leng) {
 			desc_tip = '';
 			for(var leng=max_desc_leng;leng>=0;leng--){
@@ -290,21 +403,9 @@
 			$("<div>").addClass("repos-tag").attr("id", "repos-category").text($.trim(cate_list[cate_index])).appendTo($repos_cate);
 		  }
 		  $("<div>").attr("style","clear:both").appendTo($repos_cate);
-		  
-		  var repos_url = "https://github.com/IBMPredictiveAnalytics/"+repo.repository;
-		  var $repos_link =  $("<input>").attr("type", "button").attr("id", "repos-link").attr("onclick","window.open('"+repos_url+"')").attr("value","Go to Repository");
-		  $repos_link.mouseover(function(){
-			$(this).css("background-color", "#BDBDBD");
-		  });
-		  $repos_link.mouseout(function(){
-			$(this).css("background-color", "#D8D8D8");
-		  });
+
+		  var $repos_link = createReposLink(repo.repository, "repos-link");
 		  $repos_link.appendTo($item)
-		}
-		
-		if(!has_filtered_repo) {
-		  var $no_repo_msg = $("<span>").text("No items found. Please change the filter on the sidebar.");
-		  $("<div>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#allrepos");
 		}
 		
 		//to deal that the text of repos-tag in moz is not at vertical center
@@ -318,22 +419,13 @@
 			$("#allrepos div[id='repos-category']").css("padding-top","2px");
 		}
 		
-		if (first_load_img) {
-		  $(window).load(function(){
-			setReposHeight();
-			setReposWidth()
-			setFooterPos();
-			adjustBannerPos();
-			adjustReposFieldPos();
-		  });
-		}
-		else{
+		adjustReposFieldPos();
+		setFooterPos();
+		adjustBannerPos();
+		$(window).load(function(){
 		  setReposHeight();
-		  setReposWidth()
-		  setFooterPos();
-		  adjustBannerPos();
-		  adjustReposFieldPos();
-		}
+		  setReposWidth();
+		});
 	  }
 	  
 	  $(window).resize(function () {
@@ -368,6 +460,17 @@
 		}); 
 	  } 
 	  
+	//  function triggerAltingTablePage(){
+	//	$("#example_paginate").delegate("a", "click",function(){
+	//	  console.log("click button");
+	//	  var paginate_button_num = parseInt($("a[class*='paginate_button']").length) - 2;//exclude previous and next button
+	//	  var cur_index = parseInt($(this).attr("data-dt-idx"));
+	//	  console.log("cur index"+cur_index);
+	//	  adjustSidebarPos();
+	//	  console.log("in trigger");
+	//	});
+	//  }
+	  
 	  function setFooterPos(){
 		var sidebar_h = $(".leftsidebar-box").height();
 		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
@@ -382,18 +485,8 @@
 		}
 		
 		$("#footer").css("margin-left", "16%");
-		//var sidebar_w = $(".leftsidebar-box").width();
-		//var repos_field_w = $(".repos-field").width();
-		//var footer_w = $("#footer").width();
-		//$("#footer").css("margin-left","500px");
-		//$("#footer").css("background-color", "blue");
-		//var margin_left = (repos_field_w-footer_w)/2+sidebar_w;
-		////var margin_right = (repos_field_w-footer_w)/2;
-		//console.log(sidebar_w);
-		//console.log(repos_field_w);
-		//$("#footer").css("margin-left", margin_left);
-		////$("#footer").css("margin-right", margin_right)
 	  }
+	  
 	  function getMaxWidth(id){
 		var max_width = parseFloat($("#allrepos div[id='"+id+"']:eq(0)").css("width"));
 		for(var i=0;i<$("#allrepos div[id='"+id+"']").length;i++){
@@ -451,28 +544,38 @@
 			  $.each(allrepos, function (i, repo) {//repo is ith item in repos
 				repo.isShown = true;
 			  });
+			  
+			  //two sorting principle:
+			  //1. by pused time; 2. by promotion 
 			  allrepos = sortByPushedTime(allrepos);
 			  allrepos = sortByPromotion(allrepos);
 			  
 			  addAllRepos(allrepos);
-			  first_load_img = false;
+			  addListRepos(allrepos);
+			  $("#list_repos").hide();
 			}
-		  
+			
 			var side_bar_checkbox_state = {};
 			createSideBar(side_bar_checkbox_state);
 			filterCheckbox(allrepos,side_bar_checkbox_state);
+						
+			$("#grid-view button").click(function(){
+			  isGridView = true;
+			  $("#list-view button").css("background-color","white");
+			  $("#grid-view button").css("background-color","#D8D8D8");
+			  $("#list_repos").hide();
+			  $("#allrepos").show();
+			  
+			});
+			$("#list-view button").click(function(){
+			  isGridView = false;
+			  $("#list-view button").css("background-color","#D8D8D8");
+			  $("#grid-view button").css("background-color","white");
+			  $("#allrepos").hide();
+			  $("#list_repos").show();
+			});
 		});
 	  }
-	  
-	  //Create Repository Field
-	  var $item = $("<div id='allrepos'>").addClass("#allrepos").appendTo("#wrapper");
-	  
-	  //orgs has been defined in orgs.js
-	  for (var r in orgs)
-      {
-		addRepos(orgs[r]);
-	  }	  
-	  $("<div>").addClass("separator").appendTo("#wrapper");
 	  
 	  //Create side-bar menu
 	  //the check state of each checkbox is saved in side_bar_checkbox_state
@@ -529,6 +632,14 @@
 		}
 	  }
 	  
+	  function getLowerCaseArray(array){
+		var lowerCaseArray = [];
+		for(index in array){
+		  lowerCaseArray.push(array[index].toLowerCase());
+		}
+		return lowerCaseArray;
+	  }
+	  
 	  //sidebar checkbox filter function
 	  function filterCheckbox(allrepos_info, side_bar_checkbox_state){
 		$(".leftsidebar-box").delegate("input", "click", function(){
@@ -551,15 +662,8 @@
 			else{
 			  setAllReposIsShown(allrepos_info,false);
 			  
-			  $.each(side_bar_checkbox_state, function(key, item){
-				  if ($.inArray(item.sub_menu_name, ZeroCheckedMenuList)>=0) {
-					  return true;
-				  }
-				  
-			  });
-			  
 			  var is_repo_shown = true;
-			  $.each(allrepos, function(repo_key, repo){
+			  $.each(allrepos_info, function(repo_key, repo){
 				  is_repo_shown = true;
 			  	  var is_repo_checked = false;
 				  
@@ -583,7 +687,7 @@
 							item_list[item_index] = $.trim(item_list[item_index]);
 						  }
 						  
-						  if ($.inArray(checked_item, item_list)>=0) {
+						  if ($.inArray(checked_item.toLowerCase(), getLowerCaseArray(item_list))>=0) {
 							is_repo_checked  = true;
 							return false;
 						  }
@@ -601,7 +705,25 @@
 				  }
 			  });
 			}
-			addAllRepos(allrepos_info);
+			
+			var hasResult = false;
+			$.each(allrepos_info, function(repo_key, repo_item){
+			  if (repo_item["isShown"] == true) {
+				$("#allrepos div[class*='card']:eq("+repo_key+")").show();
+				hasResult = true;
+			  }
+			  else{
+				$("#allrepos div[class*='card']:eq("+repo_key+")").hide();
+			  }
+			});
+			
+			if (!hasResult && isGridView) {
+			  $("#no_repo_msg_div").show();
+			}
+			else{
+			  $("#no_repo_msg_div").hide();
+			}
+			addListRepos(allrepos_info);
 		});
 	  }
 	  
@@ -648,13 +770,13 @@
 		  return ZeroCheckedMenuList;
 	  }	  
 	  
-	  $(window).scroll(function(){		
+	  function adjustSidebarPos() {
 		var sidebar_h = $(".leftsidebar-box").height();
 		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
 		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
 		var repos_field_h = parseFloat($(".repos-field").css("height"));
 		$(".leftsidebar-box").css("height", sidebar_h);
-		
+
 		if (sidebar_h<repos_field_h && sidebar_h>screen_h && (sidebar_h-screen_h)<=scroll_top) {
 			$(".leftsidebar-box").css("position", "fixed");
 			$(".leftsidebar-box").css("bottom", "0");
@@ -664,81 +786,104 @@
 		else{
 		  $(".leftsidebar-box").css("position", "static");
 		}
+	  }
+	  
+	  $(window).scroll(function(){		
+		adjustSidebarPos();
 	  });
+	  
+	  $('#search').keyup(function() {
+		var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+		if (isGridView) {
+		  $rows = $(".card")
+		  $rows.show().filter(function() {
+			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+			return !~text.indexOf(val);
+		  }).hide();
+		}else{
+		  addListRepos(allrepos, val);
+		}
+	  
+  
+		// ---------------------------------
+		// Google Analytics Event Tracking
+		// 
+		// 
+		// usage: add the following attributes to links you want to track:
+		//   data-analytics-category=""    REQUIRED  String   Typically the object that was interacted with (e.g. button)
+		//   data-analytics-action=""      REQUIRED  String   The type of interaction (e.g. click)
+		//   data-analytics-label=""       OPTIONAL  String   Useful for categorizing events (e.g. nav buttons)
+		//   data-analytics-value=""       OPTIONAL  Integer  Values must be non-negative. Useful to pass counts (e.g. 4 times)
+		//
+		// Those are the suggested usages, but you can use the attributes how you want
+		// see https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more details
+		// 
+		// EXAMPLE:
+		// <a href="http://ibm.com" data-analytics-category="Leadspace button" data-analytics-action="To ibm.com">Off you go!</a>
+		// ---------------------------------
+		
+		$('body').on('click', 'a[data-analytics-category][data-analytics-action]', function(e){
+	
+		  // No analytics? Bail.
+		  if ( ! window.ga )
+			return;
+		  
+		  // for links to external sources, we need a tiny delay to have a little extra time to send to Google's servers before unload
+		  // 200ms is about right for enough time
+		  if (this.hostname && this.hostname !== location.hostname) {
+			// Stop the link action
+			e.preventDefault();
+			
+			// setTimeout callback is called in the window scope, so cache the url from the link now
+			var url = this.href;
+			
+			// in 200ms, off you go
+			setTimeout(function(){
+			  document.location = url;        
+			},200);
+		  }
+		  
+		  var $el = $(this),
+			  data = {'hitType': 'event'}; // make a new data object 
+			  
+		  // category (required string)
+		  data['eventCategory'] =  $el.attr('data-analytics-category');
+		  
+		  // action (required string)
+		  data['eventAction'] = $el.attr('data-analytics-action');
+		  
+		  // label (optional string)
+		  if ( $el.attr('data-analytics-label') )
+			data['eventLabel'] = $el.attr('data-analytics-label');
+	
+		  // value (optional int)
+		  if ( $el.attr('data-analytics-value') )
+			data['eventValue'] = parseInt( $el.attr('data-analytics-value') );
+	
+		  // send the data
+		  ga('send', data);
+		  
+		});
+  
+	  });  
+	  
+	  //function is executed from this line
+	  //Create Repository Field
+	  
+	  var $grid_item = $("<div id='allrepos'>").attr("display", "block").appendTo("#wrapper");        //grid view
+	  var $list_item = $("<div id='list_repos'>").attr("display", "block").appendTo("#wrapper");      //list view
+	  var $no_repo_msg = $("<span>").text("No items found. Please change the filter on the sidebar.");
+	  $("<div id='no_repo_msg_div'>").attr("style","text-align:center;font-style: italic;font-size:16px;").append($no_repo_msg).appendTo("#wrapper").hide();
+	  $list_item.hide();	  
+	  //orgs has been defined in orgs.js
+	  for (var r in orgs)
+      {
+		addRepos(orgs[r]);
+	  }
+	  setSearchBoxPos();
+	  $("<div>").addClass("separator").appendTo("#wrapper");
 	});(jQuery)
 
-	
-	
-	$('#search').keyup(function() {
-	  var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
-	  $rows = $(".card")
-	  $rows.show().filter(function() {
-		var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-		return !~text.indexOf(val);
-	  }).hide();
-    
-
-    // ---------------------------------
-    // Google Analytics Event Tracking
-    // 
-    // 
-    // usage: add the following attributes to links you want to track:
-    //   data-analytics-category=""    REQUIRED  String   Typically the object that was interacted with (e.g. button)
-    //   data-analytics-action=""      REQUIRED  String   The type of interaction (e.g. click)
-    //   data-analytics-label=""       OPTIONAL  String   Useful for categorizing events (e.g. nav buttons)
-    //   data-analytics-value=""       OPTIONAL  Integer  Values must be non-negative. Useful to pass counts (e.g. 4 times)
-    //
-    // Those are the suggested usages, but you can use the attributes how you want
-    // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more details
-    // 
-    // EXAMPLE:
-    // <a href="http://ibm.com" data-analytics-category="Leadspace button" data-analytics-action="To ibm.com">Off you go!</a>
-    // ---------------------------------
-    
-    $('body').on('click', 'a[data-analytics-category][data-analytics-action]', function(e){
-
-      // No analytics? Bail.
-      if ( ! window.ga )
-        return;
-      
-      // for links to external sources, we need a tiny delay to have a little extra time to send to Google's servers before unload
-      // 200ms is about right for enough time
-      if (this.hostname && this.hostname !== location.hostname) {
-        // Stop the link action
-        e.preventDefault();
-        
-        // setTimeout callback is called in the window scope, so cache the url from the link now
-        var url = this.href;
-        
-        // in 200ms, off you go
-        setTimeout(function(){
-          document.location = url;        
-        },200);
-      }
-      
-      var $el = $(this),
-          data = {'hitType': 'event'}; // make a new data object 
-          
-      // category (required string)
-      data['eventCategory'] =  $el.attr('data-analytics-category');
-      
-      // action (required string)
-      data['eventAction'] = $el.attr('data-analytics-action');
-      
-      // label (optional string)
-      if ( $el.attr('data-analytics-label') )
-        data['eventLabel'] = $el.attr('data-analytics-label');
-
-      // value (optional int)
-      if ( $el.attr('data-analytics-value') )
-        data['eventValue'] = parseInt( $el.attr('data-analytics-value') );
-
-      // send the data
-      ga('send', data);
-      
-    });
-
-});
 	</script>
   </body>
 </html>
