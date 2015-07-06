@@ -567,14 +567,7 @@
 			var side_bar_checkbox_state = {};
 			createSideBar(side_bar_checkbox_state);
 			filterCheckbox(allrepos,side_bar_checkbox_state);
-			var i=0;
-			$.each(allrepos, function(key,value){
-			  if (value.isShown == true) {
-				i++;
-			  }
-			  });
-			console.log("showing num:"+i);
-						
+			
 			$("#grid-view button").click(function(){
 			  isGridView = true;
 			  $("#list-view button").css("background-color","white");
