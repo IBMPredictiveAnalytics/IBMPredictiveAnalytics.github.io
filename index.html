@@ -534,6 +534,15 @@
 		return str;
 	  }
 	  
+	  function getShowingReposNum(){
+		var ShowingNum = 0;
+		$.each(allrepos, function(index, repo){
+		  if (repo.isShown == true) {
+			ShowingNum++;
+		  }
+		});
+		return ShowingNum;
+	  }
 	  
 	  function addRepos(orgs, repos, page) {
 		$.getJSON("./resbundles/index_for_web.json", function(info){
@@ -558,6 +567,13 @@
 			var side_bar_checkbox_state = {};
 			createSideBar(side_bar_checkbox_state);
 			filterCheckbox(allrepos,side_bar_checkbox_state);
+			var i=0;
+			$.each(allrepos, function(key,value){
+			  if (value.isShown == true) {
+				i++;
+			  }
+			  });
+			console.log("showing num:"+i);
 						
 			$("#grid-view button").click(function(){
 			  isGridView = true;
@@ -565,7 +581,9 @@
 			  $("#grid-view button").css("background-color","#D8D8D8");
 			  $("#list_repos").hide();
 			  $("#allrepos").show();
-			  
+			  if (!getShowingReposNum()) {
+				$("#no_repo_msg_div").show();
+			  }
 			});
 			$("#list-view button").click(function(){
 			  isGridView = false;
@@ -573,6 +591,7 @@
 			  $("#grid-view button").css("background-color","white");
 			  $("#allrepos").hide();
 			  $("#list_repos").show();
+			  $("#no_repo_msg_div").hide();
 			});
 		});
 	  }
