@@ -458,18 +458,7 @@
 		}).mouseout(function(){ 
 		  $(div).remove(); 
 		}); 
-	  } 
-	  
-	//  function triggerAltingTablePage(){
-	//	$("#example_paginate").delegate("a", "click",function(){
-	//	  console.log("click button");
-	//	  var paginate_button_num = parseInt($("a[class*='paginate_button']").length) - 2;//exclude previous and next button
-	//	  var cur_index = parseInt($(this).attr("data-dt-idx"));
-	//	  console.log("cur index"+cur_index);
-	//	  adjustSidebarPos();
-	//	  console.log("in trigger");
-	//	});
-	//  }
+	  }
 	  
 	  function setFooterPos(){
 		var sidebar_h = $(".leftsidebar-box").height();
@@ -618,24 +607,7 @@
 		  i += 1;  
 		});	
 	  }
-	  
-	  //side-bar fold
-	//  $(".leftsidebar-box").delegate("dt", "click", function(){
-	//	if ($(this).attr("data-isfolded") == "false") {
-	//	  $(this).parent().children("dd").hide();
-	//	  $(this).attr("data-isfolded", "true");
-	//	  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-down").addClass("fa-chevron-right");
-	//	}
-	//	else if ($(this).attr("data-isfolded") == "true")
-	//	{
-	//	  $(this).parent().children("dd").show();
-	//	  $(this).attr("data-isfolded", "false");
-	//	  $(this).find("[id=arrow-icon]").removeClass("fa-chevron-right").addClass("fa-chevron-down");
-	//	}
-	//	else
-	//	  $(this).parent().children("dd").show();
-	//	  
-	//  });
+
 	  function toggleCheckbox(cur_state){
 		if (cur_state == "true") {
 		  return "false";
@@ -720,11 +692,10 @@
 			
 			var hasResult = false;
 			$.each(allrepos_info, function(repo_key, repo_item){
-			  if (repo_item["isShown"] == true) {
+			  if (repo_item["isShown"] == true){
 				$("#allrepos div[class*='card']:eq("+repo_key+")").show();
 				hasResult = true;
-			  }
-			  else{
+			  }else{
 				$("#allrepos div[class*='card']:eq("+repo_key+")").hide();
 			  }
 			});
