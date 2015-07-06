@@ -154,7 +154,7 @@
 	  	
     allrepos = [];
 	img_name = "default.png";
-	isGridView = true;
+	isGridView = true;//default view type is grid view
 	
     $(document).ready(function() {
 	  //set search-box pos
@@ -164,7 +164,7 @@
 		$("#search").css("margin-left",(view_selector_mr*2)+search_box_ml);
 	  }
 	  
-	  //sort the repos by pushed time
+	  //sort the repos by pushed time as default
 	  function sortByPushedTime(allrepos){
 		var reg = /[^0-9]/ig;
 		var repos = allrepos;
@@ -271,6 +271,7 @@
 		  return $repos_link;
 	  }
 	  
+	  //list view
 	  function addListRepos(allrepos)
 	  {
 		var searching_word = arguments[1] || "";
@@ -324,6 +325,7 @@
 				
 		$('#example').DataTable( {
 			"searching": false,
+			//6th col is pushed_time, it is concealed 
 			"columnDefs": [
 			  {
 				  "targets": [ 6 ],
@@ -335,18 +337,22 @@
 				  "orderable": false
 			  }
 			],
+			//by default, rows in list view are listed by descending sequence of pushed_time
 			"aaSorting": [
 			  [ 6, "desc" ]
 			],
 			"aLengthMenu": [[10,20,30,-1], ["10","20","30","all"]]
 		});
 		setFooterPos();
+		
+		//wehn selecting different page, the table length and the footer pos vary
 		$("#list_repos").find('table').resize(function(){
 		  setFooterPos();
 		});
 	  }
 	  
-	  function addAllRepos(allrepos_info)
+	  //grid view
+	  function addGridRepos(allrepos_info)
       {
 		$("#allrepos").empty();		
 		for (i=0; i < allrepos_info.length; i++)
@@ -548,7 +554,7 @@
 			  allrepos = sortByPushedTime(allrepos);
 			  allrepos = sortByPromotion(allrepos);
 			  
-			  addAllRepos(allrepos);
+			  addGridRepos(allrepos);
 			  addListRepos(allrepos);
 			  $("#list_repos").hide();
 			}
