@@ -70,7 +70,7 @@
   // The numeric interval (in milliseconds) at which the resize event polling
   // loop executes. Defaults to 250.
   
-  jq_resize[ str_delay ] = 250;
+  jq_resize[ str_delay ] = 25;
   
   // Property: jQuery.resize.throttleWindow
   // 
