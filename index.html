@@ -565,7 +565,7 @@
 			
 			$("#grid-view button").click(function(){
 			  isGridView = true;
-			  //$("#search").val('');
+			  $("#search").trigger("keyup");
 			  $("#list-view button").css("background-color","white");
 			  $("#grid-view button").css("background-color","#D8D8D8");
 			  $("#list_repos").hide();
@@ -576,7 +576,7 @@
 			});
 			$("#list-view button").click(function(){
 			  isGridView = false;
-			  //$("#search").val('');
+			  $("#search").trigger("keyup");
 			  $("#list-view button").css("background-color","#D8D8D8");
 			  $("#grid-view button").css("background-color","white");
 			  $("#allrepos").hide();
@@ -635,8 +635,6 @@
 	  //sidebar checkbox filter function
 	  function filterCheckbox(allrepos_info, side_bar_checkbox_state){
 		$(".leftsidebar-box").delegate("input", "click", function(){
-			$("#search").val('');
-		  
 			$(this).attr("state", toggleCheckbox($(this).attr("state")));
 			var cur_checked_state = $(this).attr("state");
 			var filter_key = $(this).attr("key");
@@ -717,6 +715,7 @@
 			  $("#no_repo_msg_div").hide();
 			}
 			addListRepos(allrepos_info);
+			$("#search").trigger("keyup");
 		});
 	  }
 	  
@@ -794,7 +793,8 @@
 		  }).show()
 		  .filter(function(){
 			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-			return !~text.indexOf(val);
+			var hasSearchWord = ~text.indexOf(val);
+			return !hasSearchWord;
 		  }).hide();
 		}else{
 		  addListRepos(allrepos, val);
