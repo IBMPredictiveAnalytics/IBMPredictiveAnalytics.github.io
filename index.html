@@ -796,6 +796,17 @@
 			var hasSearchWord = ~text.indexOf(val);
 			return !hasSearchWord;
 		  }).hide();
+		  
+		  var shownReposNum = 0;
+		  $.each($(".card"), function(repo_index, repo){
+			if($(this).css("display") != "none" && allrepos[repo_index]["isShown"] != false)
+			  shownReposNum++;
+		  });
+		  if(!shownReposNum) {
+			$("#no_repo_msg_div").show();
+		  }else{
+			$("#no_repo_msg_div").hide();
+		  }
 		}else{
 		  addListRepos(allrepos, val);
 		}
