@@ -269,7 +269,7 @@
 		  });
 		  return $repos_link;
 	  }
-	  
+
 	  //list view
 	  function addListRepos(allrepos)
 	  {
@@ -309,6 +309,7 @@
 			  continue;
 			}
 		  }
+		  var container_w = parseFloat($(".container").css("width"));
 		  var $software_item = $("<td>").attr("id", "software-item").text(repo.software);
 		  var $name_item = $("<td>").attr("id", "name-item").text(repo.repository);
 		  var $desc_item = $("<td>").attr("id", "desc-item").text(repo.description);
@@ -784,7 +785,10 @@
 		var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
 		if (isGridView) {
 		  $rows = $(".card")
-		  $rows.show().filter(function() {
+		  $rows.filter(function(){
+			return !($(this).css("display") == "none")
+		  })
+		  .filter(function() {
 			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
 			return !~text.indexOf(val);
 		  }).hide();
@@ -870,7 +874,7 @@
 	  }
 	  setSearchBoxPos();
 	  $("<div>").addClass("separator").appendTo("#wrapper");
-	})(jQuery);
+	});
 
 	</script>
   </body>
