@@ -354,7 +354,7 @@
 	  //grid view
 	  function addGridRepos(allrepos_info)
       {
-		$("#allrepos").empty();		
+		$("#allrepos").empty();
 		for (i=0; i < allrepos_info.length; i++)
 		{
 		  repo = allrepos_info[i];
@@ -565,6 +565,7 @@
 			
 			$("#grid-view button").click(function(){
 			  isGridView = true;
+			  $("#search").val('');
 			  $("#list-view button").css("background-color","white");
 			  $("#grid-view button").css("background-color","#D8D8D8");
 			  $("#list_repos").hide();
@@ -575,6 +576,7 @@
 			});
 			$("#list-view button").click(function(){
 			  isGridView = false;
+			  $("#search").val('');
 			  $("#list-view button").css("background-color","#D8D8D8");
 			  $("#grid-view button").css("background-color","white");
 			  $("#allrepos").hide();
@@ -633,6 +635,8 @@
 	  //sidebar checkbox filter function
 	  function filterCheckbox(allrepos_info, side_bar_checkbox_state){
 		$(".leftsidebar-box").delegate("input", "click", function(){
+			$("#search").val('');
+		  
 			$(this).attr("state", toggleCheckbox($(this).attr("state")));
 			var cur_checked_state = $(this).attr("state");
 			var filter_key = $(this).attr("key");
@@ -784,11 +788,11 @@
 	  $('#search').keyup(function() {
 		var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
 		if (isGridView) {
-		  $rows = $(".card")
-		  $rows.filter(function(){
-			return !($(this).css("display") == "none")
-		  })
-		  .filter(function() {
+		  $(".card").filter(function(){
+			var repo_index = $(".card").index($(this));
+			return (allrepos[repo_index]["isShown"] != false);
+		  }).show()
+		  .filter(function(){
 			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
 			return !~text.indexOf(val);
 		  }).hide();
