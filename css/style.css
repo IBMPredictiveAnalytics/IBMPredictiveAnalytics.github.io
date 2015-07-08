@@ -302,8 +302,6 @@ body
 .navbar
 {
 	height: auto;
-	max-height: 40%;
-	overflow: auto;
 	background: rgb(60,60,60);
 	background: -moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(19,19,19,1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,60,60,1)), color-stop(100%,rgba(19,19,19,1)));
