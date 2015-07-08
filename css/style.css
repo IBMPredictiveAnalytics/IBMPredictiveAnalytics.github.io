@@ -473,12 +473,6 @@ background:url(../imgs/news.jpg) no-repeat;
 	}
 }
 
-@media (min-width: 1150px) {
-	#wrapper .card{
-		max-width: 260px;
-	}
-}
-
 @media (min-width: 1300px) {
 	#wrapper .card{
 		max-width: 280px;
@@ -491,6 +485,13 @@ background:url(../imgs/news.jpg) no-repeat;
 		max-width: 220px;
 	}
 }
+
+@media (min-width: 992px) and (-webkit-min-device-pixel-ratio:0){
+	#wrapper .card{
+		max-width: 240px;
+	}
+}
+
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
 		max-width: 280px;
