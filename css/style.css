@@ -473,6 +473,12 @@ background:url(../imgs/news.jpg) no-repeat;
 	}
 }
 
+@media (min-width: 1150px) {
+	#wrapper .card{
+		max-width: 260px;
+	}
+}
+
 @media (min-width: 1300px) {
 	#wrapper .card{
 		max-width: 280px;
