@@ -202,7 +202,7 @@
 	text-align: center;
 	background-color: #282832;
 	width: 16rem;
-	max-width: 25%;
+	max-width: 22%;
 	height: 100%;
 	padding-top: 0;
 	min-width: 10%;
@@ -467,7 +467,7 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 240px;
+		max-width: 220px;
 	}
 }
 
