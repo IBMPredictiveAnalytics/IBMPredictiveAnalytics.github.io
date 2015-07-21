@@ -1,43 +1,9 @@
 {
 "repository_index":[
-   
-    {
-        "repository":"Publish-to-ArcGIS",
-        "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-        "pushed_at":"2015-07-21T02:59:04Z",
-        "type":"Extension",
-        "provider":"Business Partner",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Geospatial",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_LP",
-        "description":" Solve linear and integer programming problems",
-        "pushed_at":"2015-07-20T16:10:04Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":" Python,R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"Get-Coordinates-Esri",
-        "description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
-        "pushed_at":"2015-07-21T03:19:15Z",
-        "type":"Extension",
-        "provider":"Business Partner",
-        "software":"SPSS Modeler",
-        "language":" R",
-        "category":"Export",
-        "promotion":"No"
-    },
     {
         "repository":"Plot-Geospatial-Data",
         "description":"Plot data containing Latitude and Longitude on an interactive map.",
-        "pushed_at":"2015-06-17T02:31:27Z",
+        "pushed_at":"2015-07-21T03:31:21Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -48,7 +14,7 @@
     {
         "repository":"Model-Random-Forest",
         "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
-        "pushed_at":"2015-06-16T19:15:38Z",
+        "pushed_at":"2015-07-21T03:31:08Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -59,7 +25,7 @@
     {
         "repository":"Multicolor-Plot",
         "description":"Plot different intervals of a same curve in various colors.",
-        "pushed_at":"2015-06-16T17:26:39Z",
+        "pushed_at":"2015-07-21T03:31:13Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -81,7 +47,7 @@
     {
         "repository":"Plot-Heatmaps",
         "description":"Plot spatial data on a density heatmap in SPSS Modeler",
-        "pushed_at":"2015-06-16T17:53:45Z",
+        "pushed_at":"2015-07-21T03:31:29Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -92,7 +58,7 @@
     {
         "repository":"Plot-Bubbles-Map",
         "description":"Plot an interactive Bubble Map",
-        "pushed_at":"2015-06-17T02:25:38Z",
+        "pushed_at":"2015-07-21T03:30:58Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -114,7 +80,7 @@
     {
         "repository":"IsHoliday",
         "description":"Enrich your date data with holiday calendars from different countries",
-        "pushed_at":"2015-06-16T19:21:11Z",
+        "pushed_at":"2015-07-21T03:30:50Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -670,6 +636,39 @@
         "software":"SPSS Statistics",
         "language":" R",
         "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"Publish-to-ArcGIS",
+        "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
+        "pushed_at":"2015-07-21T03:31:59Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_LP",
+        "description":" Solve linear and integer programming problems",
+        "pushed_at":"2015-07-20T16:10:04Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":" Python,R",
+        "category":"Analysis",
+        "promotion":"No"
+    },
+    {
+        "repository":"Get-Coordinates-Esri",
+        "description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
+        "pushed_at":"2015-07-21T03:31:42Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
         "promotion":"No"
     }
 ]
