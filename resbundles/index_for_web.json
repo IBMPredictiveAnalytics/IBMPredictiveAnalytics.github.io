@@ -641,7 +641,18 @@
     {
         "repository":"Publish-to-ArcGIS",
         "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-        "pushed_at":"2015-07-21T03:31:59Z",
+        "pushed_at":"2015-07-21T03:38:47Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Reverse-Geocoding-Esri",
+        "description":"Code a point location (latitude, longitude) to a readable address or place name.",
+        "pushed_at":"2015-07-22T02:21:48Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -663,7 +674,7 @@
     {
         "repository":"Get-Coordinates-Esri",
         "description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
-        "pushed_at":"2015-07-21T03:31:42Z",
+        "pushed_at":"2015-07-21T03:37:25Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
