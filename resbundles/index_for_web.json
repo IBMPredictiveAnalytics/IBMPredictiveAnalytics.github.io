@@ -661,6 +661,17 @@
         "promotion":"No"
     },
     {
+        "repository":"Web-Heatmaps",
+        "description":"Create interactive heatmaps using different Esri Basemaps",
+        "pushed_at":"2015-07-22T23:09:01Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
         "repository":"STATS_LP",
         "description":" Solve linear and integer programming problems",
         "pushed_at":"2015-07-20T16:10:04Z",
