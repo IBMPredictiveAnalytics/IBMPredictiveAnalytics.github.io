@@ -641,7 +641,7 @@
     {
         "repository":"Publish-to-ArcGIS",
         "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-        "pushed_at":"2015-07-28T19:29:51Z",
+        "pushed_at":"2015-07-31T17:52:25Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -696,7 +696,7 @@
     {
         "repository":"Read-JSON-File",
         "description":"Import an array of JSON objects into a SPSS Modeler Table",
-        "pushed_at":"2015-07-29T21:55:50Z",
+        "pushed_at":"2015-07-31T17:52:49Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
