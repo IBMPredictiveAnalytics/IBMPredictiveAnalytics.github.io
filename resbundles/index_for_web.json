@@ -641,7 +641,7 @@
     {
         "repository":"Publish-to-ArcGIS",
         "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-        "pushed_at":"2015-07-21T03:38:47Z",
+        "pushed_at":"2015-07-28T19:29:51Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -663,7 +663,7 @@
     {
         "repository":"Web-Heatmaps",
         "description":"Create interactive heatmaps using different Esri Basemaps",
-        "pushed_at":"2015-07-22T23:09:01Z",
+        "pushed_at":"2015-07-31T16:58:14Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -674,7 +674,7 @@
     {
         "repository":"STATS_LP",
         "description":" Solve linear and integer programming problems",
-        "pushed_at":"2015-07-20T16:10:04Z",
+        "pushed_at":"2015-07-30T15:32:40Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -691,6 +691,17 @@
         "software":"SPSS Modeler",
         "language":" R",
         "category":"Geospatial",
+        "promotion":"No"
+    },
+    {
+        "repository":"Read-JSON-File",
+        "description":"Import an array of JSON objects into a SPSS Modeler Table",
+        "pushed_at":"2015-07-29T21:55:50Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
         "promotion":"No"
     }
 ]
