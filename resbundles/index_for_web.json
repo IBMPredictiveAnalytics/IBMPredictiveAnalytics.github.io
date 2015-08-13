@@ -685,7 +685,7 @@
     {
         "repository":"Get-Coordinates-Esri",
         "description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
-        "pushed_at":"2015-07-21T03:37:25Z",
+        "pushed_at":"2015-08-06T22:25:15Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -702,6 +702,50 @@
         "software":"SPSS Modeler",
         "language":" R",
         "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"STATS_OPTBINEX",
+        "description":" Construct optimal bins for categorical or continuous target",
+        "pushed_at":"2015-08-07T14:46:56Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Statistics",
+        "language":"Python 2",
+        "category":"Data Manipulation",
+        "promotion":"No"
+    },
+    {
+        "repository":"Score-with-Zementis",
+        "description":"Adapa scoring engine integrated with IBM SPSS",
+        "pushed_at":"2015-08-11T19:57:02Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"Upload-Model-To-Zementis",
+        "description":"Upload a SPSS Modeler PMML to Zementis Adapa  Cloud environment",
+        "pushed_at":"2015-08-11T19:58:13Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Utility",
+        "promotion":"No"
+    },
+    {
+        "repository":"List-Zementis-Models",
+        "description":"List all the models in Zementis Cloud and inputs/outputs",
+        "pushed_at":"2015-08-11T19:57:39Z",
+        "type":"Extension",
+        "provider":"Business Partner",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Geospatial",
         "promotion":"No"
     }
 ]
