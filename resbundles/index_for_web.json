@@ -382,7 +382,7 @@
         "provider":"IBM",
         "software":"SPSS Statistics",
         "language":"R",
-        "category":"Visualization",
+        "category":"Visualization ",
         "promotion":"No"
     },
     {
@@ -866,7 +866,7 @@
         "provider":"IBM",
         "software":"SPSS Statistics",
         "language":"R",
-        "category":"Analysis",
+        "category":"Analysis ",
         "promotion":"No"
     }
 ]
