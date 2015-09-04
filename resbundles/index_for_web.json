@@ -868,6 +868,50 @@
         "language":"R",
         "category":"Analysis ",
         "promotion":"No"
-    }
+    },
+	    {
+        "repository":"Watson-Personality-Insights",
+        "description":"Use Watson Services to analyze personality using input text",
+        "pushed_at":"2015-09-03T19:55:39Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Watson",
+        "promotion":"No"
+    },
+		    {
+        "repository":"Watson-Translate",
+        "description":"Use Watson Services to translate text",
+        "pushed_at":"2015-09-03T19:57:39Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Watson",
+        "promotion":"No"
+    },
+			    {
+        "repository":"Watson-Auto-Translate",
+        "description":"Use Watson Services to automatically identify a text's language and translate",
+        "pushed_at":"2015-09-03T19:56:39Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Watson",
+        "promotion":"No"
+    },
+				    {
+        "repository":"Watson-Language-ID",
+        "description":"Use Watson Services to identify a text's language",
+        "pushed_at":"2015-09-03T19:58:39Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" R",
+        "category":"Watson",
+        "promotion":"No"
+    },
 ]
 }
