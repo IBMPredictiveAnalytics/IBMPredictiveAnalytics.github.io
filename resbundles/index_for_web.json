@@ -3,7 +3,7 @@
     {
         "repository":"Plot-Geospatial-Data",
         "description":"Plot data containing Latitude and Longitude on an interactive map.",
-        "pushed_at":"2015-09-03T17:27:01Z",
+        "pushed_at":"2015-07-21T03:31:21Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -14,7 +14,7 @@
     {
         "repository":"Model-Random-Forest",
         "description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
-        "pushed_at":"2015-09-03T17:26:43Z",
+        "pushed_at":"2015-07-21T03:31:08Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -47,7 +47,7 @@
     {
         "repository":"Plot-Heatmaps",
         "description":"Plot spatial data on a density heatmap in SPSS Modeler",
-        "pushed_at":"2015-09-03T17:28:01Z",
+        "pushed_at":"2015-07-31T18:57:13Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -58,7 +58,7 @@
     {
         "repository":"Plot-Bubbles-Map",
         "description":"Plot an interactive Bubble Map",
-        "pushed_at":"2015-09-03T17:23:02Z",
+        "pushed_at":"2015-07-21T03:30:58Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -80,7 +80,7 @@
     {
         "repository":"IsHoliday",
         "description":"Enrich your date data with holiday calendars from different countries",
-        "pushed_at":"2015-09-03T17:22:50Z",
+        "pushed_at":"2015-07-21T03:30:50Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -322,7 +322,7 @@
     {
         "repository":"SPSSINC_SPLIT_DATASET",
         "description":" Split a dataset into separate files according to splitting va",
-        "pushed_at":"2015-08-19T17:08:45Z",
+        "pushed_at":"2015-06-18T17:04:59Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -333,18 +333,18 @@
     {
         "repository":"SPSSINC_TOBIT_REGR",
         "description":" Estimate a regression model whose dependent variable has a fi",
-        "pushed_at":"2015-09-03T17:18:01Z",
+        "pushed_at":"2015-06-18T17:05:29Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
-        "language":"R",
+        "language":" R",
         "category":"Analysis",
         "promotion":"No"
     },
     {
         "repository":"SPSSINC_TRANS",
         "description":" Apply a Python function to case data.",
-        "pushed_at":"2015-08-19T17:10:02Z",
+        "pushed_at":"2015-06-18T20:32:23Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -355,7 +355,7 @@
     {
         "repository":"SPSSINC_TRANSLATE_OUTPUT",
         "description":" Framework for translating Viewer output",
-        "pushed_at":"2015-08-19T17:10:12Z",
+        "pushed_at":"2015-06-18T17:05:43Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -366,7 +366,7 @@
     {
         "repository":"STATS_ADJUST_WIDTHS",
         "description":" Adjust widths of string variables across files",
-        "pushed_at":"2015-08-19T17:12:03Z",
+        "pushed_at":"2015-06-19T16:04:40Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -375,20 +375,9 @@
         "promotion":"No"
     },
     {
-        "repository":"STATS_BAGPLOT",
-        "description":" Create a bagplot or a matrix of bagplots",
-        "pushed_at":"2015-09-03T17:17:28Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Visualization ",
-        "promotion":"No"
-    },
-    {
         "repository":"STATS_CANCORR",
         "description":" Calculate canonical correlations",
-        "pushed_at":"2015-08-19T17:13:00Z",
+        "pushed_at":"2015-06-19T16:05:03Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -476,22 +465,22 @@
     {
         "repository":"STATS_DBPRED",
         "description":" Prediction based on density-based clustering",
-        "pushed_at":"2015-09-03T17:17:14Z",
+        "pushed_at":"2015-06-23T18:03:52Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
-        "language":"R",
+        "language":" R",
         "category":"Analysis",
         "promotion":"No"
     },
     {
         "repository":"STATS_DBSCAN",
         "description":" Density-based clustering",
-        "pushed_at":"2015-09-03T17:17:05Z",
+        "pushed_at":"2015-06-23T18:04:12Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
-        "language":"R",
+        "language":" R",
         "category":"Analysis",
         "promotion":"No"
     },
@@ -652,7 +641,7 @@
     {
         "repository":"Publish-to-ArcGIS",
         "description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-        "pushed_at":"2015-09-03T17:27:38Z",
+        "pushed_at":"2015-07-31T17:52:25Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -663,7 +652,7 @@
     {
         "repository":"Reverse-Geocoding-Esri",
         "description":"Code a point location (latitude, longitude) to a readable address or place name.",
-        "pushed_at":"2015-09-03T17:27:12Z",
+        "pushed_at":"2015-07-22T21:21:30Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -674,7 +663,7 @@
     {
         "repository":"Web-Heatmaps",
         "description":"Create interactive heatmaps using different Esri Basemaps",
-        "pushed_at":"2015-09-03T20:31:37Z",
+        "pushed_at":"2015-07-31T16:58:14Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -696,7 +685,7 @@
     {
         "repository":"Get-Coordinates-Esri",
         "description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
-        "pushed_at":"2015-09-03T17:28:12Z",
+        "pushed_at":"2015-08-06T22:25:15Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -707,7 +696,7 @@
     {
         "repository":"Read-JSON-File",
         "description":"Import an array of JSON objects into a SPSS Modeler Table",
-        "pushed_at":"2015-09-03T17:27:53Z",
+        "pushed_at":"2015-07-31T17:52:49Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Modeler",
@@ -729,7 +718,7 @@
     {
         "repository":"Score-with-Zementis",
         "description":"Adapa scoring engine integrated with IBM SPSS",
-        "pushed_at":"2015-09-03T17:28:21Z",
+        "pushed_at":"2015-08-11T19:57:02Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -740,7 +729,7 @@
     {
         "repository":"Upload-Model-To-Zementis",
         "description":"Upload a SPSS Modeler PMML to Zementis Adapa  Cloud environment",
-        "pushed_at":"2015-09-03T17:28:39Z",
+        "pushed_at":"2015-08-11T19:58:13Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
@@ -751,122 +740,12 @@
     {
         "repository":"List-Zementis-Models",
         "description":"List all the models in Zementis Cloud and inputs/outputs",
-        "pushed_at":"2015-09-03T17:28:29Z",
+        "pushed_at":"2015-08-11T19:57:39Z",
         "type":"Extension",
         "provider":"Business Partner",
         "software":"SPSS Modeler",
         "language":" R",
-        "category":"Utility",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_OPTIMAL_DESIGNMC",
-        "description":" Generate an optimal design",
-        "pushed_at":"2015-09-03T16:56:35Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_OUTPUT_ATTRS",
-        "description":" Set Viewer page attributes and setup via syntax",
-        "pushed_at":"2015-08-19T17:26:15Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"Python 2",
-        "category":"Presentation",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_PADJUST",
-        "description":" Calculate p-values adjusted for multiple testing",
-        "pushed_at":"2015-09-03T16:56:45Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_PROPOR_REGR",
-        "description":" Linear models for dependent variables that are proportions",
-        "pushed_at":"2015-09-03T17:16:43Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_PROPOR_REGRPRED",
-        "description":" Calculate predicted values for proportional regression models",
-        "pushed_at":"2015-09-03T17:16:33Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_RDD",
-        "description":" Regression Discontinuity Analysis",
-        "pushed_at":"2015-09-03T16:56:58Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_STRUC_CHANGE",
-        "description":" Test for structural change in regresion models with ordered c",
-        "pushed_at":"2015-09-03T17:16:13Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_SUBGROUP_PLOTS",
-        "description":" Graphically compare the distributions of a set of variables a",
-        "pushed_at":"2015-09-03T16:57:34Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"Python 2",
-        "category":"Visualization",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_SURVREG",
-        "description":" Parametric Survival Regression",
-        "pushed_at":"2015-09-03T17:15:43Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis",
-        "promotion":"No"
-    },
-    {
-        "repository":"STATS_SVM",
-        "description":" Support Vector Machine",
-        "pushed_at":"2015-09-03T16:57:47Z",
-        "type":"Extension",
-        "provider":"IBM",
-        "software":"SPSS Statistics",
-        "language":"R",
-        "category":"Analysis ",
+        "category":"Geospatial",
         "promotion":"No"
     },
 	    {
@@ -912,6 +791,6 @@
         "language":" R",
         "category":"Watson",
         "promotion":"No"
-    },
+    }
 ]
 }
