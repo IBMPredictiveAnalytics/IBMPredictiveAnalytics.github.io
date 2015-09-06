@@ -21,9 +21,9 @@
             "Summary":"Censor cells of a pivot table based on the values of a test statistic",
             "Description":"Use this command to blank out or otherwise obscure cells in the most recent pivot table of a selected type based on the value of a specified statistic in the table. For example, you can blank out cell statistics based on small counts or blank out insignificant correlations in a correlation matrix.",
             "Author":"IBM SPSS",
-            "Version":"1.4.0",
+            "Version":"1.8.0",
             "Product-Version":"18",
-            "Date":"1/2/2014",
+            "Date":"1/2/2015",
             "Categories":"Extension Commands, Python",
             "Plugins":"Python",
             "Translation-Catalogues":"lang"
