@@ -10,7 +10,7 @@
 		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_CENSOR_TABLES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_CENSOR_TABLES/raw/master/SPSSINC_CENSOR_TABLES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_CENSOR_TABLES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC CENSOR TABLES",
@@ -39,7 +39,7 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_COMPARE_DATASETS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_COMPARE_DATASETS/raw/master/SPSSINC_COMPARE_DATASETS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_COMPARE_DATASETS/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC COMPARE DATASETS",
@@ -68,7 +68,7 @@
 		"language":"Python 2",
 		"category":"Data manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_CREATE_DUMMIES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_CREATE_DUMMIES/raw/master/SPSSINC_CREATE_DUMMIES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_CREATE_DUMMIES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC CREATE DUMMIES",
@@ -97,7 +97,7 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_GETURI_DATA/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_GETURI_DATA/raw/master/SPSSINC_GETURI_DATA.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_GETURI_DATA/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC GETURI DATA",
@@ -125,7 +125,7 @@
 		"language":" Python,R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_HETCOR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_HETCOR/raw/master/SPSSINC_HETCOR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_HETCOR/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC HETCOR",
@@ -155,7 +155,7 @@
 		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MERGE_TABLES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MERGE_TABLES/raw/master/SPSSINC_MERGE_TABLES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_MERGE_TABLES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC MERGE TABLES",
@@ -184,7 +184,7 @@
 		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_TABLES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_TABLES/raw/master/SPSSINC_MODIFY_TABLES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_TABLES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC MODIFY TABLES",
@@ -213,7 +213,7 @@
 		"language":"Python 2",
 		"category":"Data manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES/raw/master/SPSSINC_PROCESS_FILES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC PROCESS FILES",
@@ -241,7 +241,7 @@
 		"language":" Python,R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MFP_GLM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MFP_GLM/raw/master/SPSSINC_MFP_GLM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_MFP_GLM/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC MFP GLM",
@@ -268,7 +268,7 @@
 		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_OUTPUT/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_OUTPUT/raw/master/SPSSINC_MODIFY_OUTPUT.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_MODIFY_OUTPUT/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC MODIFY OUTPUT",
@@ -297,7 +297,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES_SEARCH/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES_SEARCH/raw/master/SPSSINC_PROCESS_FILES_SEARCH.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_PROCESS_FILES_SEARCH/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC PROCESS FILES_SEARCH",
@@ -323,7 +323,7 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROGRAM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_PROGRAM/raw/master/SPSSINC_PROGRAM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_PROGRAM/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC PROGRAM",
@@ -350,7 +350,7 @@
 		"language":" R",
 		"category":"Visualization",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_QQPLOT2/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_QQPLOT2/raw/master/SPSSINC_QQPLOT2.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_QQPLOT2/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC QQPLOT2",
@@ -379,7 +379,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_QUANTREG/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_QUANTREG/raw/master/SPSSINC_QUANTREG.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_QUANTREG/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC QUANTREG",
@@ -410,7 +410,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RAKE/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RAKE/raw/master/SPSSINC_RAKE.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_RAKE/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC_RAKE",
@@ -439,7 +439,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RANFOR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RANFOR/raw/master/SPSSINC_RANFOR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_RANFOR/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC RANFOR",
@@ -469,7 +469,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RANPRED/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RANPRED/raw/master/SPSSINC_RANPRED.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_RANPRED/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC RANPRED",
@@ -498,7 +498,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RASCH/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_RASCH/raw/master/SPSSINC_RASCH.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_RASCH/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC RASCH",
@@ -529,7 +529,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_ROBUST_REGR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_ROBUST_REGR/raw/master/SPSSINC_ROBUST_REGR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_ROBUST_REGR/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC ROBUST REGR",
@@ -560,7 +560,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_SELECT_VARIABLES/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_SELECT_VARIABLES/raw/master/SPSSINC_SELECT_VARIABLES.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_SELECT_VARIABLES/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC SELECT VARIABLES",
@@ -588,7 +588,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_BREUSCH_PAGAN/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_BREUSCH_PAGAN/raw/master/SPSSINC_BREUSCH_PAGAN.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_BREUSCH_PAGAN/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC BREUSCH PAGAN",
@@ -619,7 +619,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_SPLIT_DATASET/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_SPLIT_DATASET/raw/master/SPSSINC_SPLIT_DATASET.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_SPLIT_DATASET/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC SPLIT DATASET",
@@ -647,7 +647,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TOBIT_REGR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TOBIT_REGR/raw/master/SPSSINC_TOBIT_REGR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_TOBIT_REGR/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC TOBIT REGR",
@@ -677,7 +677,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TRANS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TRANS/raw/master/SPSSINC_TRANS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_TRANS/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC TRANS",
@@ -706,7 +706,7 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TRANSLATE_OUTPUT/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_TRANSLATE_OUTPUT/raw/master/SPSSINC_TRANSLATE_OUTPUT.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/SPSSINC_TRANSLATE_OUTPUT/master/default.png",
 		"extension_detail_info": {
 			"Name":"SPSSINC TRANSLATE OUTPUT",
@@ -731,7 +731,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_ADJUST_WIDTHS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_ADJUST_WIDTHS/raw/master/STATS_ADJUST_WIDTHS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_ADJUST_WIDTHS/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS ADJUST WIDTHS",
@@ -760,7 +760,7 @@
 		"language":"R",
 		"category":"Visualization ",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_BAGPLOT/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_BAGPLOT/raw/master/STATS_BAGPLOT.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_BAGPLOT/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS BAGPLOT",
@@ -790,7 +790,7 @@
 		"language":"Python 2",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CANCORR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CANCORR/raw/master/STATS_CANCORR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_CANCORR/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS CANCORR",
@@ -818,7 +818,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CARTPROD/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CARTPROD/raw/master/STATS_CARTPROD.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_CARTPROD/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS CARTPROD",
@@ -847,7 +847,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CATEGORY_ORDER/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CATEGORY_ORDER/raw/master/STATS_CATEGORY_ORDER.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_CATEGORY_ORDER/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS CATEGORY ORDER",
@@ -875,7 +875,7 @@
 		"language":"Python 2",
 		"category":"Visualization",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CLUS_SIL/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_CLUS_SIL/raw/master/STATS_CLUS_SIL.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_CLUS_SIL/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS CLUS SIL",
@@ -904,7 +904,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_COMPRISK/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_COMPRISK/raw/master/STATS_COMPRISK.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_COMPRISK/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS COMPRISK",
@@ -933,7 +933,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_COXREGR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_COXREGR/raw/master/STATS_COXREGR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_COXREGR/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS COXREGR",
@@ -963,7 +963,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DATA_DATE/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DATA_DATE/raw/master/STATS_DATA_DATE.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DATA_DATE/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_DATA_DATE",
@@ -992,7 +992,7 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DATASET/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DATASET/raw/master/STATS_DATASET.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DATASET/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS DATASET",
@@ -1021,7 +1021,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DBPRED/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DBPRED/raw/master/STATS_DBPRED.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DBPRED/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_DBPRED",
@@ -1051,7 +1051,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DBSCAN/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DBSCAN/raw/master/STATS_DBSCAN.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DBSCAN/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_DBSCAN",
@@ -1081,7 +1081,7 @@
 		"language":" R",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DISAGG/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DISAGG/raw/master/STATS_DISAGG.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DISAGG/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS DISAGG",
@@ -1111,7 +1111,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DISTFIT/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_DISTFIT/raw/master/STATS_DISTFIT.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_DISTFIT/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS DISTFIT",
@@ -1140,7 +1140,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_EQNSYSTEM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_EQNSYSTEM/raw/master/STATS_EQNSYSTEM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_EQNSYSTEM/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS EQNSYSTEM",
@@ -1170,7 +1170,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_FIRTHLOG/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_FIRTHLOG/raw/master/STATS_FIRTHLOG.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_FIRTHLOG/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS FIRTHLOG",
@@ -1200,7 +1200,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GARCH/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GARCH/raw/master/STATS_GARCH.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_GARCH/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS GARCH",
@@ -1230,7 +1230,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GBM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GBM/raw/master/STATS_GBM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_GBM/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS GBM",
@@ -1261,7 +1261,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GBMPRED/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GBMPRED/raw/master/STATS_GBMPRED.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_GBMPRED/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS GBMPRED",
@@ -1291,7 +1291,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GRM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_GRM/raw/master/STATS_GRM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_GRM/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_GRM",
@@ -1322,7 +1322,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_HECKMAN_REGR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_HECKMAN_REGR/raw/master/STATS_HECKMAN_REGR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_HECKMAN_REGR/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_HECKMAN_REGR",
@@ -1352,7 +1352,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_INEQUALITY/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_INEQUALITY/raw/master/STATS_INEQUALITY.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_INEQUALITY/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS INEQUALITY",
@@ -1382,7 +1382,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_IRM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_IRM/raw/master/STATS_IRM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_IRM/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_IRM",
@@ -1413,7 +1413,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_KERNEL_DENSITY/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_KERNEL_DENSITY/raw/master/STATS_KERNEL_DENSITY.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_KERNEL_DENSITY/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS KERNEL DENSITY",
@@ -1442,7 +1442,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LATENT_CLASS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LATENT_CLASS/raw/master/STATS_LATENT_CLASS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_LATENT_CLASS/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS LATENT CLASS",
@@ -1472,7 +1472,7 @@
 		"language":" R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LOESS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LOESS/raw/master/STATS_LOESS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_LOESS/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS LOESS",
@@ -1500,7 +1500,7 @@
 		"language":" Python,R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LP/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_LP/raw/master/STATS_LP.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_LP/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS_LP",
@@ -1530,7 +1530,7 @@
 		"language":"Python 2",
 		"category":"Data Manipulation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OPTBINEX/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OPTBINEX/raw/master/STATS_OPTBINEX.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_OPTBINEX/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS OPTBINEX",
@@ -1558,7 +1558,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OPTIMAL_DESIGNMC/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OPTIMAL_DESIGNMC/raw/master/STATS_OPTIMAL_DESIGNMC.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_OPTIMAL_DESIGNMC/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS OPTIMAL DESIGNMC",
@@ -1587,7 +1587,7 @@
 		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OUTPUT_ATTRS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_OUTPUT_ATTRS/raw/master/STATS_OUTPUT_ATTRS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_OUTPUT_ATTRS/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS OUTPUT ATTRS",
@@ -1615,7 +1615,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PADJUST/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PADJUST/raw/master/STATS_PADJUST.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_PADJUST/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS PADJUST",
@@ -1644,7 +1644,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PROPOR_REGR/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PROPOR_REGR/raw/master/STATS_PROPOR_REGR.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_PROPOR_REGR/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS PROPOR REGR",
@@ -1674,7 +1674,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PROPOR_REGRPRED/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_PROPOR_REGRPRED/raw/master/STATS_PROPOR_REGRPRED.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_PROPOR_REGRPRED/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS PROPOR REGRPRED",
@@ -1704,7 +1704,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_RDD/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_RDD/raw/master/STATS_RDD.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_RDD/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS RDD",
@@ -1734,7 +1734,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_STRUC_CHANGE/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_STRUC_CHANGE/raw/master/STATS_STRUC_CHANGE.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_STRUC_CHANGE/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS STRUC CHANGE",
@@ -1762,7 +1762,7 @@
 		"language":"Python 2",
 		"category":"Visualization",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SUBGROUP_PLOTS/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SUBGROUP_PLOTS/raw/master/STATS_SUBGROUP_PLOTS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_SUBGROUP_PLOTS/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS SUBGROUP PLOTS",
@@ -1790,7 +1790,7 @@
 		"language":"R",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SURVREG/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SURVREG/raw/master/STATS_SURVREG.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_SURVREG/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS SURVREG",
@@ -1820,7 +1820,7 @@
 		"language":"R",
 		"category":"Analysis ",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SVM/raw/master/STATS_OPEN_PROJECT.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_SVM/raw/master/STATS_SVM.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_SVM/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS SVM",
