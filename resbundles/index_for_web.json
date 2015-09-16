@@ -22,6 +22,17 @@
         "category":"Analysis",
         "promotion":"No"
     },
+     {
+        "repository":"MLlib-CF",
+        "description":"Spark MLLib Collaborative filtering commonly used for recommender systems.",
+        "pushed_at":"2015-09-15T03:31:08Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":" Python",
+        "category":"Analysis",
+        "promotion":"No"
+    },
     {
         "repository":"Multicolor-Plot",
         "description":"Plot different intervals of a same curve in various colors.",
