@@ -185,6 +185,8 @@
 	background: #819FF7; /* Old browsers */
 	font-size: 9px;
 	max-width: 110px;
+	position: absolute;
+	right: -10px;
 	/*background: -webkit-linear-gradient(top, #A9BCF5 0%,#5882FA 100%); /* Chrome10+,Safari5.1+ */*/
 	/*background: linear-gradient(to bottom, #A9BCF5 0%, #5882FA 100%); /* W3C */*/
 }
@@ -200,8 +202,11 @@
 	font-size: 9px;
 	font-weight:bold;
 	height:18px;
-	padding: 0 10px;
-	left: -10px;
+	padding: 0 5px;
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	
 }
 
 
@@ -487,6 +492,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	
 	@-moz-document url-prefix() {
 		#wrapper .card{
+			min-width: 300px;
 			max-width: 250px;
 		}
 	}
