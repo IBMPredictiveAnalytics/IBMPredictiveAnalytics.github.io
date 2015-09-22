@@ -375,7 +375,11 @@
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
-		  var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
+		  try{
+			var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
+		  }catch(e){
+			alert(e.message);
+		  }
 		
 		  
 		  //description length should not exceed 150 characters; otherwise there will be a tool tip poping up when mouse being over it
