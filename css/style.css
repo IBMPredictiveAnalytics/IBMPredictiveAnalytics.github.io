@@ -495,7 +495,7 @@ background:url(../imgs/news.jpg) no-repeat;
 
 @media (min-width: 1300px) {
 	#wrapper .card{
-		max-width: 280px;
+		max-width: 350px;
 	}
 	
 	@-moz-document url-prefix() {
