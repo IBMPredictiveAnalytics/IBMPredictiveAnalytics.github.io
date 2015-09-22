@@ -561,6 +561,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .filter
