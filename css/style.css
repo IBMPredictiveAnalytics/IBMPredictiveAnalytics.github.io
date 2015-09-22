@@ -199,9 +199,9 @@
 	border-radius: 5px;
 	font-size: 9px;
 	font-weight:bold;
-	text-align: center;
 	height:18px;
 	padding: 0 10px;
+	left: 2px;
 }
 
 
@@ -531,6 +531,7 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 
 #top-layer{
+	position: relative;
 	height: 10px;
 	margin: 0;
 	margin-bottom: 20px;
