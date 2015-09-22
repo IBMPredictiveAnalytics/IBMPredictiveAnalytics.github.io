@@ -488,7 +488,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	
 	@-moz-document url-prefix() {
 		#wrapper .card{
-			max-width: 230px;
+			max-width: 250px;
 		}
 	}
 }
