@@ -472,7 +472,7 @@ background:url(../imgs/news.jpg) no-repeat;
 /*for moz and IE 11*/
 @media (min-width: 768px) 
 	#wrapper .card{
-		max-width: 200px;
+		max-width: 220px;
 	}
 	
 	@-moz-document url-prefix() {
@@ -483,7 +483,7 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 250px;
+		max-width: 230px;
 	}
 	
 	@-moz-document url-prefix() {
