@@ -505,9 +505,12 @@
 		var lang = getMaxHeightForEachDiv('repos-lang','id');
 		$("#allrepos div[id='repos-lang']").css("height",lang);
 		
-		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)
+		var img = getMaxHeightForEachDiv('repos-img','id');
+		$("#allrepos div[id='repos-img']").css("height",img);
+		
+		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)+parseFloat(img)
 						+parseFloat($("#top-layer").css("height"))
-						+parseFloat($("#repos-img").css("height"))
+						/*+parseFloat($("#repos-img").css("height"))*/
 						+parseFloat($("#repos-link").css("height"))+90;//set the amount of the space between different div as 100px
 		$(".card").css("height",tot_height+'px');
 
