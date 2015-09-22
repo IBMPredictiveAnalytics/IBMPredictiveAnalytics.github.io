@@ -470,14 +470,26 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 
 /*for moz and IE 11*/
-@media (min-width: 768px) {
+@media (min-width: 768px) 
 	#wrapper .card{
 		max-width: 200px;
+	}
+	
+	@-moz-document url-prefix() {
+		#wrapper .card{
+			max-width: 200px;
+		}
 	}
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 230px;
+		max-width: 250px;
+	}
+	
+	@-moz-document url-prefix() {
+		#wrapper .card{
+			max-width: 230px;
+		}
 	}
 }
 
@@ -485,7 +497,14 @@ background:url(../imgs/news.jpg) no-repeat;
 	#wrapper .card{
 		max-width: 280px;
 	}
+	
+	@-moz-document url-prefix() {
+		#wrapper .card{
+			max-width: 280px;
+		}
+	}
 }
+
 
 /*for webkit*/
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
