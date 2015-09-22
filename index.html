@@ -488,6 +488,19 @@
 		$("#footer").css("margin-left", "16%");
 	  }
 	  
+	  function getMaxTopLayerWidth(){
+		var max_top_layer_w = parseFloat($("#allrepos div[id='repos-software']:eq(0)").css("width"))
+						    + parseFloat($("#allrepos div[id='repos-developer']:eq(0)").css("width"));
+		for(var i=0;i<$("#allrepos div[id='top-layer']").length;i++){
+		  if (max_top_layer_w < parseFloat($("#allrepos div[id='repos-software']:eq("+i+")").css("width"))
+						     + parseFloat($("#allrepos div[id='repos-developer']:eq("+i+")").css("width"))) {
+			max_top_layer_w = parseFloat($("#allrepos div[id='repos-software']:eq("+i+")").css("width"))
+						    + parseFloat($("#allrepos div[id='repos-developer']:eq("+i+")").css("width"));
+		  }
+		}
+		return max_top_layer_w == NaN?0:(parseFloat(max_top_layer_w)+20);
+	  }
+	  
 	  function getMaxWidth(id){
 		var max_width = parseFloat($("#allrepos div[id='"+id+"']:eq(0)").css("width"));
 		for(var i=0;i<$("#allrepos div[id='"+id+"']").length;i++){
@@ -525,11 +538,11 @@
 	  function setReposWidth(){
 		var img_max_width = getMaxWidth("repos-img");
 		var repos_name_max_width = getMaxWidth("repos-name");
-		var repos_top_layer_max_width = getMaxWidth("top-layer");
+		var repos_top_layer_max_width = getMaxTopLayerWidth();
 		
 		var max_width = img_max_width>repos_name_max_width?img_max_width:repos_name_max_width;
 		max_width = max_width>repos_top_layer_max_width?max_width:repos_top_layer_max_width;
-		
+		alert("max_width: "+max_width);
 		var card_w = parseFloat(max_width)+20;
 		$(".card").css("width", card_w+'px');
 	  }
