@@ -181,7 +181,7 @@
 }
 
 #repos-developer{
-	float: right;
+	display: inline-block;
 	background: #819FF7; /* Old browsers */
 	font-size: 9px;
 	max-width: 110px;
@@ -472,7 +472,7 @@ background:url(../imgs/news.jpg) no-repeat;
 /*for moz and IE 11*/
 @media (min-width: 768px) 
 	#wrapper .card{
-		max-width: 250px;
+		max-width: 200px;
 	}
 	
 	@-moz-document url-prefix() {
@@ -483,19 +483,19 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 300px;
+		max-width: 230px;
 	}
 	
 	@-moz-document url-prefix() {
 		#wrapper .card{
-			max-width: 240px;
+			max-width: 230px;
 		}
 	}
 }
 
 @media (min-width: 1300px) {
 	#wrapper .card{
-		max-width: 350px;
+		max-width: 280px;
 	}
 	
 	@-moz-document url-prefix() {
