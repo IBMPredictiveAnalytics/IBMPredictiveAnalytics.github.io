@@ -375,12 +375,12 @@
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
-		  try{
+		  var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
+		  /*try{
 			var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
 		  }catch(e){
-			alert("There is an error!");
 			alert(e.message);
-		  }
+		  }*/
 		
 		  
 		  //description length should not exceed 150 characters; otherwise there will be a tool tip poping up when mouse being over it
@@ -513,7 +513,7 @@
 		
 		var img = getMaxHeightForEachDiv('repos-img','id');
 		$("#allrepos div[id='repos-img']").css("height",img);
-		alert(img);
+
 		var tot_height = parseFloat(name)+parseFloat(desc)+parseFloat(cate)+parseFloat(lang)+parseFloat(img)
 						+parseFloat($("#top-layer").css("height"))
 						/*+parseFloat($("#repos-img").css("height"))*/
