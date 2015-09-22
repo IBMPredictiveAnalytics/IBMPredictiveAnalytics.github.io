@@ -200,7 +200,6 @@
 	font-size: 9px;
 	font-weight:bold;
 	text-align: center;
-	float: left;
 	height:18px;
 	padding: 0 10px;
 }
@@ -488,7 +487,6 @@ background:url(../imgs/news.jpg) no-repeat;
 	
 	@-moz-document url-prefix() {
 		#wrapper .card{
-			min-width: 300px;
 			max-width: 250px;
 		}
 	}
