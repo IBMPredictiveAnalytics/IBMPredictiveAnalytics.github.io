@@ -483,12 +483,12 @@ background:url(../imgs/news.jpg) no-repeat;
 }
 @media (min-width: 992px){
 	#wrapper .card{
-		max-width: 230px;
+		max-width: 250px;
 	}
 	
 	@-moz-document url-prefix() {
 		#wrapper .card{
-			max-width: 230px;
+			max-width: 240px;
 		}
 	}
 }
