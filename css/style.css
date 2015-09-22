@@ -531,7 +531,7 @@ background:url(../imgs/news.jpg) no-repeat;
 
 @media (min-width: 1366px) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
-		max-width: 320px;
+		max-width: 300px;
 	}
 }
 
