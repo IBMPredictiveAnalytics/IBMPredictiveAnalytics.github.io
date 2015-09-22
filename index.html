@@ -525,7 +525,12 @@
 	  function setReposWidth(){
 		var img_max_width = getMaxWidth("repos-img");
 		var repos_name_max_width = getMaxWidth("repos-name");
-		var card_w = parseFloat(img_max_width>repos_name_max_width?img_max_width:repos_name_max_width)+20;
+		var repos_top_layer_max_width = getMaxWidth("top-layer");
+		
+		var max_width = img_max_width>repos_name_max_width?img_max_width:repos_name_max_width;
+		max_width = max_width>repos_top_layer_max_width?max_width:repos_top_layer_max_width;
+		
+		var card_w = parseFloat(max_width)+20;
 		$(".card").css("width", card_w+'px');
 	  }
 	  
