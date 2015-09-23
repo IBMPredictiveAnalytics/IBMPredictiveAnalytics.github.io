@@ -190,7 +190,7 @@
 		var container_w = parseFloat($(".container").css("width"));
 		var actual_repos_w = (allrepos_w<container_w?allrepos_w:container_w);
 		var card_num = parseFloat(Math.floor(actual_repos_w/card_w));
-		var padding = (actual_repos_w - card_w*card_num - 4*(card_num-1))/2+10;
+		var padding = (actual_repos_w - card_w*card_num - 4*(card_num-1))/2;
 		return padding || 0;
 	  }
 	  
