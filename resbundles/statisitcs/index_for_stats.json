@@ -1838,6 +1838,7 @@
 			"R-Packages":"e1071",
 			"Translation-Catalogues":"lang"
 		}
+<<<<<<< HEAD
 	},
 	{
 		"repository":"STATS_TABLE_CALC",
@@ -2601,6 +2602,8 @@
 			"Plugins":"Python",
 			"Translation-Catalogues":"lang"
 		}
+=======
+>>>>>>> 08bc0ac9aa8d6fc0d9e8bca9992cecd04d6e13f5
 	}
 ]
 }
