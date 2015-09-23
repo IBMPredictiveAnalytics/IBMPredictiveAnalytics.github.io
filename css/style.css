@@ -527,6 +527,9 @@ background:url(../imgs/news.jpg) no-repeat;
 	#wrapper .card{
 		max-width: 280px;
 	}
+	#repos-desc{
+		margin-top: 5px;
+	}
 }
 
 @media (min-width: 1366px) and (-webkit-min-device-pixel-ratio:0){
@@ -562,6 +565,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	text-overflow: ellipsis;
 	margin-bottom: 10px;
 }
+
 
 .filter
 {
