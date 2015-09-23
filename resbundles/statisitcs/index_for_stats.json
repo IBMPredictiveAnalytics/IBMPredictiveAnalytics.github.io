@@ -2276,8 +2276,8 @@
 		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/quotetext/raw/master/quotetext.spe",
-		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/quotetext/master/default.png",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_QUOTE_SQLTEXT/raw/master/STATS_QUOTE_SQLTEXT.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_QUOTE_SQLTEXT/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS QUOTE SQLTEXT",
 			"Dialog-Specs":"quotetext.spd",
