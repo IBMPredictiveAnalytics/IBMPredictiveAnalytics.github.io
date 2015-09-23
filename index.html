@@ -431,9 +431,9 @@
 			$("#allrepos div[id='repos-category']").css("padding-top","2px");
 		}
 		
-		adjustReposFieldPos();
 		setFooterPos();
 		adjustBannerPos();
+		adjustReposFieldPos();
 		$(window).load(function(){
 		  setReposHeight();
 		  setReposWidth();
@@ -444,7 +444,7 @@
 	  $(window).resize(function () {
 		  adjustBannerPos();
 		  adjustReposFieldPos();
-		});
+	  });
 	  
 	  function getMaxHeightForEachDiv(div_id, attr){
 		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
