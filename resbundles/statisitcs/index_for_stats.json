@@ -753,7 +753,7 @@
 	{
 		"repository":"STATS_BAGPLOT",
 		"description":"Create a bagplot or a matrix of bagplots",
-		"pushed_at":"2015-09-03T17:17:28Z",
+		"pushed_at":"2015-09-23T05:37:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1755,7 +1755,7 @@
 	{
 		"repository":"STATS_SUBGROUP_PLOTS",
 		"description":"Graphically compare the distributions of a set of variables a",
-		"pushed_at":"2015-09-03T16:57:34Z",
+		"pushed_at":"2015-09-23T05:39:38Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1813,7 +1813,7 @@
 	{
 		"repository":"STATS_SVM",
 		"description":"Support Vector Machine",
-		"pushed_at":"2015-09-03T16:57:47Z",
+		"pushed_at":"2015-09-23T05:50:26Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1838,7 +1838,6 @@
 			"R-Packages":"e1071",
 			"Translation-Catalogues":"lang"
 		}
-<<<<<<< HEAD
 	},
 	{
 		"repository":"STATS_TABLE_CALC",
@@ -1930,7 +1929,7 @@
 	{
 		"repository":"STATS_WEIBULL_PLOT",
 		"description":"Create Weibull probability plot for failure data",
-		"pushed_at":"2015-09-03T16:50:47Z",
+		"pushed_at":"2015-09-23T05:42:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1985,7 +1984,7 @@
 	{
 		"repository":"CFA",
 		"description":"Configural Frequency Analysis (after von Eye and Krauth)",
-		"pushed_at":"2015-09-03T17:12:32Z",
+		"pushed_at":"2015-09-23T05:50:04Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -2009,7 +2008,7 @@
 	{
 		"repository":"ColPropTest",
 		"description":"Column proportions test (z-test)",
-		"pushed_at":"2015-09-03T17:12:41Z",
+		"pushed_at":"2015-09-23T05:48:39Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -2032,7 +2031,7 @@
 	{
 		"repository":"CWD",
 		"description":"CWD - Current Working Directory.",
-		"pushed_at":"2015-09-03T17:12:54Z",
+		"pushed_at":"2015-09-23T05:53:30Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -2057,7 +2056,7 @@
 	{
 		"repository":"FormatCorrelations",
 		"description":"Clean up correlation matrix",
-		"pushed_at":"2015-09-03T17:13:07Z",
+		"pushed_at":"2015-09-23T05:47:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2164,7 +2163,7 @@
 	{
 		"repository":"LSMON",
 		"description":"LSMON -  Monitor concurrent license usage",
-		"pushed_at":"2015-09-03T17:21:47Z",
+		"pushed_at":"2015-09-23T05:32:34Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -2270,7 +2269,7 @@
 	{
 		"repository":"STATS_QUOTE_SQLTEXT",
 		"description":"Quote SQL text appropriately for use in GET DATA",
-		"pushed_at":"2015-09-03T17:20:29Z",
+		"pushed_at":"2015-09-23T05:57:49Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2602,8 +2601,6 @@
 			"Plugins":"Python",
 			"Translation-Catalogues":"lang"
 		}
-=======
->>>>>>> 08bc0ac9aa8d6fc0d9e8bca9992cecd04d6e13f5
 	}
 ]
 }
