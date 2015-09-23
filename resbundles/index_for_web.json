@@ -377,12 +377,12 @@
     {
         "repository":"STATS_BAGPLOT",
         "description":" Create a bagplot or a matrix of bagplots",
-        "pushed_at":"2015-09-03T17:17:28Z",
+        "pushed_at":"2015-09-23T05:37:53Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
         "language":"R",
-        "category":"VisualizationÂ ",
+        "category":"Visualization ",
         "promotion":"No"
     },
     {
@@ -839,7 +839,7 @@
     {
         "repository":"STATS_SUBGROUP_PLOTS",
         "description":" Graphically compare the distributions of a set of variables a",
-        "pushed_at":"2015-09-03T16:57:34Z",
+        "pushed_at":"2015-09-23T05:39:38Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -866,7 +866,7 @@
         "provider":"IBM",
         "software":"SPSS Statistics",
         "language":"R",
-        "category":"AnalysisÂ ",
+        "category":"Analysis ",
         "promotion":"No"
     },
     {
@@ -905,7 +905,7 @@
     {
         "repository":"STATS_WEIBULL_PLOT",
         "description":" Create Weibull probability plot for failure data",
-        "pushed_at":"2015-09-03T16:50:47Z",
+        "pushed_at":"2015-09-23T05:42:36Z",
         "type":"Extension",
         "provider":"IBM",
         "software":"SPSS Statistics",
@@ -1004,7 +1004,7 @@
     {
         "repository":"LSMON",
         "description":" LSMON -  Monitor concurrent license usage",
-        "pushed_at":"2015-09-03T17:21:47Z",
+        "pushed_at":"2015-09-23T05:32:34Z",
         "type":"Extension",
         "provider":"Community",
         "software":"SPSS Statistics",
@@ -1046,7 +1046,7 @@
         "promotion":"No"
     },
     {
-        "repository":"quotetext",
+        "repository":"STATS_QUOTE_SQLTEXT",
         "description":" Quote SQL text appropriately for use in GET DATA",
         "pushed_at":"2015-09-03T17:20:29Z",
         "type":"Extension",
