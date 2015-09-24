@@ -11,7 +11,7 @@
 		"language":"R",
 		"category":"Utility",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/test_modeler_extensionManager/raw/master/test_modeler_extensionManager.mpe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/test_modeler_extensionManager/raw/master/demo_r.mpe",
 		"image_link":"https://github.com/IBMPredictiveAnalytics/test_modeler_extensionManager/raw/master/default.png",
 		"extension_detail_info": {		
 			"Name":"test_modeler_extensionManager",
