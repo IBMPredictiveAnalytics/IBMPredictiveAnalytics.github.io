@@ -1253,6 +1253,17 @@
         "language":" Python 3",
         "category":"Analysis",
         "promotion":"No"
+    },
+	    {
+        "repository":"Cloudant",
+        "description":"Import data from a Cloudant database to IBM SPSS Modeler",
+        "pushed_at":"2015-10-07T02:23:37Z",
+        "type":"Extension",
+        "provider":"IBM",
+        "software":"SPSS Modeler",
+        "language":"R",
+        "category":"Data Manipulation",
+        "promotion":"No"
     }
 ]
 }
