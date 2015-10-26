@@ -1233,17 +1233,6 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"test_modeler_extensionManager",
-		"description":"",
-		"pushed_at":"2015-09-24T05:56:25Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"R",
-		"category":"Utility",
-		"promotion":"No"
-	},
-	{
 		"repository":"MLlib-Pagerank",
 		"description":"Estimating the relative importance of individuals within a social network using Spark MLlib",
 		"pushed_at":"2015-10-06T02:00:45Z",
