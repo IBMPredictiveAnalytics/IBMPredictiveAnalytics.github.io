@@ -20,9 +20,9 @@
   </head>
   
   <body>
-	<div class="navbar navbar-inverse navbar-fixed-top"> 
+	<div class="navbar navbar-inverse navbar-fixed-top">
 	  <!--  FROM THE COMMUNITY   -->
-	  <div class="pn-dw-master cf" role="banner"> 
+	  <div class="pn-dw-master cf" role="banner">
 		<div class="fl">
 		  <a href="http://www.ibm.com/developerworks/" class="pn-dw-fed-logo">
 			<span class="pn-dw-ibm">IBM</span> developerWorks
@@ -260,12 +260,14 @@
 	  
 	  function createReposLink(repo_name, repo_id){
 		var repos_url = "https://github.com/IBMPredictiveAnalytics/"+repo_name;
-		  var $repos_link =  $("<input>").attr("type", "button").attr("id", repo_id).attr("onclick","window.open('"+repos_url+"')").attr("value","Go to Repository");
+		  var $repos_link =  $("<input>").attr("type", "button").attr("id", repo_id).attr("onclick","window.open('"+repos_url+"')").attr("value","GO TO REPOSITORY");
 		  $repos_link.mouseover(function(){
-			$(this).css("background-color", "#BDBDBD");
+			$(this).css("background-color", "#585858");
+            $(this).css("color" , "#F9F9FB");
 		  });
 		  $repos_link.mouseout(function(){
-			$(this).css("background-color", "#D8D8D8");
+			$(this).css("background-color", "#F9F9FB");
+            $(this).css("color" , "#585858");
 		  });
 		  return $repos_link;
 	  }
@@ -498,6 +500,7 @@
 						    + parseFloat($("#allrepos div[id='repos-developer']:eq("+i+")").css("width"));
 		  }
 		}
+
 		return max_top_layer_w == NaN?0:(parseFloat(max_top_layer_w)+20);
 	  }
 	  
