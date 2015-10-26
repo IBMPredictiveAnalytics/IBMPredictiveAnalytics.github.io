@@ -39,8 +39,7 @@
 }
 
 #menu-main >li >a:hover{
-	color:#DF8428;
-	text-decoration: underline;
+	color:#FFFFFF;
 }
 
 #search{
@@ -98,7 +97,7 @@
 	margin-right: auto;
 }
 
-
+.nav_menu_link
 
 #view-selector{
 	display: inline;
