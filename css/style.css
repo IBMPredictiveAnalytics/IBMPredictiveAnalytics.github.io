@@ -463,8 +463,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	display: block;
 	height: 10px;
 	margin: 3px;
-	height:1em;
-	font-size: 0.7em;
+
 }
 
 #repos-name{
@@ -1162,6 +1161,10 @@ a:focus,
 	@media screen and (min-width: 1300px) {
 		#wrapper .card{
 			max-width: 280px;
+		}
+		
+		#repos-name{
+			font-size: 1.1em;
 		}
 	}
 }
