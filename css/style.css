@@ -1124,6 +1124,7 @@ a:focus,
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
 		max-width: 280px;
+		margin-right: 6px;
 	}
 	#repos-desc{
 		margin-top: 10px;
