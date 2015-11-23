@@ -1,7 +1,7 @@
 {
 "repository_index":[
 	{
-		"repository":"Plot-Geospatial-Data",
+		"repository":"Plot_Geospatial_Data",
 		"description":"Plot data containing Latitude and Longitude on an interactive map.",
 		"pushed_at":"2015-09-03T17:27:01Z",
 		"type":"Extension",
@@ -12,7 +12,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Model-Random-Forest",
+		"repository":"Model_Random_Forest",
 		"description":"Classification and regression based on a forest of trees using random inputs, utilizing conditional inference trees as base learners. ",
 		"pushed_at":"2015-09-03T17:26:43Z",
 		"type":"Extension",
@@ -23,7 +23,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Multicolor-Plot",
+		"repository":"Multicolor_Plot",
 		"description":"Plot different intervals of a same curve in various colors.",
 		"pushed_at":"2015-07-21T03:31:13Z",
 		"type":"Extension",
@@ -34,7 +34,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Great-Circle-Distance",
+		"repository":"Great_Circle_Distance",
 		"description":"Compute the shortest distance distance between two points on the surface of the Earth",
 		"pushed_at":"2015-06-16T17:32:26Z",
 		"type":"Extension",
@@ -45,7 +45,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Plot-Heatmaps",
+		"repository":"Plot_Heatmaps",
 		"description":"Plot spatial data on a density heatmap in SPSS Modeler",
 		"pushed_at":"2015-09-03T17:28:01Z",
 		"type":"Extension",
@@ -56,7 +56,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Plot-Bubbles-Map",
+		"repository":"Plot_Bubbles_Map",
 		"description":"Plot an interactive Bubble Map",
 		"pushed_at":"2015-09-03T17:23:02Z",
 		"type":"Extension",
@@ -67,7 +67,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Present-Value",
+		"repository":"Present_Value",
 		"description":"Compute the present value of cash-flow by specifying the desired year and annual rate.",
 		"pushed_at":"2015-06-16T17:51:51Z",
 		"type":"Extension",
@@ -650,9 +650,9 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Publish-to-ArcGIS",
+		"repository":"Publish_to_ArcGIS",
 		"description":"Publish your SPSS analysis to Esri ArcGIS platform.",
-		"pushed_at":"2015-09-03T17:27:38Z",
+		"pushed_at":"2015-11-23T03:33:47Z",
 		"type":"Extension",
 		"provider":"Business Partner",
 		"software":"SPSS Modeler",
@@ -661,7 +661,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Reverse-Geocoding-Esri",
+		"repository":"Reverse_Geocoding_Esri",
 		"description":"Code a point location (latitude, longitude) to a readable address or place name.",
 		"pushed_at":"2015-10-16T22:35:51Z",
 		"type":"Extension",
@@ -672,9 +672,9 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Web-Heatmaps",
+		"repository":"Web_Heatmaps",
 		"description":"Create interactive heatmaps using different Esri Basemaps",
-		"pushed_at":"2015-09-11T21:59:53Z",
+		"pushed_at":"2015-11-23T03:29:53Z",
 		"type":"Extension",
 		"provider":"Business Partner",
 		"software":"SPSS Modeler",
@@ -694,7 +694,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Get-Coordinates-Esri",
+		"repository":"Get_Coordinates_Esri",
 		"description":"Get the latitude and the longitude of a location in IBM SPSS Modeler using Esri services",
 		"pushed_at":"2015-09-03T17:28:12Z",
 		"type":"Extension",
@@ -705,9 +705,9 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Read-JSON-File",
+		"repository":"Read_JSON_File",
 		"description":"Import an array of JSON objects into a SPSS Modeler Table",
-		"pushed_at":"2015-10-07T18:34:42Z",
+		"pushed_at":"2015-11-23T03:28:13Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -727,7 +727,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Score-with-Zementis",
+		"repository":"Score_with_Zementis",
 		"description":"Adapa scoring engine integrated with IBM SPSS",
 		"pushed_at":"2015-09-03T17:28:21Z",
 		"type":"Extension",
@@ -738,7 +738,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Upload-Model-To-Zementis",
+		"repository":"Upload_Model_To_Zementis",
 		"description":"Upload a SPSS Modeler PMML to Zementis Adapa  Cloud environment",
 		"pushed_at":"2015-10-15T14:49:24Z",
 		"type":"Extension",
@@ -749,9 +749,9 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"List-Zementis-Models",
+		"repository":"List_Zementis_Models",
 		"description":"List all the models in Zementis Cloud and inputs/outputs",
-		"pushed_at":"2015-09-03T17:28:29Z",
+		"pushed_at":"2015-11-23T03:31:58Z",
 		"type":"Extension",
 		"provider":"Business Partner",
 		"software":"SPSS Modeler",
@@ -823,6 +823,28 @@
 		"software":"SPSS Statistics",
 		"language":"R",
 		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_REGRESS_PLOT",
+		"description":" Plots useful in assessing regression relationships",
+		"pushed_at":"2015-10-31T02:06:21Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_SOUND",
+		"description":" Play Selected Sound",
+		"pushed_at":"2015-10-31T02:05:46Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
 		"promotion":"No"
 	},
 	{
@@ -1189,7 +1211,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Watson-Auto-Translate",
+		"repository":"Watson_Auto_Translate",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to detect the language of your text and translate to a target language.",
 		"pushed_at":"2015-09-03T20:22:15Z",
 		"type":"Extension",
@@ -1200,7 +1222,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Watson-Language-ID",
+		"repository":"Watson_Language_ID",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to detect the language of your text.",
 		"pushed_at":"2015-09-03T21:10:00Z",
 		"type":"Extension",
@@ -1211,7 +1233,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Watson-Translate",
+		"repository":"Watson_Translate",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to translate your source text to a target language.",
 		"pushed_at":"2015-09-03T20:22:33Z",
 		"type":"Extension",
@@ -1222,9 +1244,9 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Watson-Personality-Insights",
+		"repository":"Watson_Personality_Insights",
 		"description":"Use Watson Services' Personality Insights tool on IBM Bluemix to analyze the personality of the author of sample text.",
-		"pushed_at":"2015-09-03T20:22:24Z",
+		"pushed_at":"2015-10-26T17:04:03Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1233,13 +1255,13 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"MLlib-Pagerank",
+		"repository":"MLlib_Pagerank",
 		"description":"Estimating the relative importance of individuals within a social network using Spark MLlib",
-		"pushed_at":"2015-10-06T02:00:45Z",
+		"pushed_at":"2015-11-23T03:17:42Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
-		"language":"Python 3",
+		"language":" Python 3",
 		"category":"Analysis",
 		"promotion":"No"
 	},
@@ -1255,14 +1277,25 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"MLlib-CF",
+		"repository":"MLlib_CF",
 		"description":"Spark MLLib Collaborative filtering commonly used for recommender systems.",
-		"pushed_at":"2015-10-06T02:12:37Z",
+		"pushed_at":"2015-11-02T21:37:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
-		"language":"Python 3",
+		"language":" Python 3",
 		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"test_Modeler_multiColorPlot",
+		"description":"This repository is used to test modeler extension on Github",
+		"pushed_at":"2015-11-12T07:54:29Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"Python 2",
+		"category":"Visualization",
 		"promotion":"No"
 	}
 ]
