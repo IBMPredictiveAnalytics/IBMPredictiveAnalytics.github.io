@@ -828,7 +828,7 @@
 	{
 		"repository":"STATS_REGRESS_PLOT",
 		"description":" Plots useful in assessing regression relationships",
-		"pushed_at":"2015-10-31T02:06:21Z",
+		"pushed_at":"2015-12-04T02:42:51Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -839,7 +839,7 @@
 	{
 		"repository":"STATS_SOUND",
 		"description":" Play Selected Sound",
-		"pushed_at":"2015-10-31T02:05:46Z",
+		"pushed_at":"2015-12-04T02:44:57Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -949,22 +949,22 @@
 	{
 		"repository":"CFA",
 		"description":" Configural Frequency Analysis (after von Eye and Krauth)",
-		"pushed_at":"2015-09-23T05:50:04Z",
+		"pushed_at":"2015-12-04T04:45:37Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
-		"language":"SPSS",
+		"language":"Native product",
 		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
 		"repository":"ColPropTest",
 		"description":" Column proportions test (z-test)",
-		"pushed_at":"2015-09-23T05:48:39Z",
+		"pushed_at":"2015-12-04T04:46:10Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
-		"language":"SPSS",
+		"language":"Native product",
 		"category":"Analysis",
 		"promotion":"No"
 	},
@@ -1092,22 +1092,22 @@
 	{
 		"repository":"RegBoxCoxTransforms",
 		"description":" Box-Cox Transformations",
-		"pushed_at":"2015-08-19T16:55:33Z",
+		"pushed_at":"2015-12-04T04:46:34Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
-		"language":"SPSS",
+		"language":"Native product",
 		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
 		"repository":"RegCompResPlots",
 		"description":" Component+Residual Plots (aka Partial Residual Plots)",
-		"pushed_at":"2015-08-19T16:55:36Z",
+		"pushed_at":"2015-12-04T04:47:06Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
-		"language":"SPSS",
+		"language":"Native product",
 		"category":"Visualization",
 		"promotion":"No"
 	},
@@ -1169,11 +1169,11 @@
 	{
 		"repository":"SimulateActiveDataset",
 		"description":" Generate a new dataset from variable distributions in the act",
-		"pushed_at":"2015-08-19T16:56:05Z",
+		"pushed_at":"2015-12-04T04:47:29Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":"SPSS",
+		"language":"Native product",
 		"category":"Data Manipulation",
 		"promotion":"No"
 	},
@@ -1290,7 +1290,7 @@
 	{
 		"repository":"test_Modeler_multiColorPlot",
 		"description":"This repository is used to test modeler extension on Github",
-		"pushed_at":"2015-11-12T07:54:29Z",
+		"pushed_at":"2015-12-02T08:17:02Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
