@@ -80,7 +80,7 @@
 #cate-item{
 	font-size: 12px;
 	font-weight:bold;
-	min-width: 120px;
+	min-width: 90px;
 	text-align: left;
 }
 #lang-item{
@@ -121,18 +121,16 @@
 
 #repo-link-for-table{
 	border: 1px solid #585858;
+	color:#585858;
 	border-radius: 8px;
-	font-size: 12px;
+	line-height: 10px;
 	font-weight:bold;
 	font-style: italic;
 	text-align: center;
-	height:20px;
-	width: 140px;
-	padding-bottom: auto;
-	padding-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #D8D8D8;
+	font-size: 10px;
+	width: 120px;
+	padding: 2px 0;
+	background-color: #F9F9FB;
 }
 
 .repos-tag{
@@ -196,11 +194,9 @@
 	overflow: auto;
 	text-align: center;
 	background-color: #282832;
-	width: 16rem;
-	max-width: 22%;
+	width: 17rem;
 	height: 100%;
 	padding-top: 0;
-	min-width: 10%;
 }
 
 .leftsidebar-box dt{
@@ -255,10 +251,16 @@
 	text-align: center;
 	padding-top: 0;
 	overflow: auto;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	padding-left: auto;
 	padding-right: auto;
-	overflow-x: auto;
+	position: relative;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+	left: 46%;
 }
 
 .jumbotron
@@ -451,6 +453,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	border: 1px solid #585858;
 	padding: auto 5px auto 5px;
 	overflow:auto;
+	margin: 0 3px 6px 3px;
 }
 
 #top-layer{
@@ -468,6 +471,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	padding-top: 0;
 	font-weight: bold;
 	width: auto;
+	word-wrap: break-word;
 }
 
 #repos-desc{
@@ -478,6 +482,7 @@ background:url(../imgs/news.jpg) no-repeat;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 
@@ -500,21 +505,6 @@ background:url(../imgs/news.jpg) no-repeat;
 {
 	height: 32px;
 	padding-bottom:0px;
-}
-
-#wrapper .java
-{
-	//border-top: 4px solid #510FAD;
-}
-
-#wrapper .ruby
-{
-	//border-top: 4px solid #33CCCC;
-}
-
-#wrapper .javascript
-{
-	//border-top: 4px solid #FFBE40;
 }
 
 .section-title
@@ -720,13 +710,6 @@ margin-right: -2px;
 	-moz-transition: all .2s ease;
 	-o-transition: all .2s ease;
 	transition: all .2s ease;
-}
-
-.pin img {
-	width: 100%;
-	border-bottom: 1px solid #ccc;
-	padding-bottom: 15px;
-	margin-bottom: 5px;
 }
 
 .pin p {
@@ -1085,7 +1068,7 @@ a:focus,
 }
 
 /*css hack*/
-/*for moz and IE 11*/
+/*IE 11*/
 @media (min-width: 768px)
 	#wrapper .card{
 		max-width: 240px;
@@ -1104,35 +1087,43 @@ a:focus,
 		font-size: 0.4em;
 	}
 }
-@media (min-width: 992px){
-	#wrapper .card{
-		max-width: 260px;
-		min-width: 250px;
-	}
-	
-	#repos-name{
-		font-size: 0.8em;
-	}
-	
-	#repos-developer{
-		font-size: 0.6em;
-	}
-	
-	#repos-software{
-		font-size: 0.6em;
-	}
-}
 
-@media (min-width: 1240px){
-	#wrapper .card{
-		max-width: 280px;
-		min-width: 260px;
+@media (min-width: 992px){
+	.leftsidebar-box{
+		width: 13rem;
 	}
 	
-	#repos-name{
+	#wrapper .card{
+		min-width: 280px;
+		height: 430px;
+	}
+	
+	#wrapper .card #top-layer{
+		height: 10px;
+	}
+	
+	#wrapper .card #repos-name{
+		height: 50px;
 		font-size: 1.0em;
 	}
 	
+	#wrapper .card #repos-img{
+		height: 170px;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 45px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 25px;
+	}
+	
 	#repos-developer{
 		font-size: 0.7em;
 	}
@@ -1142,14 +1133,40 @@ a:focus,
 	}
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) {	
+	.leftsidebar-box{
+		width: 17rem;
+	}
+	
 	#wrapper .card{
-		max-width: 320px;
 		min-width: 300px;
-	}	
-		
-	#repos-name{
+		height: 440px;
+	}
+	
+	#wrapper .card #top-layer{
+		height: 10px;
+	}
+	
+	#wrapper .card #repos-name{
+		height: 50px;
 		font-size: 1.1em;
+	}
+	
+	#wrapper .card #repos-img{
+		height: 180px;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 45px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 25px;
 	}
 	
 	#repos-developer{
@@ -1163,54 +1180,168 @@ a:focus,
 
 
 /*for webkit*/
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio:0){
+@media (min-width: 0) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
-		max-width: 220px;
-	}
-	#repos-name{
-		font-size: 0.6em;
-	}
-}
-
-@media (min-width: 992px) and (-webkit-min-device-pixel-ratio:0){
-	#wrapper .card{
-		max-width: 250px;
+		width: 280px;
+		height: 450px;
 	}
 	
-	#repos-name{
-		font-size: 0.7em;
+	#wrapper .card #top-layer{
+		height: 10px;
+	}
+	
+	#wrapper .card #repos-name{
+		height: 50px;
+		font-size: 0.9em;
+	}
+	
+	#wrapper .card #repos-img{
+		height: 150px;
+		border-bottom: 1px solid #ccc;	
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 60px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 30px;
+	}
+	
+	#wrapper .card #repos-developer{
+		font-size: 0.8em;
+	}
+	
+	#wrapper .card #repos-software{
+		font-size: 0.8em;
 	}
 }
 
 @media (min-width: 1240px) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
-		max-width: 320px;
 		min-width: 280px;
+		height: 450px;
 	}
-	#repos-desc{
-		margin-top: 10px;
+	
+	#wrapper .card #top-layer{
+		height: 10px;
 	}
-	#repos-name{
+	
+	#wrapper .card #repos-name{
+		height: 50px;
+		font-size: 1.0em;
+	}
+	
+	#wrapper .card #repos-img{
+		height: 180px;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 60px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 30px;
+	}
+	
+	#wrapper .card #repos-developer{
+		font-size: 0.9em;
+	}
+	
+	#wrapper .card #repos-software{
 		font-size: 0.9em;
 	}
 }
 
 @media (min-width: 1366px) and (-webkit-min-device-pixel-ratio:0){
 	#wrapper .card{
-		max-width: 300px;
+		min-width: 380px;
+		height: 500px;
 	}
-
+	
+	#wrapper .card #top-layer{
+		height: 10px;
+	}
+	
+	#wrapper .card #repos-name{
+		height: 60px;
+		font-size: 1.3em;
+	}
+	
+	#wrapper .card #repos-img{
+		height: 200px;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 60px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 30px;
+	}
+	
+	#wrapper .card #repos-developer{
+		font-size: 0.9em;
+	}
+	
+	#wrapper .card #repos-software{
+		font-size: 0.9em;
+	}
 }
+
+
+
 
 /*for moz*/
 @-moz-document url-prefix(){	
-	@media screen and (min-width: 768px){
-		#wrapper .card{
-			max-width: 200px;
+	@media screen and (min-width: 0px){
+		.leftsidebar-box{
+			width: 13rem;
 		}
 		
-		#repos-name{
+		#wrapper .card{
+			width: 200px;
+			height: 380px;
+		}
+		
+		#wrapper .card #top-layer{
+			height: 10px;
+		}
+		
+		#wrapper .card #repos-name{
+			height: 50px;
 			font-size: 0.6em;
+		}
+		
+		#wrapper .card #repos-img{
+			height: 120px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		#wrapper .card #repos-img img{
+			margin: auto;
+		}
+		
+		#wrapper .card #repos-desc{
+			height: 45px;
+		}
+		
+		#wrapper .card #repos-cate{
+			height: 25px;
 		}
 		
 		#repos-developer{
@@ -1223,12 +1354,39 @@ a:focus,
 	}
 	
 	@media screen and (min-width: 992px){
-		#wrapper .card{
-			max-width: 230px;
+		.leftsidebar-box{
+			width: 13rem;
 		}
 		
-		#repos-name{
+		#wrapper .card{
+			min-width: 230px;
+			height: 400px;
+		}
+		
+		#wrapper .card #top-layer{
+			height: 10px;
+		}
+		
+		#wrapper .card #repos-name{
+			height: 50px;
 			font-size: 0.8em;
+		}
+		
+		#wrapper .card #repos-img{
+			height: 140px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		#wrapper .card #repos-img img{
+			margin: auto;
+		}
+		
+		#wrapper .card #repos-desc{
+			height: 45px;
+		}
+		
+		#wrapper .card #repos-cate{
+			height: 25px;
 		}
 		
 		#repos-developer{
@@ -1241,10 +1399,39 @@ a:focus,
 	}
 	
 	@media screen and (min-width: 1300px) {
+		.leftsidebar-box{
+			width: 17rem;
+		}
+		
 		#wrapper .card{
-			max-width: 350px;
 			min-width: 300px;
-			margin: 0 3px 6px 3px;
+			height: 420px;
+		}
+		
+		#wrapper .card #top-layer{
+			height: 10px;
+		}
+		
+		#wrapper .card #repos-name{
+			height: 50px;
+			font-size: 1.1em;
+		}
+		
+		#wrapper .card #repos-img{
+			height: 160px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		#wrapper .card #repos-img img{
+			margin: auto;
+		}
+		
+		#wrapper .card #repos-desc{
+			height: 45px;
+		}
+		
+		#wrapper .card #repos-cate{
+			height: 25px;
 		}
 		
 		#repos-name{

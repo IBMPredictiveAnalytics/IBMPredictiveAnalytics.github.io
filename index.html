@@ -109,7 +109,7 @@
 			  </h1>
 			</div>
 		</div>	
-		<div class="container">
+		<div class="container" id="repos-container">
 		  <div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
 			  <div id="wrapper">
@@ -129,14 +129,12 @@
 				<hr class="hr-style">
 			  </div>
 			</div>
-			<hr>
 		  </div>
 		</div>
-		
-	  </div>
-	  <div id="space"></div>
-	  <div id="footer">
-		<p>© IBM 2015</p>
+		<div id="space"></div>
+		<div id="footer">
+		  <p>© IBM 2015</p>
+		</div>
 	  </div>
 	</div>
 
@@ -191,7 +189,6 @@
 		var card_num = parseFloat(Math.floor(actual_repos_w/card_w));
 		var card_margin = parseFloat($("#wrapper .card").css("margin-left"));
 		var padding = parseFloat((actual_repos_w - (card_margin*2+card_w)*card_num )/2);
-		console.log("adjust padding "+padding);
 		return padding || 0;
 	  }
 	  
@@ -314,7 +311,7 @@
 		  }
 		  var container_w = parseFloat($(".container").css("width"));
 		  var $software_item = $("<td>").attr("id", "software-item").text(repo.software);
-		  var $name_item = $("<td>").attr("id", "name-item").text(repo.repository);
+		  var $name_item = $("<td>").attr("id", "name-item").text(repo.repository.replace(/\_/g," "));
 		  var $desc_item = $("<td>").attr("id", "desc-item").text(repo.description);
 		  var $cate_item = $("<td>").attr("id", "cate-item").text(repo.category);
 		  var $lang_item = $("<td>").attr("id", "lang-item").text(repo.language);
@@ -346,12 +343,7 @@
 			],
 			"aLengthMenu": [[10,20,30,-1], ["10","20","30","all"]]
 		});
-		setFooterPos();
-		
-		//wehn selecting different page, the table length and the footer pos vary
-		$("#list_repos").find('table').resize(function(){
-		  setFooterPos();
-		});
+	  
 	  }
 	  
 	  //grid view
@@ -366,7 +358,7 @@
 			  continue;
 		  }
 		  
-		  var $item = $("<div>").addClass("card pin col-lg-3 col-md-4"+ (repo.language || '').toLowerCase()+ " "+repo.repository.toLowerCase()).appendTo("#allrepos");
+		  var $item = $("<div>").addClass("card pin col-lg-4 col-md-4 col-sm-6"+ (repo.language || '').toLowerCase()+ " "+repo.repository.toLowerCase()).appendTo("#allrepos");
 		  var $top_layer = $("<div>").attr("id", "top-layer").appendTo($item);
 		  
 		  var $software_icon = $("<i>").addClass("fa").addClass(getSoftwareIconName(repo.software));
@@ -374,17 +366,11 @@
 		  var $software_tag = $("<div>").attr("id", "repos-software").append($software_icon).append($software_text).appendTo($top_layer);
 		  var $developer_tag = $("<div>").addClass("repos-tag").attr("id", "repos-developer").text(repo.provider).appendTo($top_layer);
 		  
-		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository).appendTo($item);
+		  var $repos_name = $("<div>").attr("id", "repos-name").text(repo.repository.replace(/\_/g," ")).appendTo($item);
 		  
 		  var img_url = "https://raw.githubusercontent.com/IBMPredictiveAnalytics/"+repo.repository+"/master/"+img_name;
 		  var $repo_img = $("<div>").attr("id", "repos-img").appendTo($item);
 		  var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
-		  /*try{
-			var $img = $("<img>").attr("alt","IBM SPSS").attr("src", img_url).appendTo($repo_img);
-		  }catch(e){
-			alert(e.message);
-		  }*/
-		
 		  
 		  //description length should not exceed 150 characters; otherwise there will be a tool tip poping up when mouse being over it
 		  var desc_tip = repo.description;
@@ -436,21 +422,15 @@
 			$("#allrepos div[id='repos-software']").css("padding-top","2px");
 			$("#allrepos div[id='repos-developer']").css("padding-top","2px");			
 		}
-		
-		setFooterPos();
-		adjustBannerPos();
-		adjustReposFieldPos();
+
 		$(window).load(function(){
-		  setReposHeight();
-		  setReposWidth();
+		  //setReposHeight();
+		  //setReposWidth();
 		  adjustReposFieldPos();
 		});
 	  }
 	  
-	  $(window).resize(function () {
-		  adjustBannerPos();
-		  adjustReposFieldPos();
-	  });
+
 	  
 	  function getMaxHeightForEachDiv(div_id, attr){
 		var max_height = parseFloat($("#allrepos div["+attr+"='"+div_id+"']:eq(0)").css("height"));
@@ -480,19 +460,15 @@
 	  }
 	  
 	  function setFooterPos(){
-		var sidebar_h = $(".leftsidebar-box").height();
-		var screen_h = document.documentElement.clientHeight - $(".navbar").height();
-		var scroll_top = document.documentElement.scrollTop == 0 ? document.body.scrollTop : document.documentElement.scrollTop;
-		var repos_field_h = $(".repos-field").height();
+		var sidebar_h = parseFloat($(".leftsidebar-box").height());
+		var repos_h = parseFloat($(".repos-field").find("#repos-container").height()) + parseFloat($(".repos-field").find(".jumbotron").height());
 
-		if (sidebar_h>repos_field_h) {
-		  $("#space").css("height",sidebar_h-repos_field_h-$("#footer").height());
+		if (sidebar_h>repos_h) {
+		  $("#space").css("height",sidebar_h-repos_h+100);
 		}
 		else{
 		  $("#space").css("height", 100);
 		}
-		
-		$("#footer").css("margin-left", "16%");
 	  }
 	  
 	  function getMaxTopLayerWidth(){
@@ -909,7 +885,6 @@
 	  
 	  //function is executed from this line
 	  //Create Repository Field
-	  
 	  var $grid_item = $("<div id='allrepos'>").attr("display", "block").appendTo("#wrapper");        //grid view
 	  var $list_item = $("<div id='list_repos'>").attr("display", "block").appendTo("#wrapper");      //list view
 	  var $no_repo_msg = $("<span>").text("No items found. Please change the filter on the sidebar.");
@@ -921,7 +896,18 @@
 		addRepos(orgs[r]);
 	  }
 	  setSearchBoxPos();
+	  
+	  //when selecting different page, the table length and the footer pos vary
+	  $(".repos-field").find("#wrapper").resize(function(){
+		setFooterPos();
+	  });
+	  
 	  $("<div>").addClass("separator").appendTo("#wrapper");
+	  	  
+	  $(window).resize(function () {
+		  adjustBannerPos();
+		  adjustReposFieldPos();
+	  });
 	});
 
 	</script>
