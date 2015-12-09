@@ -1069,22 +1069,49 @@ a:focus,
 
 /*css hack*/
 /*IE 11*/
-@media (min-width: 768px)
+@media (min-width: 0px){
+	.leftsidebar-box{
+		width: 13rem;
+	}
 	#wrapper .card{
-		max-width: 240px;
-		min-width: 220px;
+		width: 230px;
 	}
 	
+	#wrapper .card #top-layer{
+		height: 10px;
+	}
+	
+	#wrapper .card #repos-name{
+		height: 50px;
+		font-size: 1.0em;
+	}
+	
+	#wrapper .card #repos-img{
+		height: 150px;
+		border-bottom: 1px solid #ccc;
+	}
+	
+	#wrapper .card #repos-img img{
+		margin: auto;
+	}
+	
+	#wrapper .card #repos-desc{
+		height: 45px;
+	}
+	
+	#wrapper .card #repos-cate{
+		height: 25px;
+	}
 	#repos-name{
-		font-size: 0.6em;
+		font-size: 0.8em;
 	}
 	
 	#repos-developer{
-		font-size: 0.4em;
+		font-size: 0.6em;
 	}
 	
 	#repos-software{
-		font-size: 0.4em;
+		font-size: 0.6em;
 	}
 }
 
