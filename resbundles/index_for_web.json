@@ -223,11 +223,11 @@
 	{
 		"repository":"SPSSINC_QQPLOT2",
 		"description":" Two variable or two group Q-Q plot",
-		"pushed_at":"2015-06-19T01:46:10Z",
+		"pushed_at":"2015-12-09T02:54:56Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":" R",
+		"language":"R",
 		"category":"Visualization",
 		"promotion":"No"
 	},
@@ -573,6 +573,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"STATS_GET_TRIPLES",
+		"description":" Read a file in Triple-S format",
+		"pushed_at":"2015-12-09T02:23:29Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"STATS_GRM",
 		"description":" Fit graded response models to ordinal data",
 		"pushed_at":"2015-07-06T16:15:07Z",
@@ -592,6 +603,17 @@
 		"software":"SPSS Statistics",
 		"language":" R",
 		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_IF",
+		"description":" Execute blocks of code conditionally",
+		"pushed_at":"2015-12-09T02:25:59Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
 		"promotion":"No"
 	},
 	{
@@ -712,6 +734,28 @@
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_MCSET_CONVERT",
+		"description":"Convert a multiple category set to a multiple dichotomy set.",
+		"pushed_at":"2015-12-09T02:42:09Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_OPEN_PROJECT",
+		"description":" Open a project",
+		"pushed_at":"2015-12-09T02:50:49Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
 		"category":"Utility",
 		"promotion":"No"
 	},
@@ -1296,6 +1340,28 @@
 		"software":"SPSS Modeler",
 		"language":"Python 2",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"test_Modeler_Plot_Geospatial_Data",
+		"description":"",
+		"pushed_at":"2015-12-07T02:59:19Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Geospatial",
+		"promotion":"No"
+	},
+	{
+		"repository":"test_Modeler_MLlib_CF",
+		"description":"",
+		"pushed_at":"2015-12-08T09:02:38Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 3",
+		"category":"Analysis",
 		"promotion":"No"
 	}
 ]
