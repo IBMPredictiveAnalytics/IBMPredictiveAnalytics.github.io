@@ -91,11 +91,11 @@
 	{
 		"repository":"SPSSINC_CENSOR_TABLES",
 		"description":" Censor cells of a pivot table based on the values of a tests",
-		"pushed_at":"2015-06-16T16:48:03Z",
+		"pushed_at":"2015-12-14T06:35:12Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":"Python 2",
+		"language":"Python 3",
 		"category":"Presentation",
 		"promotion":"No"
 	},
@@ -113,11 +113,11 @@
 	{
 		"repository":"SPSSINC_CREATE_DUMMIES",
 		"description":" Create a set of dummy variables representing the values of on",
-		"pushed_at":"2015-06-16T16:48:56Z",
+		"pushed_at":"2015-12-14T06:34:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":"Python 2",
+		"language":"Python 3",
 		"category":"Data manipulation",
 		"promotion":"No"
 	},
@@ -331,6 +331,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"SPSSINC_SUMMARY_TTEST",
+		"description":"Calculate a t test from the N's, means, and standard deviations rather than the case data",
+		"pushed_at":"2015-12-15T01:27:51Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"SPSSINC_TOBIT_REGR",
 		"description":" Estimate a regression model whose dependent variable has a fi",
 		"pushed_at":"2015-09-03T17:18:01Z",
@@ -383,6 +394,17 @@
 		"software":"SPSS Statistics",
 		"language":"R",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_BENCHMRK",
+		"description":" Benchmark Statistics Jobs",
+		"pushed_at":"2015-12-15T01:20:39Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
 		"promotion":"No"
 	},
 	{
@@ -529,6 +551,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"STATS_FIND_FILE",
+		"description":" Create file handle in location of a searched for file",
+		"pushed_at":"2015-12-15T01:21:04Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"STATS_FIRTHLOG",
 		"description":" Firth logistic regression",
 		"pushed_at":"2015-06-27T22:31:03Z",
@@ -573,9 +606,20 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"STATS_GET_R",
+		"description":" Get information about R workspace contents and create SPSS da",
+		"pushed_at":"2015-12-14T02:52:41Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"STATS_GET_TRIPLES",
 		"description":" Read a file in Triple-S format",
-		"pushed_at":"2015-12-09T02:23:29Z",
+		"pushed_at":"2015-12-09T07:45:37Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -608,7 +652,7 @@
 	{
 		"repository":"STATS_IF",
 		"description":" Execute blocks of code conditionally",
-		"pushed_at":"2015-12-09T02:25:59Z",
+		"pushed_at":"2015-12-09T06:26:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -740,7 +784,7 @@
 	{
 		"repository":"STATS_MCSET_CONVERT",
 		"description":"Convert a multiple category set to a multiple dichotomy set.",
-		"pushed_at":"2015-12-09T02:42:09Z",
+		"pushed_at":"2015-12-09T06:21:31Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -751,7 +795,7 @@
 	{
 		"repository":"STATS_OPEN_PROJECT",
 		"description":" Open a project",
-		"pushed_at":"2015-12-09T02:50:49Z",
+		"pushed_at":"2015-12-09T08:53:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -837,6 +881,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"STATS_PMML_DISPLAY",
+		"description":" Display summary information for PMML files",
+		"pushed_at":"2015-12-14T09:44:08Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"STATS_PROPOR_REGR",
 		"description":" Linear models for dependent variables that are proportions",
 		"pushed_at":"2015-09-03T17:16:43Z",
@@ -872,12 +927,23 @@
 	{
 		"repository":"STATS_REGRESS_PLOT",
 		"description":" Plots useful in assessing regression relationships",
-		"pushed_at":"2015-12-04T02:42:51Z",
+		"pushed_at":"2015-12-11T09:27:52Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_RELIMP",
+		"description":" Relative importance measures for regression",
+		"pushed_at":"2015-12-14T02:40:01Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
@@ -977,6 +1043,17 @@
 		"software":"SPSS Statistics",
 		"language":"Python 2",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_ZEROINFL",
+		"description":" Estimate and predict a zero-inflated count model",
+		"pushed_at":"2015-12-14T02:54:01Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
@@ -1134,6 +1211,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"RegBestSubsets",
+		"description":" Best subsets regression",
+		"pushed_at":"2015-12-15T01:53:41Z",
+		"type":"Extension",
+		"provider":"Community",
+		"software":"SPSS Statistics",
+		"language":"Native Product",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
 		"repository":"RegBoxCoxTransforms",
 		"description":" Box-Cox Transformations",
 		"pushed_at":"2015-12-04T04:46:34Z",
@@ -1159,6 +1247,17 @@
 		"repository":"RMosaicAndAssociationPlots",
 		"description":" R-based dialog for Mosaic and Association plots",
 		"pushed_at":"2015-09-03T17:18:57Z",
+		"type":"Extension",
+		"provider":"Community",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"RRegDiagGraph",
+		"description":" Provides a large set of diagnostic plots and some tests for r",
+		"pushed_at":"2015-12-15T02:12:04Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1222,6 +1321,17 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"SPSSINC_RECODEEX",
+		"description":" Extended RECODE command",
+		"pushed_at":"2015-12-14T09:19:23Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"SPSSINC_ANON",
 		"description":" Anonymize variables and data",
 		"pushed_at":"2015-08-19T16:56:31Z",
@@ -1247,6 +1357,39 @@
 		"repository":"SPSSINC_TURF",
 		"description":" Perform TURF analysis",
 		"pushed_at":"2015-08-19T17:10:52Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_EXRASCH",
+		"description":" Calculate standard and extended Rasch models",
+		"pushed_at":"2015-12-14T02:41:08Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_FLEISS_KAPPA",
+		"description":" Compute Fleiss Multi-Rater Kappa Statistics",
+		"pushed_at":"2015-12-14T09:33:35Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_WEIGHTED_KAPPA",
+		"description":" Weighted Kappa Statistic Using Linear or Quadratic Weights",
+		"pushed_at":"2015-12-15T01:38:01Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1332,35 +1475,123 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"test_Modeler_multiColorPlot",
-		"description":"This repository is used to test modeler extension on Github",
-		"pushed_at":"2015-12-02T08:17:02Z",
+		"repository":"STATS_BAYES_ANOVA",
+		"description":"Calculate Bayesian Analysis of Variance",
+		"pushed_at":"2015-12-14T02:40:14Z",
 		"type":"Extension",
 		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":"Python 2",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"Rboxplot",
+		"description":"Generate boxplots using R graphics.",
+		"pushed_at":"2015-12-15T02:13:03Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
 		"category":"Visualization",
 		"promotion":"No"
 	},
 	{
-		"repository":"test_Modeler_Plot_Geospatial_Data",
-		"description":"",
-		"pushed_at":"2015-12-07T02:59:19Z",
+		"repository":"STATS_BAYES_CROSSTABS",
+		"description":"Calcuate Bayesian test of independence for two factors.",
+		"pushed_at":"2015-12-14T08:50:29Z",
 		"type":"Extension",
 		"provider":"IBM",
-		"software":"SPSS Modeler",
+		"software":"SPSS Statistics",
 		"language":"R",
-		"category":"Geospatial",
+		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
-		"repository":"test_Modeler_MLlib_CF",
-		"description":"",
-		"pushed_at":"2015-12-08T09:02:38Z",
+		"repository":"STATS_BAYES_REGR",
+		"description":"Compute Bayesian regression models.",
+		"pushed_at":"2015-12-14T08:51:50Z",
 		"type":"Extension",
 		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":" Python 3",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_BAYES_TTEST",
+		"description":"Bayesian T Test.",
+		"pushed_at":"2015-12-14T08:58:06Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_C50_TREE",
+		"description":"C5.0 Decision Tree",
+		"pushed_at":"2015-12-14T09:04:19Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_NONPAR_REGR",
+		"description":"Nonparametric regression.",
+		"pushed_at":"2015-12-14T09:09:04Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_GETSET_DATASET",
+		"description":"Open an SPSS file and apply a permanent dataset name to the r  esulting dataset.",
+		"pushed_at":"2015-12-14T09:41:32Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 2",
+		"category":"Data Manipulation",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_POPULATION_DESCRIPTIVES",
+		"description":"Descriptive Statistics for a Population.",
+		"pushed_at":"2015-12-15T01:49:01Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native Product",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_QUADE_ANCOVA",
+		"description":"Quade nonparametric analysis of covariance.",
+		"pushed_at":"2015-12-15T01:47:19Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native Product",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_ROC_COMPARE_INDEPENDENT",
+		"description":"Pairwise Comparisons of Areas Under Independent ROC Curves.",
+		"pushed_at":"2015-12-15T01:53:18Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native Product",
 		"category":"Analysis",
 		"promotion":"No"
 	}
