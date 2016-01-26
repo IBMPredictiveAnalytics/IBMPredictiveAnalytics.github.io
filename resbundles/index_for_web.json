@@ -95,7 +95,7 @@
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":"Python 3",
+		"language":"Python 2",
 		"category":"Presentation",
 		"promotion":"No"
 	},
@@ -117,7 +117,7 @@
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
-		"language":"Python 3",
+		"language":"Python 2",
 		"category":"Data manipulation",
 		"promotion":"No"
 	},
