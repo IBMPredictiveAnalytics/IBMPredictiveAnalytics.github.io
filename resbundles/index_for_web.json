@@ -1594,6 +1594,17 @@
 		"language":"Python 2",
 		"category":"Analysis",
 		"promotion":"No"
+	},
+	{
+		"repository":"Weather_Underground_Import",
+		"description":"Accepts airport/weather station IDs and returns various weather data points for each location.",
+		"pushed_at":"2015-02-15T02:05:53Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
