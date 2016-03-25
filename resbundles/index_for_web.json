@@ -245,7 +245,7 @@
 	{
 		"repository":"SPSSINC_RAKE",
 		"description":" Calculate weights to control totals in up to ten dimensions by rim weighting, i.e. raking",
-		"pushed_at":"2016-02-02T22:44:36Z",
+		"pushed_at":"2016-03-16T02:46:35Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -432,7 +432,7 @@
 	{
 		"repository":"STATS_CATEGORY_ORDER",
 		"description":" Create a macro or multiple dichotomy set with a specified var",
-		"pushed_at":"2016-02-03T16:50:44Z",
+		"pushed_at":"2016-03-08T02:56:20Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -597,7 +597,7 @@
 	{
 		"repository":"STATS_GBMPRED",
 		"description":" Calculate predictions from generalized boosted regression mod",
-		"pushed_at":"2016-02-03T17:49:19Z",
+		"pushed_at":"2016-03-18T07:39:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1466,7 +1466,7 @@
 	{
 		"repository":"MLlib_CF",
 		"description":"Spark MLLib Collaborative filtering commonly used for recommender systems.",
-		"pushed_at":"2015-12-29T07:23:28Z",
+		"pushed_at":"2016-03-04T10:16:52Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1532,7 +1532,7 @@
 	{
 		"repository":"STATS_C50_TREE",
 		"description":"C5.0 Decision Tree",
-		"pushed_at":"2016-02-04T17:01:49Z",
+		"pushed_at":"2016-03-24T03:13:07Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1615,6 +1615,39 @@
 		"software":"SPSS Modeler",
 		"language":" R",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"Read_CSV_From_URL",
+		"description":"Import delimited data from a URL into SPSS Modeler",
+		"pushed_at":"2016-02-29T16:35:57Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"rCharts_Basic_Charts",
+		"description":"Create interactive data visualizations from SPSS Modeler using rCharts.  ",
+		"pushed_at":"2016-03-24T17:22:36Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"Benfords_Law_Analysis",
+		"description":"",
+		"pushed_at":"2016-03-25T15:49:35Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native product",
+		"category":"Analysis",
 		"promotion":"No"
 	}
 ]
