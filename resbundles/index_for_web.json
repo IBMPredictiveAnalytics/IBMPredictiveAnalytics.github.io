@@ -971,7 +971,7 @@
 	{
 		"repository":"STATS_SUBGROUP_PLOTS",
 		"description":" Graphically compare the distributions of a set of variables a",
-		"pushed_at":"2016-02-03T20:58:58Z",
+		"pushed_at":"2016-03-31T09:13:20Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1026,7 +1026,7 @@
 	{
 		"repository":"STATS_VALLBLS_FROMDATA",
 		"description":" Create value labels for variables from data",
-		"pushed_at":"2016-02-03T21:09:49Z",
+		"pushed_at":"2016-03-29T07:48:29Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1647,6 +1647,39 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Native product",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"Gradient_Boosted_Trees_with_MLlib",
+		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of Gradient Boosted Trees",
+		"pushed_at":"2016-04-01T16:46:19Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 2",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"K_Means_with_MLlib",
+		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering",
+		"pushed_at":"2016-04-01T16:47:26Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 2",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"Multinomial_Naive_Bayes_with_MLlib",
+		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of Multinomial Naive Bayes",
+		"pushed_at":"2016-04-01T16:54:02Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 2",
 		"category":"Analysis",
 		"promotion":"No"
 	}
