@@ -1641,7 +1641,7 @@
 	},
 	{
 		"repository":"Benfords_Law_Analysis",
-		"description":"",
+		"description":"First Digit distribution of the selected variable graphed with the ideal Benford’s Law distribution.",
 		"pushed_at":"2016-03-25T15:49:35Z",
 		"type":"Extension",
 		"provider":"IBM",
