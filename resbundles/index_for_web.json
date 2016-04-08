@@ -773,7 +773,7 @@
 	{
 		"repository":"Read_JSON_File",
 		"description":"Import an array of JSON objects into a SPSS Modeler Table",
-		"pushed_at":"2016-02-26T21:54:27Z",
+		"pushed_at":"2016-04-04T16:59:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1356,7 +1356,7 @@
 	{
 		"repository":"SPSSINC_TURF",
 		"description":" Perform TURF analysis",
-		"pushed_at":"2016-02-03T15:56:11Z",
+		"pushed_at":"2016-04-08T01:49:06Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1598,7 +1598,7 @@
 	{
 		"repository":"Weather_Underground_Import",
 		"description":"This SPSS Modeler Extension accepts a vector of airport/weather station IDs and returns various weather data points for each location.",
-		"pushed_at":"2016-02-26T18:15:34Z",
+		"pushed_at":"2016-04-07T22:34:04Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1609,7 +1609,7 @@
 	{
 		"repository":"Word_Cloud_Visualization",
 		"description":"Create Word Clouds from text data in IBM SPSS Modeler",
-		"pushed_at":"2016-02-22T18:50:59Z",
+		"pushed_at":"2016-04-04T17:01:40Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1620,7 +1620,7 @@
 	{
 		"repository":"Read_CSV_From_URL",
 		"description":"Import delimited data from a URL into SPSS Modeler",
-		"pushed_at":"2016-02-29T16:35:57Z",
+		"pushed_at":"2016-04-04T16:58:59Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1631,7 +1631,7 @@
 	{
 		"repository":"rCharts_Basic_Charts",
 		"description":"Create interactive data visualizations from SPSS Modeler using rCharts.  ",
-		"pushed_at":"2016-03-24T17:22:36Z",
+		"pushed_at":"2016-04-04T16:57:49Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1641,7 +1641,7 @@
 	},
 	{
 		"repository":"Benfords_Law_Analysis",
-		"description":"First Digit distribution of the selected variable graphed with the ideal Benford’s Law distribution.",
+		"description":"First Digit distribution of the selected variable graphed with the ideal Benford's Law distribution.",
 		"pushed_at":"2016-03-25T15:49:35Z",
 		"type":"Extension",
 		"provider":"IBM",
@@ -1653,7 +1653,7 @@
 	{
 		"repository":"Gradient_Boosted_Trees_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of Gradient Boosted Trees",
-		"pushed_at":"2016-04-01T16:46:19Z",
+		"pushed_at":"2016-04-01T20:05:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1664,7 +1664,7 @@
 	{
 		"repository":"K_Means_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering",
-		"pushed_at":"2016-04-01T16:47:26Z",
+		"pushed_at":"2016-04-01T20:05:27Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1675,12 +1675,23 @@
 	{
 		"repository":"Multinomial_Naive_Bayes_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of Multinomial Naive Bayes",
-		"pushed_at":"2016-04-01T16:54:02Z",
+		"pushed_at":"2016-04-01T20:05:30Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":" Python 2",
 		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_TSP",
+		"description":"Solves the traveling salesperson optimization problem",
+		"pushed_at":"2016-04-08T01:42:43Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
 		"promotion":"No"
 	}
 ]
