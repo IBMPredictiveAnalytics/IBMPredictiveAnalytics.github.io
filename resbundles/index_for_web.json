@@ -773,7 +773,7 @@
 	{
 		"repository":"Read_JSON_File",
 		"description":"Import an array of JSON objects into a SPSS Modeler Table",
-		"pushed_at":"2016-04-04T16:59:53Z",
+		"pushed_at":"2016-04-08T21:48:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1684,14 +1684,25 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"STATS_TSP",
+		"repository":"Traveling_Salesperson_Problem",
 		"description":"Solves the traveling salesperson optimization problem",
-		"pushed_at":"2016-04-08T01:42:43Z",
+		"pushed_at":"2016-04-27T03:10:10Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"R",
 		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"Hagen_Percentile_Ranking",
+		"description":"Percentile ranking based on book 'Introductory Statistics: Concepts, Models, and Applications by David W. Stockburger'.",
+		"pushed_at":"2016-04-29T14:40:53Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Analysis",
 		"promotion":"No"
 	}
 ]
