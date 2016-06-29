@@ -1748,6 +1748,17 @@
 		"language":" R",
 		"category":"Geospatial",
 		"promotion":"No"
+	},
+	{
+		"repository":"Alchemy_Text_Sentiment",
+		"description":"This extension use Alchemy Text Sentiment API for computing document-level sentiment",
+		"pushed_at":"2016-06-29T13:11:13Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
