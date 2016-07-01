@@ -1750,7 +1750,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Alchemy_Text_Sentiment",
+		"repository":"Sentiment_Analysis_with_Alchemy",
 		"description":"This extension use Alchemy Text Sentiment API for computing document-level sentiment",
 		"pushed_at":"2016-06-29T13:11:13Z",
 		"type":"Extension",
