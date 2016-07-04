@@ -1759,6 +1759,17 @@
 		"language":" R",
 		"category":"Utility",
 		"promotion":"No"
+	},
+	{
+		"repository":"SPSS_Moving_Average",
+		"description":"This extension calculate the simple moving average over last n periods",
+		"pushed_at":"2016-07-04T13:11:13Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
