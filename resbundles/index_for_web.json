@@ -1739,7 +1739,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"national-statistics-generator",
+		"repository":"National_Statistics_Data_with_ESRI",
 		"description":"This extension generates national statistics data directly. It works by capturing the latest population, lifestyle, market, job and spending data from Esri's Geoenrichment Service after referencing location values (latitude and longitude values) provided in the stream.",
 		"pushed_at":"2016-06-28T13:55:13Z",
 		"type":"Extension",
