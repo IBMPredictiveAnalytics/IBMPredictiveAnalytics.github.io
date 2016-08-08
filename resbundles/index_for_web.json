@@ -1783,7 +1783,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"The_Weather_Company_Airport_Observations",
+		"repository":"TWCo_Historical_Airport",
 		"description":"This extension use The Weather Company historical api to fetch observation weather data",
 		"pushed_at":"2016-08-04T09:50:01Z",
 		"type":"Extension",
@@ -1794,7 +1794,7 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"The_Weather_Company_Weather",
+		"repository":"TWCo_Historical_Gridded",
 		"description":"This extension use The Weather Company cleaned observation api to fetch weather data",
 		"pushed_at":"2016-08-04T09:50:01Z",
 		"type":"Extension",
