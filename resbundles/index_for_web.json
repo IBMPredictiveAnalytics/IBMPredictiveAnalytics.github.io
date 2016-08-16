@@ -1781,28 +1781,6 @@
 		"language":" R",
 		"category":"Utility",
 		"promotion":"No"
-	},
-	{
-		"repository":"TWCo_Historical_Airport",
-		"description":"This extension use The Weather Company historical api to fetch observation weather data",
-		"pushed_at":"2016-08-04T09:50:01Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":" R",
-		"category":"Utility",
-		"promotion":"No"
-	},
-	{
-		"repository":"TWCo_Historical_Gridded",
-		"description":"This extension use The Weather Company cleaned observation api to fetch weather data",
-		"pushed_at":"2016-08-04T09:50:01Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":" R",
-		"category":"Utility",
-		"promotion":"No"
 	}
 ]
 }
