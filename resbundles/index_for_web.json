@@ -1792,6 +1792,28 @@
 		"language":" R",
 		"category":"Visualization",
 		"promotion":"No"
+	},
+	{
+		"repository":"Import_Data_from_Twitter",
+		"description":"This extension allows you enabling the Twitter API.",
+		"pushed_at":"2016-09-07T14:58:13Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"Import_Data_from_Facebook",
+		"description":"This extension allows you enabling the Facebook API.",
+		"pushed_at":"2016-09-07T14:59:13Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
