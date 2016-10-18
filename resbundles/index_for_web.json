@@ -1851,7 +1851,7 @@
 	{
 		"repository":"Import_Data_from_Twitter",
 		"description":"SPSS Modeler nodes enabling the Twitter API",
-		"pushed_at":"2016-10-14T08:46:14Z",
+		"pushed_at":"2016-10-17T06:51:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1917,7 +1917,7 @@
 	{
 		"repository":"TwitterBlueMix",
 		"description":"SPSS Modeler nodes enabling the Twitter BlueMix API",
-		"pushed_at":"2016-10-11T12:12:25Z",
+		"pushed_at":"2016-10-17T06:53:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1928,7 +1928,7 @@
 	{
 		"repository":"Hierarchical_Clustering",
 		"description":"Diversification made better!",
-		"pushed_at":"2016-10-14T07:38:20Z",
+		"pushed_at":"2016-10-17T06:56:37Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1939,7 +1939,7 @@
 	{
 		"repository":"Portfolio_Optimization",
 		"description":"Create risk-efficient portfolios!",
-		"pushed_at":"2016-10-14T07:39:00Z",
+		"pushed_at":"2016-10-17T06:55:27Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
