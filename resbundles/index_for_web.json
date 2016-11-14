@@ -1794,6 +1794,28 @@
 		"promotion":"No"
 	},
 	{
+		"repository":"TWCo_Historical_Gridded",
+		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
+		"pushed_at":"2016-11-14T06:32:53Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Historical_Airport",
+		"description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
+		"pushed_at":"2016-11-14T06:31:49Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
 		"repository":"PCA_with_MLlib",
 		"description":"IBM SPSS Modeler extension for integrating with MLlib PCA",
 		"pushed_at":"2016-07-28T15:50:26Z",
@@ -1802,6 +1824,39 @@
 		"software":"SPSS Modeler",
 		"language":" Python 2",
 		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Forecast_Daily",
+		"description":"Daily Forecast - Forecast for 24-hour periods starting today for the next 10 days including daytime and nighttime.",
+		"pushed_at":"2016-11-14T06:25:36Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Forecast_Intraday",
+		"description":"Intraday Forecast - Forecast for 6-hour periods starting today for the next 10 days.  ",
+		"pushed_at":"2016-11-14T06:26:15Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Forecast_Hourly",
+		"description":"Hourly Forecast - Forecast for next 360 hours starting from the current time",
+		"pushed_at":"2016-11-14T06:27:25Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
 		"promotion":"No"
 	},
 	{
@@ -1911,6 +1966,72 @@
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Currents_Airport",
+		"description":"Site Based Current Observations - Observed weather data, including associated weather phrase and icon collected from METAR and SYNOP observation sites",
+		"pushed_at":"2016-11-14T06:22:43Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Currents_Airport_Past_24_Hour",
+		"description":"Time Series Observations - Historical weather data from METAR and SYNOP observation sites for specified time range",
+		"pushed_at":"2016-11-14T06:23:18Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Forecast_Precip_Events",
+		"description":"Precipitation Event Forecast - provides a weather forecast for precipitation events(rain, snow, sleet, freezing rain) onset and offset times for 28 time steps over the next 7 hours.",
+		"pushed_at":"2016-11-14T06:28:30Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Forecast_Short-Term",
+		"description":"15 Minute Forecast - This API returns weather content consisting of forecasted weather for the next 15 minutes increment time steps out to 7 hours.",
+		"pushed_at":"2016-11-14T06:29:25Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Utility_Location",
+		"description":"Utility API called Location Services that allows a user to convert a set of addresses to Lat/Lons to make it easier to ingest to our existing APIs. ",
+		"pushed_at":"2016-11-14T06:34:07Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Currents_Gridded",
+		"description":"Currents On Demand - High resolution, high temporal current conditions, including associated weather phrase and icon",
+		"pushed_at":"2016-11-14T06:24:42Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
 		"category":"Utility",
 		"promotion":"No"
 	},

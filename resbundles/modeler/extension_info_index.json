@@ -862,6 +862,116 @@
 		}
 	},
 	{
+		"repository":"TWCo_Historical_Gridded",
+		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
+		"pushed_at":"2016-11-14T07:05:28Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Historical_Gridded/releases/download/1.0.0/TWCo_Historical_Gridded.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Historical_Gridded/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Historical_Gridded",
+			"Dialog-Specs":"TWCoHistoricalGridded.cfe",
+			"Summary":"TWCo Historical Gridded",
+			"Description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Historical_Airport",
+		"description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
+		"pushed_at":"2016-11-14T07:08:54Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Historical_Airport/releases/download/1.0.0/TWCo_Historical_Airport.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Historical_Airport/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Historical_Airport",
+			"Dialog-Specs":"TWCoHistoricalAirport.cfe",
+			"Summary":"TWCo Historical Airport",
+			"Description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Forecast_Daily",
+		"description":"Daily Forecast - Forecast for 24-hour periods starting today for the next 10 days including daytime and nighttime.",
+		"pushed_at":"2016-11-14T07:34:34Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Forecast_Daily/releases/download/1.0.0/TWCo_Forecast_Daily.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Forecast_Daily/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Forecast_Daily",
+			"Dialog-Specs":"TWCoForecastDaily.cfe",
+			"Summary":"TWCo Forecast Daily",
+			"Description":"10 Day Daily Forecast - Forecast for 24-hour periods starting today for the next 10 days including daytime and nighttime.  Includes narrative text for the language requested",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Forecast_Intraday",
+		"description":"Intraday Forecast - Forecast for 6-hour periods starting today for the next 10 days.",
+		"pushed_at":"2016-11-14T07:23:08Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Forecast_Intraday/releases/download/1.0.0/TWCo_Forecast_Intraday.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Forecast_Intraday/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Forecast_Intraday",
+			"Dialog-Specs":"TWCoForecastIntraday.cfe",
+			"Summary":"TWCo Forecast Intraday",
+			"Description":"10 Day Intraday Forecast - Forecast for 6-hour periods starting today for the next 10 days.  Includes ‘morning’ (7am to 1pm), ‘afternoon’ (1pm - 7pm), ‘tonight’ (7pm - 1am), and ‘overnight’ (1am- 7am).",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Forecast_Hourly",
+		"description":"Hourly Forecast - Forecast for next 360 hours starting from the current time",
+		"pushed_at":"2016-11-14T07:15:53Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Forecast_Hourly/releases/download/1.0.0/TWCo_Forecast_Hourly.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Forecast_Hourly/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Forecast_Hourly",
+			"Dialog-Specs":"TWCoForecastHourly.cfe",
+			"Summary":"TWCo Forecast Hourly",
+			"Description":"15 Day Hourly Forecast - Forecast for next 360 hours starting from the current time",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
 		"repository":"Concept_Cloud_Visualization",
 		"description":"Create Concept Clouds from text data in IBM SPSS Modeler",
 		"pushed_at":"2016-09-05T08:43:38Z",
@@ -926,6 +1036,138 @@
 			"Version":"1.0.0",
 			"Product-Version":"18",
 			"Date":"2016"
+		}
+	},
+	{
+		"repository":"TWCo_Currents_Airport",
+		"description":"Site Based Current Observations - Observed weather data, including associated weather phrase and icon collected from METAR and SYNOP observation sites",
+		"pushed_at":"2016-11-14T07:38:45Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Currents_Airport/releases/download/1.0.0/TWCo_Currents_Airport.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Currents_Airport/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Currents_Airport",
+			"Dialog-Specs":"TWCoCurrentsAirport.cfe",
+			"Summary":"TWCo Currents Airport",
+			"Description":"Site Based Current Observations - Observed weather data, including associated weather phrase and icon collected from METAR and SYNOP observation sites",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Currents_Airport_Past_24_Hour",
+		"description":"Time Series Observations - Historical weather data from METAR and SYNOP observation sites for specified time range",
+		"pushed_at":"2016-11-14T07:37:02Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Currents_Airport_Past_24_Hour/releases/download/1.0.0/TWCo_Currents_Airport_Past_24_Hour.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Currents_Airport_Past_24_Hour/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Currents_Airport_Past_24_Hour",
+			"Dialog-Specs":"TWCoCurrentsAirportPast24Hour.cfe",
+			"Summary":"TWCo Currents Airport Past 24 Hour",
+			"Description":"Time Series Observations - Historical weather data from METAR and SYNOP observation sites for specified time range",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Forecast_Precip_Events",
+		"description":"Precipitation Event Forecast - provides a weather forecast for precipitation events(rain, snow, sleet, freezing rain) onset and offset times for 28 time steps over the next 7 hours.",
+		"pushed_at":"2016-11-14T07:14:20Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Forecast_Precip_Events/releases/download/1.0.0/TWCo_Forecast_Precip_Events.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Forecast_Precip_Events/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Forecast_Precip_Events",
+			"Dialog-Specs":"TWCoForecastPrecipEvents.cfe",
+			"Summary":"TWCo Forecast Precip Events",
+			"Description":"Precipitation Event Forecast - provides a weather forecast for precipitation events(rain, snow, sleet, freezing rain) onset and offset times for 28 time steps over the next 7 hours.",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Forecast_Short-Term",
+		"description":"15 Minute Forecast - This API returns weather content consisting of forecasted weather for the next 15 minutes increment time steps out to 7 hours.",
+		"pushed_at":"2016-11-14T07:11:17Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Forecast_Short-Term/releases/download/1.0.0/TWCo_Forecast_Short-Term.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Forecast_Short-Term/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Forecast_Short-Term",
+			"Dialog-Specs":"TWCoForecastShort-Term.cfe",
+			"Summary":"TWCo Forecast Short-Term",
+			"Description":"15 Minute Forecast - This API returns weather content consisting of forecasted weather for the next 15 minutes increment time steps out to 7 hours.",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Utility_Location",
+		"description":"Utility API called Location Services that allows a user to convert a set of addresses to Lat/Lons to make it easier to ingest to our existing APIs.",
+		"pushed_at":"2016-11-14T07:03:08Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Utility_Location/releases/download/1.0.0/TWCo_Utility_Location.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Utility_Location/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Utility_Location",
+			"Dialog-Specs":"TWCoUtilityLocationPoint.cfe,TWCoUtilityLocationQuery.cfe",
+			"Summary":"TWCo Utility Location",
+			"Description":"Utility API called Location Services that allows a user to convert a set of addresses to Lat/Lons to make it easier to ingest to our existing APIs. ",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"TWCo_Currents_Gridded",
+		"description":"Currents On Demand - High resolution, high temporal current conditions, including associated weather phrase and icon",
+		"pushed_at":"2016-11-14T07:35:54Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Currents_Gridded/releases/download/1.0.0/TWCo_Currents_Gridded.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Currents_Gridded/master/default.png",
+		"extension_detail_info": {
+			"Name":"TWCo_Currents_Gridded",
+			"Dialog-Specs":"TWCoCurrentsGridded.cfe",
+			"Summary":"TWCo Currents Gridded",
+			"Description":"Currents On Demand - High resolution, high temporal current conditions, including associated weather phrase and icon",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
 		}
 	},
 	{
