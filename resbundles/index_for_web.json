@@ -1796,7 +1796,7 @@
 	{
 		"repository":"TWCo_Historical_Gridded",
 		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
-		"pushed_at":"2016-11-14T06:32:53Z",
+		"pushed_at":"2016-11-15T09:23:40Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1807,7 +1807,7 @@
 	{
 		"repository":"TWCo_Historical_Airport",
 		"description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
-		"pushed_at":"2016-11-14T06:31:49Z",
+		"pushed_at":"2016-11-15T09:23:12Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1829,7 +1829,7 @@
 	{
 		"repository":"TWCo_Forecast_Daily",
 		"description":"Daily Forecast - Forecast for 24-hour periods starting today for the next 10 days including daytime and nighttime.",
-		"pushed_at":"2016-11-14T06:25:36Z",
+		"pushed_at":"2016-11-15T09:20:32Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1840,7 +1840,7 @@
 	{
 		"repository":"TWCo_Forecast_Intraday",
 		"description":"Intraday Forecast - Forecast for 6-hour periods starting today for the next 10 days.  ",
-		"pushed_at":"2016-11-14T06:26:15Z",
+		"pushed_at":"2016-11-15T09:21:37Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1851,7 +1851,7 @@
 	{
 		"repository":"TWCo_Forecast_Hourly",
 		"description":"Hourly Forecast - Forecast for next 360 hours starting from the current time",
-		"pushed_at":"2016-11-14T06:27:25Z",
+		"pushed_at":"2016-11-15T09:21:03Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1972,7 +1972,7 @@
 	{
 		"repository":"TWCo_Currents_Airport",
 		"description":"Site Based Current Observations - Observed weather data, including associated weather phrase and icon collected from METAR and SYNOP observation sites",
-		"pushed_at":"2016-11-14T06:22:43Z",
+		"pushed_at":"2016-11-15T09:18:12Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1983,7 +1983,7 @@
 	{
 		"repository":"TWCo_Currents_Airport_Past_24_Hour",
 		"description":"Time Series Observations - Historical weather data from METAR and SYNOP observation sites for specified time range",
-		"pushed_at":"2016-11-14T06:23:18Z",
+		"pushed_at":"2016-11-15T09:19:29Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1994,7 +1994,7 @@
 	{
 		"repository":"TWCo_Forecast_Precip_Events",
 		"description":"Precipitation Event Forecast - provides a weather forecast for precipitation events(rain, snow, sleet, freezing rain) onset and offset times for 28 time steps over the next 7 hours.",
-		"pushed_at":"2016-11-14T06:28:30Z",
+		"pushed_at":"2016-11-15T09:22:13Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2005,7 +2005,7 @@
 	{
 		"repository":"TWCo_Forecast_Short-Term",
 		"description":"15 Minute Forecast - This API returns weather content consisting of forecasted weather for the next 15 minutes increment time steps out to 7 hours.",
-		"pushed_at":"2016-11-14T06:29:25Z",
+		"pushed_at":"2016-11-15T09:22:47Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2016,7 +2016,7 @@
 	{
 		"repository":"TWCo_Utility_Location",
 		"description":"Utility API called Location Services that allows a user to convert a set of addresses to Lat/Lons to make it easier to ingest to our existing APIs. ",
-		"pushed_at":"2016-11-14T06:34:07Z",
+		"pushed_at":"2016-12-06T02:57:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2027,7 +2027,7 @@
 	{
 		"repository":"TWCo_Currents_Gridded",
 		"description":"Currents On Demand - High resolution, high temporal current conditions, including associated weather phrase and icon",
-		"pushed_at":"2016-11-14T06:24:42Z",
+		"pushed_at":"2016-11-15T09:19:57Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2066,6 +2066,50 @@
 		"software":"SPSS Modeler",
 		"language":" R",
 		"category":"Visualization",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Currents_PWS",
+		"description":"PWS Current Observations - Current data from 200,000+ Weather Underground crowd-sourced sensors.",
+		"pushed_at":"2016-12-06T03:00:38Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Historical_PWS_1Day_Rapid",
+		"description":"PWS Historical Observations - Rapid observations for the past 1 day - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
+		"pushed_at":"2016-12-06T03:04:57Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Historical_PWS_7Day_Daily",
+		"description":"PWS Historical Observations - Daily summaries for the past 7 days  - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
+		"pushed_at":"2016-12-06T03:09:25Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"TWCo_Historical_PWS_7Day_Hourly",
+		"description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
+		"pushed_at":"2016-12-06T03:11:21Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" R",
+		"category":"Utility",
 		"promotion":"No"
 	}
 ]
