@@ -864,7 +864,7 @@
 	{
 		"repository":"TWCo_Historical_Gridded",
 		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
-		"pushed_at":"2016-11-15T09:23:40Z",
+		"pushed_at":"2016-12-06T03:28:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1281,7 +1281,7 @@
 	{
 		"repository":"TWCo_Historical_PWS_7Day_Daily",
 		"description":"PWS Historical Observations - Daily summaries for the past 7 days  - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
-		"pushed_at":"2016-12-06T03:09:25Z",
+		"pushed_at":"2016-12-07T02:29:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1291,10 +1291,10 @@
 		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Historical_PWS_7Day_Daily/releases/download/1.0.0/TWCo_Historical_PWS_7Day_Daily.mpe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Historical_PWS_7Day_Daily/master/default.png",
 		"extension_detail_info": {
-			"Name":"TWCo_Historical_PWS_7Day_Hourly",
+			"Name":"TWCo_Historical_PWS_7Day_Daily",
 			"Dialog-Specs":"TWCoHistoricalPWS7DayDaily.cfe",
-			"Summary":"PWS Recent History - 7 Day - Hourly History",
-			"Description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
+			"Summary":"PWS Daily Summary - 7 Day History",
+			"Description":"PWS Historical Observations - Daily summaries for the past 7 days  - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
 			"Author":"Yu Wenpei",
 			"Version":"1.0.0",
 			"Product-Version":"18"
@@ -1303,7 +1303,7 @@
 	{
 		"repository":"TWCo_Historical_PWS_7Day_Hourly",
 		"description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
-		"pushed_at":"2016-12-06T03:11:21Z",
+		"pushed_at":"2016-12-07T02:29:41Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1313,10 +1313,10 @@
 		"download_link":"https://github.com/IBMPredictiveAnalytics/TWCo_Historical_PWS_7Day_Hourly/releases/download/1.0.0/TWCo_Historical_PWS_7Day_Hourly.mpe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/TWCo_Historical_PWS_7Day_Hourly/master/default.png",
 		"extension_detail_info": {
-			"Name":"TWCo_Historical_PWS_1Day_Rapid",
+			"Name":"TWCo_Historical_PWS_7Day_Hourly",
 			"Dialog-Specs":"TWCoHistoricalPWS7DayHourly.cfe",
-			"Summary":"PWS Recent History - 1 Day - Rapid History",
-			"Description":"PWS Historical Observations - Rapid observations for the past 1 day - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
+			"Summary":"PWS Recent History - 7 Day - Hourly History",
+			"Description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
 			"Author":"Yu Wenpei",
 			"Version":"1.0.0",
 			"Product-Version":"18"
