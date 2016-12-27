@@ -729,7 +729,7 @@
 	{
 		"repository":"Reverse_Geocoding_Esri",
 		"description":"Code a point location (latitude, longitude) to a readable address or place name.",
-		"pushed_at":"2015-12-24T08:39:52Z",
+		"pushed_at":"2016-12-27T02:17:25Z",
 		"type":"Extension",
 		"provider":"Business Partner",
 		"software":"SPSS Modeler",
@@ -1400,7 +1400,7 @@
 	{
 		"repository":"Watson_Auto_Translate",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to detect the language of your text and translate to a target language.",
-		"pushed_at":"2015-12-24T08:40:55Z",
+		"pushed_at":"2016-12-27T02:49:39Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1411,7 +1411,7 @@
 	{
 		"repository":"Watson_Language_ID",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to detect the language of your text.",
-		"pushed_at":"2015-12-24T08:41:15Z",
+		"pushed_at":"2016-12-27T02:48:04Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1422,7 +1422,7 @@
 	{
 		"repository":"Watson_Translate",
 		"description":"Use Watson Services' Language Translation tool on IBM Bluemix to translate your source text to a target language.",
-		"pushed_at":"2015-12-24T08:42:11Z",
+		"pushed_at":"2016-12-27T02:46:47Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1796,7 +1796,7 @@
 	{
 		"repository":"TWCo_Historical_Gridded",
 		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
-		"pushed_at":"2016-11-15T09:23:40Z",
+		"pushed_at":"2016-12-06T03:28:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2093,7 +2093,7 @@
 	{
 		"repository":"TWCo_Historical_PWS_7Day_Daily",
 		"description":"PWS Historical Observations - Daily summaries for the past 7 days  - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
-		"pushed_at":"2016-12-06T03:09:25Z",
+		"pushed_at":"2016-12-07T02:29:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2104,12 +2104,23 @@
 	{
 		"repository":"TWCo_Historical_PWS_7Day_Hourly",
 		"description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
-		"pushed_at":"2016-12-06T03:11:21Z",
+		"pushed_at":"2016-12-07T02:29:41Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":" R",
 		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"Spark_ML_Feature_TF-IDF",
+		"description":"Modeler extension for Spark ML TF-IDF",
+		"pushed_at":"2016-12-12T06:04:55Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 2",
+		"category":"Analysis",
 		"promotion":"No"
 	}
 ]
