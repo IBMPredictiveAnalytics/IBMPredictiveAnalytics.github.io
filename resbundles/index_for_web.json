@@ -2122,6 +2122,17 @@
 		"language":" Python 2",
 		"category":"Analysis",
 		"promotion":"No"
+	},
+	{
+		"repository":"Simple_Linear_Programming_with_CPLEX",
+		"description":"Simple Linear Programming with CPLEX",
+		"pushed_at":"2017-01-24T06:04:55Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":" Python 2",
+		"category":"Analysis",
+		"promotion":"No"
 	}
 ]
 }
