@@ -1609,7 +1609,7 @@
 	{
 		"repository":"Word_Cloud_Visualization",
 		"description":"Create Word Clouds from text data in IBM SPSS Modeler",
-		"pushed_at":"2016-04-04T17:01:40Z",
+		"pushed_at":"2017-01-10T03:24:32Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1664,7 +1664,7 @@
 	{
 		"repository":"K_Means_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering",
-		"pushed_at":"2016-04-01T20:05:27Z",
+		"pushed_at":"2017-01-25T09:22:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1807,23 +1807,12 @@
 	{
 		"repository":"TWCo_Historical_Airport",
 		"description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
-		"pushed_at":"2016-11-15T09:23:12Z",
+		"pushed_at":"2017-01-30T21:01:40Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":" R",
 		"category":"Utility",
-		"promotion":"No"
-	},
-	{
-		"repository":"PCA_with_MLlib",
-		"description":"IBM SPSS Modeler extension for integrating with MLlib PCA",
-		"pushed_at":"2016-07-28T15:50:26Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":" Python 2",
-		"category":"Analysis",
 		"promotion":"No"
 	},
 	{
@@ -1961,7 +1950,7 @@
 	{
 		"repository":"STATS_POWER23",
 		"description":"Calculate statistical power and related statistics",
-		"pushed_at":"2016-09-23T09:29:37Z",
+		"pushed_at":"2017-01-10T13:13:37Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2113,25 +2102,14 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"Spark_ML_Feature_TF-IDF",
-		"description":"Modeler extension for Spark ML TF-IDF",
-		"pushed_at":"2016-12-12T06:04:55Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Modeler",
-		"language":" Python 2",
-		"category":"Analysis",
-		"promotion":"No"
-	},
-	{
 		"repository":"Simple_Linear_Programming_with_CPLEX",
 		"description":"Simple Linear Programming with CPLEX",
-		"pushed_at":"2017-01-24T06:04:55Z",
+		"pushed_at":"2017-02-06T13:25:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":" Python 2",
-		"category":"Analysis",
+		"category":"Utility",
 		"promotion":"No"
 	}
 ]
