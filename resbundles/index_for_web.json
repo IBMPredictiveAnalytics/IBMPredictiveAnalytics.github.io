@@ -2111,6 +2111,28 @@
 		"language":" Python 2",
 		"category":"Utility",
 		"promotion":"No"
+	},
+	{
+		"repository":"Visual_Recognition_with_Watson",
+		"description":"Use Watson Services' Visual Recognition tool on IBM Bluemix to analyze the contents of images!",
+		"pushed_at":"2017-03-10T14:05:25Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"WatsonMachineLearning",
+		"description":"SPSS Modeler Extension",
+		"pushed_at":"2017-03-10T14:09:19Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
