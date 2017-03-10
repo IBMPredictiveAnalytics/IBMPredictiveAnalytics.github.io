@@ -2120,7 +2120,7 @@
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":"R",
-		"category":"Utility",
+		"category":"Watson",
 		"promotion":"No"
 	},
 	{
@@ -2131,7 +2131,7 @@
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":"R",
-		"category":"Utility",
+		"category":"Watson",
 		"promotion":"No"
 	}
 ]
