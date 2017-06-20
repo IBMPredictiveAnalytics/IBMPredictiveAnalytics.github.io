@@ -608,7 +608,7 @@
 	{
 		"repository":"Word_Cloud_Visualization",
 		"description":"Create Word Clouds from text data in IBM SPSS Modeler",
-		"pushed_at":"2016-04-04T17:01:40Z",
+		"pushed_at":"2017-01-10T03:24:32Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -693,22 +693,20 @@
 	{
 		"repository":"K_Means_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering",
-		"pushed_at":"2016-04-01T20:05:27Z",
+		"pushed_at":"2017-01-25T09:22:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":"Python 2",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/K_Means_with_MLlib/releases/download/1.0.0/K_Means_with_MLlib.mpe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/K_Means_with_MLlib/releases/download/1.0.1/K_Means_with_MLlib.mpe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/K_Means_with_MLlib/master/default.png",
 		"extension_detail_info": {
-			"Name":"K_Means_with_MLlib",
+			"Name":"KMeanswithMLlib",
 			"Dialog-Specs":"KMeanswithMLlib.cfe",
-			"Summary":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering ",
-			"Description":"K-means clustering is a very popular algorithm used for clustering data. This extension uses the PySpark MLlib implementation of this algorithm. In order to run K-means clustering, you need to specify the number of clusters you want. This can be determined using domain knowledge about your dataset or through trial and error of evaluating different cluster parameters.",
-			"Author":"IBM SPSS",
-			"Version":"1.0.0",
+			"Summary":"MLlib KMeans",
+			"Version":"1.0.1",
 			"Product-Version":"18"
 		}
 	},
@@ -864,7 +862,7 @@
 	{
 		"repository":"TWCo_Historical_Gridded",
 		"description":"Import high resolution, gridded historical weather observations for a set of locations and dates.",
-		"pushed_at":"2016-12-06T03:28:21Z",
+		"pushed_at":"2017-04-24T02:32:54Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -886,7 +884,7 @@
 	{
 		"repository":"TWCo_Historical_Airport",
 		"description":"Import historical weather data observations from the nearest government airport for a set of locations and dates.",
-		"pushed_at":"2016-11-15T09:23:12Z",
+		"pushed_at":"2017-06-01T12:55:17Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -908,7 +906,7 @@
 	{
 		"repository":"TWCo_Forecast_Daily",
 		"description":"Daily Forecast - Forecast for 24-hour periods starting today for the next 10 days including daytime and nighttime.",
-		"pushed_at":"2016-11-15T09:20:32Z",
+		"pushed_at":"2017-04-24T02:35:11Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -930,7 +928,7 @@
 	{
 		"repository":"TWCo_Forecast_Intraday",
 		"description":"Intraday Forecast - Forecast for 6-hour periods starting today for the next 10 days.",
-		"pushed_at":"2016-11-15T09:21:37Z",
+		"pushed_at":"2017-04-24T02:35:59Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -952,7 +950,7 @@
 	{
 		"repository":"TWCo_Forecast_Hourly",
 		"description":"Hourly Forecast - Forecast for next 360 hours starting from the current time",
-		"pushed_at":"2016-11-15T09:21:03Z",
+		"pushed_at":"2017-04-24T02:37:18Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1063,7 +1061,7 @@
 	{
 		"repository":"TWCo_Currents_Airport_Past_24_Hour",
 		"description":"Time Series Observations - Historical weather data from METAR and SYNOP observation sites for specified time range",
-		"pushed_at":"2016-11-15T09:19:29Z",
+		"pushed_at":"2017-04-24T02:37:56Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -1318,6 +1316,92 @@
 			"Summary":"PWS Recent History - 7 Day - Hourly History",
 			"Description":"PWS Historical Observations - Hourly observations for the past 7 days - Archived data from 200,000+ Weather Underground crowd-sourced sensors from 2000",
 			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"Simple_Linear_Programming_with_CPLEX",
+		"description":"Simple Linear Programming with CPLEX",
+		"pushed_at":"2017-04-20T02:45:55Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"Python 2",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/Simple_Linear_Programming_with_CPLEX/releases/download/1.0.0/Simple_Linear_Programming_with_CPLEX.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/Simple_Linear_Programming_with_CPLEX/master/default.png",
+		"extension_detail_info": {
+			"Name":"Simple_Linear_Programming_with_CPLEX",
+			"Dialog-Specs":"Simple_Linear_Programming_with_CPLEX.cfe",
+			"Summary":"Simple Linear Programming Solver Model with CPLEX",
+			"Description":"Creates the smallest subset of [Items] whilst minimizing [or maximizing] the [Field to Optimize] whilst ensuring min and max constraint values are adhered to",
+			"Author":"Yu Wenpei",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"Visual_Recognition_with_Watson",
+		"description":"Use Watson Services' Visual Recognition tool on IBM Bluemix to analyze the contents of images!",
+		"pushed_at":"2017-03-10T15:07:56Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Watson",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/Visual_Recognition_with_Watson/releases/download/1.0.0/Visual_Recognition_with_Watson.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/Visual_Recognition_with_Watson/master/default.png",
+		"extension_detail_info": {
+			"Name":"Visual_Recognition_with_Watson",
+			"Dialog-Specs":"WatsonFacesDetection.cfe,WatsonVisualRecognition.cfe,WatsonDeleteClassifier.cfe,WatsonCreateClassifier.cfe",
+			"Summary":"Use Watson Services' Visual Recognition tool on IBM Bluemix to analyze the contents of images!",
+			"Description":"Use Watson Services' Visual Recognition tool on IBM Bluemix to analyze the contents of images! Includes faces detection and classify content of images with possibility to add or remove your own classifier.",
+			"Author":"Mateusz Mika & Artur Kucia",
+			"Version":"1.0.0",
+			"Product-Version":"18",
+			"Date":"2017",
+			"Categories":"Watson Visual Recognition Detection Faces Classify Classifiers"
+		}
+	},
+	{
+		"repository":"WatsonMachineLearning",
+		"description":"SPSS Modeler Extension",
+		"pushed_at":"2017-05-10T06:28:26Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Watson",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/WatsonMachineLearning/releases/download/1.0.2/WatsonMachineLearning.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/WatsonMachineLearning/master/default.png",
+		"extension_detail_info": {
+			"Name":"WatsonMachineLearning",
+			"Dialog-Specs":"WatsonMachineLearning.cfe",
+			"Summary":"Calls the watson machine learning service.",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"QDrill",
+		"description":"IBM SPSS Modeler Predictive Extensions for Apache Drill Extension",
+		"pushed_at":"2017-06-20T15:17:02Z",
+		"type":"Extension",
+		"provider":"User",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/QDrill/releases/download/1.0.0/QDrill.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/QDrill/master/default.png",
+		"extension_detail_info": {
+			"Name":"QDrill",
+			"Dialog-Specs":"qdrill.cfe",
+			"Summary":"QDrill",
 			"Version":"1.0.0",
 			"Product-Version":"18"
 		}
