@@ -1092,7 +1092,7 @@
 	{
 		"repository":"CWD",
 		"description":" CWD - Current Working Directory.",
-		"pushed_at":"2015-12-24T07:14:04Z",
+		"pushed_at":"2017-08-23T11:25:07Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1103,7 +1103,7 @@
 	{
 		"repository":"FormatCorrelations",
 		"description":" Clean up correlation matrix",
-		"pushed_at":"2016-02-02T20:28:56Z",
+		"pushed_at":"2017-08-24T23:32:24Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2159,11 +2159,33 @@
 	{
 		"repository":"QDrill",
 		"description":"IBM SPSS Modeler Predictive Extensions for Apache Drill Extension",
-		"pushed_at":"2017-06-20T09:12:08Z",
+		"pushed_at":"2017-06-20T15:17:02Z",
 		"type":"Extension",
 		"provider":"User",
 		"software":"SPSS Modeler",
 		"language":" R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"DataDotWorld_Export_SPSS_Stats",
+		"description":"This extension allows you to export datasets to Data.World from SPSS Statistics.",
+		"pushed_at":"2018-02-23T01:32:27Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"DataDotWorld_Import_SPSS_Stats",
+		"description":"This extension allows you to import datasets from Data.World into SPSS Statistics.",
+		"pushed_at":"2018-02-23T01:32:09Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
 		"category":"Utility",
 		"promotion":"No"
 	}
