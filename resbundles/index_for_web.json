@@ -2188,6 +2188,28 @@
 		"language":"R",
 		"category":"Utility",
 		"promotion":"No"
+	},
+	{
+		"repository":"DataDotWorld_Export_SPSS_Modeler",
+		"description":"This extension allows you to export datasets to Data.World from SPSS Modeler.",
+		"pushed_at":"2018-03-05T01:32:27Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"DataDotWorld_Import_SPSS_Modeler",
+		"description":"This extension allows you to import datasets from Data.World into SPSS Modeler.",
+		"pushed_at":"2018-03-05T01:32:09Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
 	}
 ]
 }
