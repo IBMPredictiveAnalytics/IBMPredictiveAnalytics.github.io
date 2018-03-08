@@ -1405,6 +1405,46 @@
 			"Version":"1.0.0",
 			"Product-Version":"18"
 		}
+	},
+	{
+		"repository":"DataDotWorld_Export_SPSS_Modeler",
+		"description":"This extension allows you to export datasets from SPSS Modeler onto Data.World.",
+		"pushed_at":"2018-03-08T15:17:02Z",
+		"type":"Extension",
+		"provider":"User",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/DataDotWorld_Export_SPSS_Modeler/releases/download/1.0.0/DataDotWorld_Export_SPSS_Modeler.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/DataDotWorld_Export_SPSS_Modeler/master/default.png",
+		"extension_detail_info": {
+			"Name":"DataDotWorld_Export_SPSS_Modeler",
+			"Dialog-Specs":"datadotworldexport.cfe",
+			"Summary":"DataDotWorldExport",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
+	},
+	{
+		"repository":"DataDotWorld_Import_SPSS_Modeler",
+		"description":"This extension allows you to import datasets from Data.World onto SPSS Modeler stream.",
+		"pushed_at":"2018-03-08T15:17:02Z",
+		"type":"Extension",
+		"provider":"User",
+		"software":"SPSS Modeler",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/DataDotWorld_Import_SPSS_Modeler/releases/download/1.0.0/DataDotWorld_Import_SPSS_Modeler.mpe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/DataDotWorld_Import_SPSS_Modeler/master/default.png",
+		"extension_detail_info": {
+			"Name":"DataDotWorld_Import_SPSS_Modeler",
+			"Dialog-Specs":"importddw.cfe",
+			"Summary":"ImportDDW",
+			"Version":"1.0.0",
+			"Product-Version":"18"
+		}
 	}
 ]
 }
