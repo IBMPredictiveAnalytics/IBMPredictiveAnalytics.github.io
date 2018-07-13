@@ -1136,7 +1136,7 @@
 	{
 		"repository":"generalopen",
 		"description":" Open a data, syntax, or output file from a single dialog box",
-		"pushed_at":"2016-02-02T20:44:42Z",
+		"pushed_at":"2018-07-02T06:22:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1158,7 +1158,7 @@
 	{
 		"repository":"PLS",
 		"description":" Partial least squares regression",
-		"pushed_at":"2016-02-02T20:48:30Z",
+		"pushed_at":"2018-03-15T13:36:31Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1664,7 +1664,7 @@
 	{
 		"repository":"K_Means_with_MLlib",
 		"description":"SPSS Modeler Extension to execute PySpark MLlib implementation of K-Means Clustering",
-		"pushed_at":"2017-01-25T09:22:08Z",
+		"pushed_at":"2018-03-02T02:26:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2104,7 +2104,7 @@
 	{
 		"repository":"Simple_Linear_Programming_with_CPLEX",
 		"description":"Simple Linear Programming with CPLEX",
-		"pushed_at":"2017-04-20T02:45:55Z",
+		"pushed_at":"2018-06-19T07:37:15Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2136,7 +2136,7 @@
 	},
 	{
 		"repository":"STATS_R33_CONFIGURATION",
-		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R.",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.3.",
 		"pushed_at":"2017-03-29T07:13:55Z",
 		"type":"Extension",
 		"provider":"IBM",
@@ -2170,7 +2170,7 @@
 	{
 		"repository":"DataDotWorld_Export_SPSS_Stats",
 		"description":"This extension allows you to export datasets to Data.World from SPSS Statistics.",
-		"pushed_at":"2018-02-23T01:32:27Z",
+		"pushed_at":"2018-04-02T07:02:48Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2181,7 +2181,7 @@
 	{
 		"repository":"DataDotWorld_Import_SPSS_Stats",
 		"description":"This extension allows you to import datasets from Data.World into SPSS Statistics.",
-		"pushed_at":"2018-02-23T01:32:09Z",
+		"pushed_at":"2018-04-02T07:02:33Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2191,8 +2191,8 @@
 	},
 	{
 		"repository":"DataDotWorld_Export_SPSS_Modeler",
-		"description":"This extension allows you to export datasets to Data.World from SPSS Modeler.",
-		"pushed_at":"2018-03-05T01:32:27Z",
+		"description":"This extension allows you to export datasets from SPSS Modeler onto Data.World.",
+		"pushed_at":"2018-04-23T02:06:13Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2202,12 +2202,23 @@
 	},
 	{
 		"repository":"DataDotWorld_Import_SPSS_Modeler",
-		"description":"This extension allows you to import datasets from Data.World into SPSS Modeler.",
-		"pushed_at":"2018-03-05T01:32:09Z",
+		"description":"DataDotWorld_Import_SPSS_Modeler",
+		"pushed_at":"2018-04-23T02:06:01Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
 		"language":"R",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_R35_CONFIGURATION",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5. ",
+		"pushed_at":"2018-07-13T02:08:39Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"",
 		"category":"Utility",
 		"promotion":"No"
 	}
