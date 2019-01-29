@@ -26,7 +26,8 @@
 			"Date":"11/6/2015",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -55,7 +56,8 @@
 			"Date":"6/9/2011",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -64,8 +66,8 @@
 		"pushed_at":"2016-02-02T21:38:33Z",
 		"type":"Extension",
 		"provider":"IBM",
-        "software":"SPSS Statistics",
-		"language":"Python 2",	  
+		"software":"SPSS Statistics",
+		"language":"Python 2",
 		"category":"Data manipulation",
 		"promotion":"No",
 		"download_link":"https://github.com/IBMPredictiveAnalytics/SPSSINC_CREATE_DUMMIES/releases/download/2.1.8/SPSSINC_CREATE_DUMMIES.spe",
@@ -84,7 +86,8 @@
 			"Date":"1/2/2014",
 			"Categories":"Extension Commands, Python, Statistics",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -112,7 +115,8 @@
 			"Product-Version":"18",
 			"Categories":"data, utilities",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -142,7 +146,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"Python,R",
 			"R-Packages":"polycor",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -171,7 +176,8 @@
 			"Date":"1/2/2014",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -200,7 +206,8 @@
 			"Date":"10/7/2011",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -228,7 +235,8 @@
 			"Product-Version":"18",
 			"Date":"1/2/2014",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -255,7 +263,8 @@
 			"Version":"1.0.3",
 			"Product-Version":"18",
 			"Plugins":"Python,R",
-			"R-Packages":"mfp"
+			"R-Packages":"mfp",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -284,7 +293,8 @@
 			"Date":"6/9/2011",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -310,7 +320,8 @@
 			"Date":"1/2/2014",
 			"Plugins":"Python",
 			"Python-Modules":"SPSSINC_PROCESS_FILES.py",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -337,7 +348,8 @@
 			"Version":"1.0.4",
 			"Product-Version":"18",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -366,7 +378,8 @@
 			"Date":"5/28/2014",
 			"Categories":"graphics, qqplot",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -397,7 +410,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"quantreg",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -426,7 +440,8 @@
 			"Date":"1/2/2014",
 			"Categories":"utilities",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -456,7 +471,8 @@
 			"Categories":"spss randomforest r",
 			"Plugins":"R",
 			"R-Packages":"randomForest",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -485,7 +501,8 @@
 			"Categories":"spss randomforest r",
 			"Plugins":"R",
 			"R-Packages":"randomForest",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -516,7 +533,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"ltm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -547,7 +565,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"MASS",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -575,7 +594,8 @@
 			"Product-Version":"18",
 			"Date":"5/4/2012",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -606,7 +626,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"car",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -634,7 +655,8 @@
 			"Product-Version":"18",
 			"Date":"1/2/2014",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -661,7 +683,8 @@
 			"Version":"1.0.5",
 			"Product-Version":"18",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -691,7 +714,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"AER,lmtest",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -720,7 +744,8 @@
 			"Date":"1/2/2014",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -745,7 +770,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.0.2",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -774,7 +800,8 @@
 			"Date":"1/28/2013",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -804,7 +831,8 @@
 			"Categories":"graphics, bagplot",
 			"Plugins":"R",
 			"R-Packages":"aplpack",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -832,7 +860,8 @@
 			"Product-Version":"19",
 			"Date":"Jan-2012",
 			"Links":"http://sourceforge.net/projects/pywin32",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -860,7 +889,8 @@
 			"Product-Version":"18",
 			"Date":"6/10/2013",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -889,7 +919,8 @@
 			"Date":"3/4/2014",
 			"Categories":"SPSS, datamanagement, Cartesian",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -917,7 +948,8 @@
 			"Product-Version":"18",
 			"Date":"7/30/2013",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -946,7 +978,8 @@
 			"Date":"9/10/2011",
 			"Categories":"statistics",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -975,7 +1008,8 @@
 			"Date":"5/6/2015",
 			"Categories":"statistics, survival",
 			"Plugins":"R",
-			"R-Packages":"cmprsk"
+			"R-Packages":"cmprsk",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1005,7 +1039,8 @@
 			"Categories":"spss statistics survival cox",
 			"Plugins":"R",
 			"R-Packages":"survival",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1034,7 +1069,8 @@
 			"Date":"Oct, 2012",
 			"Categories":"spss date",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1063,7 +1099,8 @@
 			"Date":"6/5/2014",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1093,7 +1130,8 @@
 			"Categories":"statistics, clustering",
 			"Plugins":"R",
 			"R-Packages":"fpc",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1123,7 +1161,8 @@
 			"Categories":"statistics, clustering",
 			"Plugins":"R",
 			"R-Packages":"fpc",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1153,7 +1192,8 @@
 			"Categories":"time series, disaggregation, distribution",
 			"Plugins":"R",
 			"R-Packages":"tempdisagg",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1182,7 +1222,8 @@
 			"Date":"11/26/11",
 			"Categories":"statistics",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1212,7 +1253,8 @@
 			"Categories":"econometrics, statistics, 3SLS, 2SLS, SUR",
 			"Plugins":"R",
 			"R-Packages":"car,lmtest,zoo,Matrix,systemfit",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1238,7 +1280,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.0.3",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1268,7 +1311,8 @@
 			"Categories":"logistic statistics regression",
 			"Plugins":"R",
 			"R-Packages":"logistf",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1298,7 +1342,8 @@
 			"Categories":"time series, GARCH, statistics",
 			"Plugins":"R",
 			"R-Packages":"rugarch",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1329,7 +1374,8 @@
 			"Categories":"spss regression boosting ",
 			"Plugins":"R",
 			"R-Packages":"gbm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1359,7 +1405,8 @@
 			"Categories":"spss regression boosting prediction",
 			"Plugins":"R",
 			"R-Packages":"gbm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1388,7 +1435,8 @@
 			"Date":"4/3/2014",
 			"Categories":"utility R",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1417,7 +1465,8 @@
 			"Date":"2/3/14",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1448,7 +1497,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"ltm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1478,7 +1528,8 @@
 			"Categories":"regression, censoring, tobit",
 			"Plugins":"R",
 			"R-Packages":"sampleSelection",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1507,7 +1558,8 @@
 			"Date":"5/20/2014",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1537,7 +1589,8 @@
 			"Categories":"statistics, Gini, distribution",
 			"Plugins":"R",
 			"R-Packages":"ineq,DescTools",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1568,7 +1621,8 @@
 			"Categories":"Extension Commands, R, Statistics",
 			"Plugins":"R",
 			"R-Packages":"ltm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1597,7 +1651,8 @@
 			"Date":"03/03/12",
 			"Categories":"graphics",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1627,7 +1682,8 @@
 			"Categories":"statistics",
 			"Plugins":"R",
 			"R-Packages":"poLCA",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1655,7 +1711,8 @@
 			"Product-Version":"18",
 			"Date":"12/07/12",
 			"Categories":"spss statistics loess regression",
-			"Plugins":"R"
+			"Plugins":"R",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1685,7 +1742,8 @@
 			"Categories":"mathematical programming",
 			"Plugins":"Python,R",
 			"R-Packages":"lpSolveAPI",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1713,7 +1771,8 @@
 			"Product-Version":"18",
 			"Date":"7/30/2013",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1742,7 +1801,8 @@
 			"Date":"2/17/14",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1770,7 +1830,8 @@
 			"Product-Version":"18",
 			"Date":"11/3/14",
 			"Categories":"data preparation",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1799,7 +1860,8 @@
 			"Date":"04-feb-2015",
 			"Categories":"experimental design",
 			"Plugins":"R",
-			"R-Packages":"AlgDesign"
+			"R-Packages":"AlgDesign",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1827,7 +1889,8 @@
 			"Product-Version":"18",
 			"Date":"1/2/2014",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1856,7 +1919,8 @@
 			"Date":"4/17/14",
 			"Categories":"statistics FDR p-value",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1884,7 +1948,8 @@
 			"Product-Version":"18",
 			"Date":"9/2013",
 			"Categories":"PMML, model, utility",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1914,7 +1979,8 @@
 			"Categories":"statistics",
 			"Plugins":"R",
 			"R-Packages":"betareg",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1944,7 +2010,8 @@
 			"Categories":"statistics regression proportion",
 			"Plugins":"R",
 			"R-Packages":"betareg",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1974,7 +2041,8 @@
 			"Categories":"statistics, regression, RDD",
 			"Plugins":"R",
 			"R-Packages":"rdd",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -1991,7 +2059,7 @@
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_REGRESS_PLOT/master/default.png",
 		"extension_detail_info": {
 			"Name":"STATS REGRESS PLOT",
-			"Dialog-Specs":"STATS_REGRESS_PLOT.spd,STATS_REGRESS_PLOT.cfe",
+			"Dialog-Specs":"STATS_REGRESS_PLOT.spd",
 			"Command-Specs":"STATS_REGRESS_PLOT.xml",
 			"Code-Files":"STATS_REGRESS_PLOT.py",
 			"Misc-Files":"extsyntax.css,IBMdialogicon.png,markdown.html",
@@ -2003,7 +2071,8 @@
 			"Date":"1/2/2014",
 			"Plugins":"Python",
 			"Python-Version":"Python 2",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2033,7 +2102,8 @@
 			"Categories":"statistics, regression",
 			"Plugins":"R",
 			"R-Packages":"relaimpo",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2061,7 +2131,8 @@
 			"Product-Version":"18",
 			"Date":"4/9/2012",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2089,13 +2160,14 @@
 			"Product-Version":"19",
 			"Date":"11/2012",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
 		"repository":"STATS_SUBGROUP_PLOTS",
 		"description":"Graphically compare the distributions of a set of variables a",
-		"pushed_at":"2016-03-31T09:13:20Z",
+		"pushed_at":"2018-07-23T08:47:18Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2117,7 +2189,8 @@
 			"Product-Version":"18",
 			"Date":"3/31/2016",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2147,7 +2220,8 @@
 			"Categories":"survival spss extension r weibull",
 			"Plugins":"R",
 			"R-Packages":"survival",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2176,7 +2250,8 @@
 			"Date":"5/12/14",
 			"Plugins":"R",
 			"R-Packages":"e1071",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2205,7 +2280,8 @@
 			"Date":"1/2/2014",
 			"Categories":"pivottables, utilities",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2234,7 +2310,8 @@
 			"Date":"2/16/2015",
 			"Categories":"time series",
 			"Plugins":"R",
-			"R-Packages":"tseries"
+			"R-Packages":"tseries",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2263,7 +2340,8 @@
 			"Date":"1/20/14",
 			"Categories":"spss data_management",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2292,7 +2370,8 @@
 			"Date":"9/6/12",
 			"Categories":"graphics Weibull",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2322,7 +2401,8 @@
 			"Categories":"Poisson, negative binomial, zeroinflation, count",
 			"Plugins":"R",
 			"R-Packages":"pscl",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2348,7 +2428,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.4.1",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2372,7 +2453,8 @@
 			"Version":"6.3.0",
 			"Product-Version":"18",
 			"Date":"17.12.2014",
-			"Categories":"binomial, dialog, graphics, plots, residuals, statistics, tables, tests, z-values"
+			"Categories":"binomial, dialog, graphics, plots, residuals, statistics, tables, tests, z-values",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2395,13 +2477,14 @@
 			"Author":"Dr. Hans Grüner (http://gruener.userpage.fu-berlin.de)",
 			"Version":"1.4.1",
 			"Product-Version":"18",
-			"Date":"25.02.2014"
+			"Date":"25.02.2014",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
 		"repository":"CWD",
 		"description":"CWD - Current Working Directory.",
-		"pushed_at":"2015-12-24T07:14:04Z",
+		"pushed_at":"2017-08-23T11:25:07Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -2420,13 +2503,14 @@
 			"Author":"Albert-Jan Roskam",
 			"Version":"1.0.1",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
 		"repository":"FormatCorrelations",
 		"description":"Clean up correlation matrix",
-		"pushed_at":"2016-02-02T20:28:56Z",
+		"pushed_at":"2017-08-24T23:32:24Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2445,7 +2529,8 @@
 			"Version":"1.1.0",
 			"Product-Version":"18",
 			"Plugins":"Python",
-			"Python-Modules":"SPSSINC_MODIFY_TABLES.py"
+			"Python-Modules":"SPSSINC_MODIFY_TABLES.py",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2474,7 +2559,8 @@
 			"Date":"1/2/2014",
 			"Categories":"utility",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2503,13 +2589,14 @@
 			"Date":"1/2/2014",
 			"Categories":"Extension Commands, Python",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
 		"repository":"generalopen",
 		"description":"Open a data, syntax, or output file from a single dialog box",
-		"pushed_at":"2016-02-02T20:44:42Z",
+		"pushed_at":"2018-07-02T06:22:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2527,7 +2614,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.0.1",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2553,20 +2641,21 @@
 			"Version":"1.0.2",
 			"Product-Version":"18",
 			"Date":"2014-05-21",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
 		"repository":"PLS",
 		"description":"Partial least squares regression",
-		"pushed_at":"2016-02-02T20:48:30Z",
+		"pushed_at":"2019-01-28T02:56:23Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
 		"language":"Python 2",
 		"category":"Analysis",
 		"promotion":"No",
-		"download_link":"https://github.com/IBMPredictiveAnalytics/PLS/releases/download/1.3.10/PLS.spe",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/PLS/releases/download/1.3.12/PLS.spe",
 		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/PLS/master/default.png",
 		"extension_detail_info": {
 			"Name":"PLS",
@@ -2576,13 +2665,13 @@
 			"Summary":"Partial least squares regression",
 			"Description":"This procedure estimates partial least squares (PLS, also known as \u0022projection to latent structure\u0022) regression models. PLS is a predictive technique that is an alternative to ordinary least squares (OLS) regression, canonical correlation, or structural equation modeling, and it is particularly useful when predictor variables are highly correlated or when the number of predictors exceeds the number of cases. ",
 			"Author":"IBM SPSS JKP, JMB",
-			"Version":"1.3.10",
+			"Version":"1.3.12",
 			"Product-Version":"18",
 			"Date":"1/2/2014",
 			"Categories":"regression, partial least squares, latent",
 			"Plugins":"Python",
-			"Python-Modules":"scipy,numpy",
-			"Translation-Catalogues":"lang"
+			"Python-Version":"2",
+			"Python-Modules":"scipy,numpy"
 		}
 	},
 	{
@@ -2608,7 +2697,8 @@
 			"Version":"1.0.3",
 			"Product-Version":"18",
 			"Date":"11/2012",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2633,7 +2723,8 @@
 			"Product-Version":"19",
 			"Date":"1/2/2014",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2657,7 +2748,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.0.0",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2683,7 +2775,8 @@
 			"Date":"17.03.2012",
 			"Categories":"box_plot, dialog, dialog, extension_command, graphics, plots, r, spss, spssstatisticsextension, statistics",
 			"Plugins":"R",
-			"R-Packages":"Hmisc,vioplot,hdrcde"
+			"R-Packages":"Hmisc,vioplot,hdrcde",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2707,7 +2800,8 @@
 			"Version":"3.0.0",
 			"Product-Version":"18",
 			"Date":"17.03.2012",
-			"Categories":"best_subsets, dialog, extension_command, regression, spss, spssstatisticsextension, statistics"
+			"Categories":"best_subsets, dialog, extension_command, regression, spss, spssstatisticsextension, statistics",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2731,7 +2825,8 @@
 			"Version":"3.0.1",
 			"Product-Version":"18",
 			"Date":"13.03.2012",
-			"Categories":"box-cox, dialog, graphics, plots, regression, spss, statistics, transformations"
+			"Categories":"box-cox, dialog, graphics, plots, regression, spss, statistics, transformations",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2755,7 +2850,8 @@
 			"Version":"2.0.0",
 			"Product-Version":"18",
 			"Date":"13.03.2012",
-			"Categories":"component+resid​ual, dialog, graphics, linearity, nonlinearity, partial_residua​l, plots, regression, statistics"
+			"Categories":"component+resid​ual, dialog, graphics, linearity, nonlinearity, partial_residua​l, plots, regression, statistics",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2781,7 +2877,8 @@
 			"Date":"06.03.2012",
 			"Categories":"dialog, extension_command, graphics, plots, r, spss, residuals, statistics, spssstatisticsextension, tables",
 			"Plugins":"R",
-			"R-Packages":"colorspace,vcd"
+			"R-Packages":"colorspace,vcd",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2808,7 +2905,8 @@
 			"Links":"http://gruener.userpage.fu-berlin.de",
 			"Categories":"dialog, graphics, r, spss, statistics, regression",
 			"Plugins":"R",
-			"R-Packages":"car"
+			"R-Packages":"car",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2834,7 +2932,8 @@
 			"Date":"17.03.2011",
 			"Categories":"Breusch-Pagan, dialog, Goldfeld-Quandt​, graphics, Harrison-McCabe​, Harvey-Collier, plots, r, Rainbow, regression, RESET, statistics, tests",
 			"Plugins":"R",
-			"R-Packages":"lmtest,zoo"
+			"R-Packages":"lmtest,zoo",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2858,7 +2957,8 @@
 			"Version":"1.0.1",
 			"Product-Version":"21",
 			"Plugins":"R",
-			"R-Packages":"lars,elasticnet,ridge"
+			"R-Packages":"lars,elasticnet,ridge",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2883,7 +2983,8 @@
 			"Author":"JKP, IBM SPSS",
 			"Version":"1.0.3",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2910,7 +3011,8 @@
 			"Version":"1.2.0",
 			"Product-Version":"18",
 			"Date":"9/2008",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2935,7 +3037,8 @@
 			"Product-Version":"22",
 			"Date":"11/26/2013",
 			"Categories":"statistics, simulation",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2962,7 +3065,8 @@
 			"Product-Version":"18",
 			"Date":"11/11/2014",
 			"Categories":"transformations",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -2989,7 +3093,8 @@
 			"Version":"1.0.4",
 			"Product-Version":"18",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3019,7 +3124,8 @@
 			"Categories":"Apriori, association",
 			"Plugins":"R",
 			"R-Packages":"arules",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3048,7 +3154,8 @@
 			"Date":"1/2/2014",
 			"Categories":"Extension Commands, Python, Statistics",
 			"Plugins":"Python",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3078,7 +3185,8 @@
 			"Categories":"SPSS, Rasch, R, statistics",
 			"Plugins":"R",
 			"R-Packages":"eRm",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3104,7 +3212,8 @@
 			"Author":"David Nichols, IBM SPSS",
 			"Version":"1.1.1",
 			"Product-Version":"19",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3132,7 +3241,8 @@
 			"Product-Version":"19",
 			"Date":"5/14/15",
 			"Categories":"spss statistics kappa",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3161,7 +3271,8 @@
 			"Date":"9/29/2015",
 			"Categories":"ANOVA, Bayesian",
 			"Plugins":"R",
-			"R-Packages":"BayesFactor"
+			"R-Packages":"BayesFactor",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3187,7 +3298,8 @@
 			"Date":"1/2/2014",
 			"Categories":"R",
 			"Plugins":"R",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3216,7 +3328,8 @@
 			"Date":"10/5/2015",
 			"Categories":"spss, Bayes, independence",
 			"Plugins":"R",
-			"R-Packages":"BayesFactor"
+			"R-Packages":"BayesFactor",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3245,7 +3358,8 @@
 			"Date":"9/16/2015",
 			"Categories":"regression, Bayes",
 			"Plugins":"R",
-			"R-Packages":"BayesFactor"
+			"R-Packages":"BayesFactor",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3274,7 +3388,8 @@
 			"Date":"9/23/2015",
 			"Categories":"statistics, Bayes, ttest",
 			"Plugins":"R",
-			"R-Packages":"BayesFactor"
+			"R-Packages":"BayesFactor",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3303,7 +3418,8 @@
 			"Date":"7/22/2015",
 			"Categories":"SPSS statistics tree C50",
 			"Plugins":"R",
-			"R-Packages":"C50"
+			"R-Packages":"C50",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3329,7 +3445,8 @@
 			"Version":"0.9.1",
 			"Product-Version":"19",
 			"Plugins":"R",
-			"R-Packages":"np"
+			"R-Packages":"np",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3357,7 +3474,8 @@
 			"Product-Version":"18",
 			"Date":"6/30/2015",
 			"Categories":"utility",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3379,7 +3497,8 @@
 			"Description":"Computes descriptive statistics assuming that data represent an entire population rather than a sample (uses N instead of N-1 in denominator to compute standard deviations and variances).",
 			"Author":"David Nichols",
 			"Version":"1.0.0",
-			"Product-Version":"18"
+			"Product-Version":"18",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3402,7 +3521,8 @@
 			"Author":"David Nichols, IBM SPSS",
 			"Version":"1.0.0",
 			"Product-Version":"18",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3449,7 +3569,8 @@
 			"Version":"1.0.0",
 			"Product-Version":"24",
 			"Date":"3/22/16",
-			"Links":"https://en.wikipedia.org/wiki/Benford%27s_law"
+			"Links":"https://en.wikipedia.org/wiki/Benford%27s_law",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3476,7 +3597,8 @@
 			"Product-Version":"18",
 			"Plugins":"R",
 			"R-Packages":"TSP",
-			"Translation-Catalogues":"lang"
+			"Translation-Catalogues":"lang",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3500,7 +3622,8 @@
 			"Version":"1.0.0",
 			"Product-Version":"24",
 			"Plugins":"Python",
-			"Python-Version":"2"
+			"Python-Version":"2",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3528,7 +3651,8 @@
 			"Product-Version":"18",
 			"Date":"7/14/16",
 			"Categories":"statistics",
-			"Plugins":"Python"
+			"Plugins":"Python",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3557,7 +3681,8 @@
 			"Date":"8/10/2016",
 			"Categories":"statistics",
 			"Plugins":"R",
-			"R-Packages":"gam"
+			"R-Packages":"gam",
+			"Product-Version-Maximum":"26"
 		}
 	},
 	{
@@ -3586,7 +3711,212 @@
 			"Date":"8/10/2016",
 			"Categories":"statistics",
 			"Plugins":"R",
-			"R-Packages":"splines"
+			"R-Packages":"splines",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"Naive_Bayes_Classifier",
+		"description":"Naive Bayes classification with optional predictor selection Description: This extension provides a user interface for the NAIVEBAY  ES command. It fits the Naive Bayes classification model for a catego  rical dependent variable. You can specify whether all available predi  ctors are used or whether the procedure selects the best predictors.   The extension can also be used for predictor selection without classi  fication.",
+		"pushed_at":"2016-09-13T01:41:09Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native product",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/Naive_Bayes_Classifier/releases/download/1.0.0/Naive_Bayes_Classifier.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/Naive_Bayes_Classifier/master/default.png",
+		"extension_detail_info": {
+			"Name":"Naive Bayes Classifier",
+			"Dialog-Specs":"Naive_Bayes_Classifier.cfe",
+			"Summary":"Naive Bayes classification with optional predictor selection",
+			"Description":"This extension provides a user interface for the NAIVEBAYES command. It fits the Naive Bayes classification model for a categorical dependent variable. You can specify whether all available predictors are used or whether the procedure selects the best predictors. The extension can also be used for predictor selection without classification.",
+			"Author":"IBM SPSS",
+			"Version":"1.0.0",
+			"Product-Version":"24",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"Select_Predictors",
+		"description":"This extension provides a user interface for the SELECTPR  ED command. It takes a specified set of predictor variables as input and selects a smaller subset for use in predictive modeling procedures. A univariable method that considers each predictor in isolation is used, as opposed to the multivariable method of selecting predictors that is used by the Naive Bayes Classifier extension. The Select Predictors extension supports both categorical and scale dependent variables. Large sets of predictors can be handled.",
+		"pushed_at":"2016-09-13T01:41:12Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native product",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/Select_Predictors/releases/download/1.0.0/Select_Predictors.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/Select_Predictors/master/default.png",
+		"extension_detail_info": {
+			"Name":"Select Predictors",
+			"Dialog-Specs":"Select_Predictors.cfe",
+			"Summary":"Automatically select a subset of predictors for use in predictive modeling procedures",
+			"Description":"This extension provides a user interface for the SELECTPRED command. It takes a specified set of predictor variables as input and selects a smaller subset for use in predictive modeling procedures. A univariable method that considers each predictor in isolation is used, as opposed to the multivariable method of selecting predictors that is used by the Naïve Bayes Classifier extension. The Select Predictors extension supports both categorical and scale dependent variables. Large sets of predictors can be handled.",
+			"Author":"IBM SPSS",
+			"Version":"1.0.0",
+			"Product-Version":"24",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"STATS_POWER",
+		"description":"Power calcuations for a number of tests",
+		"pushed_at":"2016-09-23T09:22:56Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_POWER/releases/download/1.0.0/STATS_POWER.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_POWER/master/default.png",
+		"extension_detail_info": {
+			"Name":"STATS_POWER",
+			"Dialog-Specs":"STATS_POWER.cfe",
+			"Command-Specs":"STATS_POWER.xml",
+			"Code-Files":"STATS_POWER.R",
+			"Misc-Files":"extsyntax.css,markdown.html",
+			"Summary":"Power calcuations for a number of tests",
+			"Description":"This procedure calculates power or related statistics for a variety of statistical procedures.  It can calculate power for a set of input specifications such as sample sizes, effect size, and significance level, or it can calculate the value of one of the inputs to achieve a specified power.  Procedures include t test, proportion tests, correlation, anova, and a general linear model.",
+			"Author":"JKP",
+			"Version":"1.0.0",
+			"Product-Version":"24",
+			"Date":"9/15/2016",
+			"Categories":"power statistics",
+			"Plugins":"R",
+			"R-Packages":"pwr",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"STATS_POWER23",
+		"description":"Calculate statistical power and related statistics",
+		"pushed_at":"2017-01-10T13:13:37Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_POWER23/releases/download/1.0.0/STATS_POWER23.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_POWER23/master/default.png",
+		"extension_detail_info": {
+			"Name":"STATS_POWER23",
+			"Command-Specs":"STATS_POWER.xml",
+			"Code-Files":"STATS_POWER.R",
+			"Misc-Files":"STATS_POWER.htm,extsyntax.css,markdown.html",
+			"Summary":"Calculate statistical power and related statistics",
+			"Description":"This procedure calculates power for a variety of procedures given inputs such as sample size and effect size or calculates the required value for an input to achieve specified power.  IMPORTANT: this version is for Statistics 23 and earlier.  It does not include a dialog box interface;  For V24 and later, use the STATS POWER extension.  It has the same functionality but includes a dialog box.",
+			"Author":"JKP",
+			"Version":"1.0.0",
+			"Product-Version":"18",
+			"Date":"9/15/2016",
+			"Categories":"statistics power",
+			"Plugins":"R",
+			"R-Packages":"pwr",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"STATS_R33_CONFIGURATION",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.3.",
+		"pushed_at":"2018-08-03T08:29:32Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_R33_CONFIGURATION/releases/download/1.0.0/STATS_R33_CONFIGURATION.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_R33_CONFIGURATION/master/default.png",
+		"extension_detail_info": {
+			"Name":"STATS R33 CONFIGURATION",
+			"Dialog-Specs":"R3.3_config.spd",
+			"Command-Specs":"STATS_R33_CONFIGURATION.xml",
+			"Code-Files":"STATS_R33_CONFIGURATION.jar",
+			"Misc-Files":"Rplugin.zip",
+			"Summary":"Config R Plugin with this extension",
+			"Description":"The extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R.",
+			"Author":"IBM SPSS",
+			"Version":"1.0.0",
+			"Product-Version":"25",
+			"Product-Version-Maximum":"25"
+		}
+	},
+	{
+		"repository":"DataDotWorld_Export_SPSS_Stats",
+		"description":"This extension allows you to export datasets to Data.World from SPSS Statistics.",
+		"pushed_at":"2018-04-02T07:02:48Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/DataDotWorld_Export_SPSS_Stats/releases/download/1.0.0/DataDotWorld_Export_SPSS_Stats.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/DataDotWorld_Export_SPSS_Stats/master/default.png",
+		"extension_detail_info": {
+			"Name":"DataDotWorld_Export_SPSS_Stats",
+			"Dialog-Specs":"dialog250.cfe",
+			"Summary":"export data to DataDotWorld",
+			"Description":"This extension allows you to export datasets to Data.World from SPSS Statistics. ",
+			"Author":"Amod Upadhye, Deepak Rangarao",
+			"Version":"1.0.0",
+			"Product-Version":"24",
+			"Plugins":"R",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"DataDotWorld_Import_SPSS_Stats",
+		"description":"This extension allows you to import datasets from Data.World into SPSS Statistics.",
+		"pushed_at":"2018-04-02T07:02:33Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"R",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/DataDotWorld_Import_SPSS_Stats/releases/download/1.0.0/DataDotWorld_Import_SPSS_Stats.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/DataDotWorld_Import_SPSS_Stats/master/default.png",
+		"extension_detail_info": {
+			"Name":"DataDotWorld_Import_SPSS_Stats",
+			"Dialog-Specs":"ddw_import.cfe",
+			"Summary":"import data from DataDotWorld",
+			"Author":"Amod Upadhye, Deepak Rangarao",
+			"Version":"1.0.0",
+			"Product-Version":"24",
+			"Plugins":"R",
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"STATS_R35_CONFIGURATION",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5.",
+		"pushed_at":"2018-11-07T05:06:23Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_R35_CONFIGURATION/releases/download/1.0.0/STATS_R35_CONFIGURATION.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_R35_CONFIGURATION/master/default.png",
+		"extension_detail_info": {
+			"Name":"STATS R35 CONFIGURATION",
+			"Dialog-Specs":"R3.5_config.spd",
+			"Command-Specs":"STATS_R35_CONFIGURATION.xml",
+			"Code-Files":"STATS_R35_CONFIGURATION.jar",
+			"Misc-Files":"Rplugin.zip",
+			"Summary":"Config R Plugin with this extension",
+			"Description":"The extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R.",
+			"Author":"IBM SPSS",
+			"Version":"1.0.0",
+			"Product-Version":"26",
+			"Product-Version-Maximum":"26"
 		}
 	}
 ]
