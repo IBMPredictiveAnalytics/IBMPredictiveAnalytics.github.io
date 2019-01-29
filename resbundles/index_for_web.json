@@ -971,7 +971,7 @@
 	{
 		"repository":"STATS_SUBGROUP_PLOTS",
 		"description":" Graphically compare the distributions of a set of variables a",
-		"pushed_at":"2016-03-31T09:13:20Z",
+		"pushed_at":"2018-07-23T08:47:18Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1158,7 +1158,7 @@
 	{
 		"repository":"PLS",
 		"description":" Partial least squares regression",
-		"pushed_at":"2018-03-15T13:36:31Z",
+		"pushed_at":"2019-01-28T02:56:23Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2137,7 +2137,7 @@
 	{
 		"repository":"STATS_R33_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.3.",
-		"pushed_at":"2017-03-29T07:13:55Z",
+		"pushed_at":"2018-08-03T08:29:32Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2148,7 +2148,7 @@
 	{
 		"repository":"Social_Network_Analysis",
 		"description":"Social Network Analysis",
-		"pushed_at":"2017-06-20T14:51:02Z",
+		"pushed_at":"2018-07-27T02:57:46Z",
 		"type":"Extension",
 		"provider":"User",
 		"software":"SPSS Modeler",
@@ -2214,7 +2214,7 @@
 	{
 		"repository":"STATS_R35_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5. ",
-		"pushed_at":"2018-07-13T02:08:39Z",
+		"pushed_at":"2018-11-07T05:06:23Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
