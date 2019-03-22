@@ -1937,28 +1937,6 @@
 		"promotion":"No"
 	},
 	{
-		"repository":"STATS_POWER",
-		"description":"Power calcuations for a number of tests",
-		"pushed_at":"2016-09-23T09:22:56Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"R",
-		"category":"Utility",
-		"promotion":"No"
-	},
-	{
-		"repository":"STATS_POWER23",
-		"description":"Calculate statistical power and related statistics",
-		"pushed_at":"2017-01-10T13:13:37Z",
-		"type":"Extension",
-		"provider":"IBM",
-		"software":"SPSS Statistics",
-		"language":"R",
-		"category":"Utility",
-		"promotion":"No"
-	},
-	{
 		"repository":"TWCo_Currents_Airport",
 		"description":"Site Based Current Observations - Observed weather data, including associated weather phrase and icon collected from METAR and SYNOP observation sites",
 		"pushed_at":"2016-11-15T09:18:12Z",
@@ -2214,7 +2192,7 @@
 	{
 		"repository":"STATS_R35_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5. ",
-		"pushed_at":"2018-11-07T05:06:23Z",
+		"pushed_at":"2019-02-25T07:01:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
