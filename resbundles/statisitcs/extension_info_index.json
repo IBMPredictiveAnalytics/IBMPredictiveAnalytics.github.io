@@ -3858,7 +3858,33 @@
 			"Author":"IBM SPSS",
 			"Version":"1.0.0",
 			"Product-Version":"26",
-			"Product-Version-Maximum":"99"
+			"Product-Version-Maximum":"26"
+		}
+	},
+	{
+		"repository":"STATS_R36_CONFIGURATION",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.6",
+		"pushed_at":"2019-07-04T07:52:48Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"",
+		"category":"Utility",
+		"promotion":"No",
+		"download_link":"https://github.com/IBMPredictiveAnalytics/STATS_R36_CONFIGURATION/releases/download/1.0.0/STATS_R36_CONFIGURATION.spe",
+		"image_link":"https://raw.githubusercontent.com/IBMPredictiveAnalytics/STATS_R36_CONFIGURATION/master/default.png",
+		"extension_detail_info": {
+			"Name":"STATS R36 CONFIGURATION",
+			"Dialog-Specs":"R3.6_config.spd",
+			"Command-Specs":"STATS_R36_CONFIGURATION.xml",
+			"Code-Files":"STATS_R36_CONFIGURATION.jar",
+			"Misc-Files":"Rplugin.zip",
+			"Summary":"Config R Plugin with this extension",
+			"Description":"The extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R.",
+			"Author":"IBM SPSS",
+			"Version":"1.0.0",
+			"Product-Version":"27",
+			"Product-Version-Maximum":"27"
 		}
 	}
 ]
