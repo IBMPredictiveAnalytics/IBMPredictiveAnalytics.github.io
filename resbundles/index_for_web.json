@@ -1037,7 +1037,7 @@
 	{
 		"repository":"STATS_WEIBULL_PLOT",
 		"description":" Create Weibull probability plot for failure data",
-		"pushed_at":"2016-02-05T09:40:06Z",
+		"pushed_at":"2019-10-11T01:27:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2082,7 +2082,7 @@
 	{
 		"repository":"Simple_Linear_Programming_with_CPLEX",
 		"description":"Simple Linear Programming with CPLEX",
-		"pushed_at":"2018-06-19T07:37:15Z",
+		"pushed_at":"2019-07-04T11:16:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Modeler",
@@ -2193,6 +2193,17 @@
 		"repository":"STATS_R35_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5. ",
 		"pushed_at":"2019-02-25T07:01:34Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_R36_CONFIGURATION",
+		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.6",
+		"pushed_at":"2019-07-04T07:52:48Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
