@@ -1037,7 +1037,7 @@
 	{
 		"repository":"STATS_WEIBULL_PLOT",
 		"description":" Create Weibull probability plot for failure data",
-		"pushed_at":"2019-10-11T01:27:55Z",
+		"pushed_at":"2020-02-04T02:05:31Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
