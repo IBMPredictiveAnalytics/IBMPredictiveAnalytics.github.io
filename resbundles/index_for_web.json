@@ -91,7 +91,7 @@
 	{
 		"repository":"SPSSINC_CENSOR_TABLES",
 		"description":" Censor cells of a pivot table based on the values of a tests",
-		"pushed_at":"2021-08-05T08:57:29Z",
+		"pushed_at":"2022-04-18T21:31:51Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -113,7 +113,7 @@
 	{
 		"repository":"SPSSINC_CREATE_DUMMIES",
 		"description":" Create a set of dummy variables representing the values of on",
-		"pushed_at":"2020-06-17T06:49:20Z",
+		"pushed_at":"2021-10-20T12:03:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -124,7 +124,7 @@
 	{
 		"repository":"SPSSINC_GETURI_DATA",
 		"description":" Open an SPSS, Excel, SAS, or Stata dataset from a web url.",
-		"pushed_at":"2020-06-17T06:55:17Z",
+		"pushed_at":"2021-10-20T12:07:28Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -135,7 +135,7 @@
 	{
 		"repository":"SPSSINC_HETCOR",
 		"description":" Calculate correlations between nominal, ordinal, and scale va",
-		"pushed_at":"2020-11-25T09:36:12Z",
+		"pushed_at":"2022-04-26T19:46:10Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -146,7 +146,7 @@
 	{
 		"repository":"SPSSINC_MERGE_TABLES",
 		"description":" Merge the contents of one pivot table in the Viewer into anot",
-		"pushed_at":"2021-09-27T08:23:09Z",
+		"pushed_at":"2021-10-20T12:11:22Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -157,7 +157,7 @@
 	{
 		"repository":"SPSSINC_MODIFY_TABLES",
 		"description":" Modify the appearance of pivot tables.",
-		"pushed_at":"2021-09-27T08:07:21Z",
+		"pushed_at":"2021-10-20T12:22:50Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -168,7 +168,7 @@
 	{
 		"repository":"SPSSINC_PROCESS_FILES",
 		"description":" Apply a file of syntax to a set of data files",
-		"pushed_at":"2020-06-17T06:59:42Z",
+		"pushed_at":"2021-10-20T12:28:43Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -179,7 +179,7 @@
 	{
 		"repository":"SPSSINC_MFP_GLM",
 		"description":" Estimate a regression with fractional polynomials for the scale variables",
-		"pushed_at":"2016-02-02T21:52:27Z",
+		"pushed_at":"2022-04-26T19:52:20Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -190,7 +190,7 @@
 	{
 		"repository":"SPSSINC_MODIFY_OUTPUT",
 		"description":" Modify output titles and other aspects of objects in the View",
-		"pushed_at":"2020-10-13T03:13:35Z",
+		"pushed_at":"2021-10-20T12:15:35Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -201,7 +201,7 @@
 	{
 		"repository":"SPSSINC_PROCESS_FILES_SEARCH",
 		"description":" Search the cases in a set of SPSS SAV files",
-		"pushed_at":"2020-06-17T08:04:13Z",
+		"pushed_at":"2021-10-20T12:32:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -234,7 +234,7 @@
 	{
 		"repository":"SPSSINC_QUANTREG",
 		"description":" Estimate one or more conditional quantiles for a linear model.",
-		"pushed_at":"2016-02-02T22:42:41Z",
+		"pushed_at":"2022-04-26T19:56:18Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -245,7 +245,7 @@
 	{
 		"repository":"SPSSINC_RAKE",
 		"description":" Calculate weights to control totals in up to ten dimensions by rim weighting, i.e. raking",
-		"pushed_at":"2021-02-10T17:03:48Z",
+		"pushed_at":"2021-10-20T12:37:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -256,7 +256,7 @@
 	{
 		"repository":"SPSSINC_RANFOR",
 		"description":" Estimate random forest",
-		"pushed_at":"2016-02-02T22:48:26Z",
+		"pushed_at":"2022-04-26T20:00:11Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -267,7 +267,7 @@
 	{
 		"repository":"SPSSINC_RANPRED",
 		"description":" Compute predicted values for new data using forests from SPSS",
-		"pushed_at":"2016-02-02T22:51:10Z",
+		"pushed_at":"2022-04-26T20:03:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -278,7 +278,7 @@
 	{
 		"repository":"SPSSINC_RASCH",
 		"description":" Estimate a Rasch model for item response data.",
-		"pushed_at":"2016-02-02T22:53:52Z",
+		"pushed_at":"2022-04-26T20:07:52Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -289,7 +289,7 @@
 	{
 		"repository":"SPSSINC_ROBUST_REGR",
 		"description":" Estimate a linear regression model by robust regression, using an M estimator",
-		"pushed_at":"2016-02-02T22:57:25Z",
+		"pushed_at":"2022-04-26T20:12:04Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -300,7 +300,7 @@
 	{
 		"repository":"SPSSINC_SELECT_VARIABLES",
 		"description":" Define a macro listing variables selected according to variable dictionary properties",
-		"pushed_at":"2020-06-17T08:16:15Z",
+		"pushed_at":"2021-10-20T12:42:10Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -311,7 +311,7 @@
 	{
 		"repository":"SPSSINC_BREUSCH_PAGAN",
 		"description":" Estimate a linear model and perform a heteroscedasticity test.",
-		"pushed_at":"2016-02-02T21:31:35Z",
+		"pushed_at":"2022-04-26T19:41:54Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -322,7 +322,7 @@
 	{
 		"repository":"SPSSINC_SPLIT_DATASET",
 		"description":" Split a dataset into separate files according to splitting va",
-		"pushed_at":"2020-06-17T08:21:06Z",
+		"pushed_at":"2021-10-20T12:46:35Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -333,7 +333,7 @@
 	{
 		"repository":"SPSSINC_SUMMARY_TTEST",
 		"description":"Calculate a t test from the N's, means, and standard deviations rather than the case data",
-		"pushed_at":"2020-06-17T08:25:08Z",
+		"pushed_at":"2021-10-20T12:50:40Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -344,7 +344,7 @@
 	{
 		"repository":"SPSSINC_TOBIT_REGR",
 		"description":" Estimate a regression model whose dependent variable has a fi",
-		"pushed_at":"2016-02-03T15:47:44Z",
+		"pushed_at":"2022-04-26T20:18:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -355,7 +355,7 @@
 	{
 		"repository":"SPSSINC_TRANS",
 		"description":" Apply a Python function to case data.",
-		"pushed_at":"2020-10-21T06:27:03Z",
+		"pushed_at":"2021-10-20T12:54:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -377,7 +377,7 @@
 	{
 		"repository":"STATS_ADJUST_WIDTHS",
 		"description":" Adjust widths of string variables across files",
-		"pushed_at":"2020-06-17T08:09:40Z",
+		"pushed_at":"2021-10-20T13:02:46Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -388,7 +388,7 @@
 	{
 		"repository":"STATS_BAGPLOT",
 		"description":" Create a bagplot or a matrix of bagplots",
-		"pushed_at":"2016-02-03T16:30:13Z",
+		"pushed_at":"2022-04-26T20:22:01Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -410,7 +410,7 @@
 	{
 		"repository":"STATS_CANCORR",
 		"description":" Calculate canonical correlations",
-		"pushed_at":"2020-06-17T08:10:54Z",
+		"pushed_at":"2021-10-20T13:06:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -432,7 +432,7 @@
 	{
 		"repository":"STATS_CATEGORY_ORDER",
 		"description":" Create a macro or multiple dichotomy set with a specified var",
-		"pushed_at":"2020-06-17T08:27:10Z",
+		"pushed_at":"2021-10-20T13:10:33Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -443,7 +443,7 @@
 	{
 		"repository":"STATS_CLUS_SIL",
 		"description":" compute silhouette measure for cluster analysis",
-		"pushed_at":"2020-06-17T08:28:42Z",
+		"pushed_at":"2022-04-20T19:12:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -454,7 +454,7 @@
 	{
 		"repository":"STATS_COMPRISK",
 		"description":" Competing risk survival regression",
-		"pushed_at":"2021-06-10T07:07:41Z",
+		"pushed_at":"2022-04-26T20:48:47Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -465,7 +465,7 @@
 	{
 		"repository":"STATS_COXREGR",
 		"description":" Cox (proportional hazards) regression",
-		"pushed_at":"2016-02-03T16:56:00Z",
+		"pushed_at":"2022-05-02T15:13:06Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -498,7 +498,7 @@
 	{
 		"repository":"STATS_DBPRED",
 		"description":" Prediction based on density-based clustering",
-		"pushed_at":"2016-02-03T17:04:50Z",
+		"pushed_at":"2022-04-26T21:02:09Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -509,7 +509,7 @@
 	{
 		"repository":"STATS_DBSCAN",
 		"description":" Density-based clustering",
-		"pushed_at":"2016-02-03T17:06:21Z",
+		"pushed_at":"2022-04-26T21:05:07Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -520,7 +520,7 @@
 	{
 		"repository":"STATS_DISAGG",
 		"description":" Disaggregate a time series into a series at a higher frequency",
-		"pushed_at":"2016-02-03T17:08:41Z",
+		"pushed_at":"2022-04-27T13:20:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -542,7 +542,7 @@
 	{
 		"repository":"STATS_EQNSYSTEM",
 		"description":" Estimate system of linear equations",
-		"pushed_at":"2016-02-03T17:12:59Z",
+		"pushed_at":"2022-04-27T13:24:52Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -564,7 +564,7 @@
 	{
 		"repository":"STATS_FIRTHLOG",
 		"description":" Firth logistic regression",
-		"pushed_at":"2019-12-12T04:35:46Z",
+		"pushed_at":"2022-04-27T13:42:44Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -575,7 +575,7 @@
 	{
 		"repository":"STATS_GARCH",
 		"description":" GARCH models",
-		"pushed_at":"2016-02-03T17:44:07Z",
+		"pushed_at":"2022-04-27T14:02:59Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -586,7 +586,7 @@
 	{
 		"repository":"STATS_GBM",
 		"description":" Estimate generalized boosted regression models",
-		"pushed_at":"2016-02-03T17:46:11Z",
+		"pushed_at":"2022-04-27T14:15:02Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -597,7 +597,7 @@
 	{
 		"repository":"STATS_GBMPRED",
 		"description":" Calculate predictions from generalized boosted regression mod",
-		"pushed_at":"2016-03-18T07:39:21Z",
+		"pushed_at":"2022-04-27T14:23:12Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -630,7 +630,7 @@
 	{
 		"repository":"STATS_GRM",
 		"description":" Fit graded response models to ordinal data",
-		"pushed_at":"2016-02-03T17:56:22Z",
+		"pushed_at":"2022-04-27T14:27:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -641,7 +641,7 @@
 	{
 		"repository":"STATS_HECKMAN_REGR",
 		"description":" Estimate censored/truncated regression or switching regression",
-		"pushed_at":"2016-02-03T17:59:09Z",
+		"pushed_at":"2022-04-27T14:30:24Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -663,7 +663,7 @@
 	{
 		"repository":"STATS_INEQUALITY",
 		"description":" Various inequality measures for a variable distribution",
-		"pushed_at":"2016-02-03T19:17:01Z",
+		"pushed_at":"2022-04-27T14:33:38Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -674,7 +674,7 @@
 	{
 		"repository":"STATS_IRM",
 		"description":" Fit three parameter item response models",
-		"pushed_at":"2016-02-03T19:19:12Z",
+		"pushed_at":"2022-04-27T14:51:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -696,7 +696,7 @@
 	{
 		"repository":"STATS_LATENT_CLASS",
 		"description":" Latent Class Analysis",
-		"pushed_at":"2016-02-03T19:23:57Z",
+		"pushed_at":"2022-04-27T14:56:06Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -751,7 +751,7 @@
 	{
 		"repository":"STATS_LP",
 		"description":" Solve linear and integer programming problems",
-		"pushed_at":"2016-02-03T19:49:55Z",
+		"pushed_at":"2022-05-02T14:37:03Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -850,7 +850,7 @@
 	{
 		"repository":"STATS_OPTIMAL_DESIGNMC",
 		"description":" Generate an optimal design",
-		"pushed_at":"2016-02-03T20:06:27Z",
+		"pushed_at":"2022-04-27T15:05:39Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -894,7 +894,7 @@
 	{
 		"repository":"STATS_PROPOR_REGR",
 		"description":" Linear models for dependent variables that are proportions",
-		"pushed_at":"2016-02-03T20:22:11Z",
+		"pushed_at":"2022-04-27T15:08:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -905,7 +905,7 @@
 	{
 		"repository":"STATS_PROPOR_REGRPRED",
 		"description":" Calculate predicted values for proportional regression models",
-		"pushed_at":"2016-02-03T20:25:10Z",
+		"pushed_at":"2022-04-27T15:11:18Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -927,7 +927,7 @@
 	{
 		"repository":"STATS_REGRESS_PLOT",
 		"description":" Plots useful in assessing regression relationships",
-		"pushed_at":"2020-12-16T06:22:54Z",
+		"pushed_at":"2021-10-20T13:34:07Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -938,7 +938,7 @@
 	{
 		"repository":"STATS_RELIMP",
 		"description":" Relative importance measures for regression",
-		"pushed_at":"2016-02-03T20:50:25Z",
+		"pushed_at":"2022-05-02T14:48:43Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -971,7 +971,7 @@
 	{
 		"repository":"STATS_SUBGROUP_PLOTS",
 		"description":" Graphically compare the distributions of a set of variables a",
-		"pushed_at":"2020-12-16T06:23:31Z",
+		"pushed_at":"2021-10-20T13:37:36Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -982,7 +982,7 @@
 	{
 		"repository":"STATS_SURVREG",
 		"description":" Parametric Survival Regression",
-		"pushed_at":"2016-02-03T21:00:48Z",
+		"pushed_at":"2022-05-02T15:16:41Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -993,7 +993,7 @@
 	{
 		"repository":"STATS_SVM",
 		"description":" Support Vector Machine",
-		"pushed_at":"2016-02-03T21:02:51Z",
+		"pushed_at":"2022-04-27T20:13:45Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1004,7 +1004,7 @@
 	{
 		"repository":"STATS_TABLE_CALC",
 		"description":" Calculate with pivot table cells",
-		"pushed_at":"2021-09-27T08:16:11Z",
+		"pushed_at":"2021-10-20T13:41:19Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1015,7 +1015,7 @@
 	{
 		"repository":"STATS_TSTESTS",
 		"description":" Perform cointegration and stationarity tests for time series ",
-		"pushed_at":"2016-02-03T21:07:28Z",
+		"pushed_at":"2022-05-02T14:51:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1037,7 +1037,7 @@
 	{
 		"repository":"STATS_WEIBULL_PLOT",
 		"description":" Create Weibull probability plot for failure data",
-		"pushed_at":"2020-12-16T06:24:11Z",
+		"pushed_at":"2021-10-28T07:44:33Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1048,7 +1048,7 @@
 	{
 		"repository":"STATS_ZEROINFL",
 		"description":" Estimate and predict a zero-inflated count model",
-		"pushed_at":"2016-02-03T21:24:59Z",
+		"pushed_at":"2022-05-02T14:55:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1059,7 +1059,7 @@
 	{
 		"repository":"TEXT",
 		"description":" Create a text block in the Viewer, optionally with formatted ",
-		"pushed_at":"2021-07-21T06:49:55Z",
+		"pushed_at":"2022-02-21T06:54:50Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1103,7 +1103,7 @@
 	{
 		"repository":"FormatCorrelations",
 		"description":" Clean up correlation matrix",
-		"pushed_at":"2021-09-06T09:05:23Z",
+		"pushed_at":"2021-10-20T07:27:41Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1114,7 +1114,7 @@
 	{
 		"repository":"FUZZY",
 		"description":" Perform exact or fuzzy case-control matching.",
-		"pushed_at":"2020-07-08T07:11:43Z",
+		"pushed_at":"2021-10-20T09:33:50Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1125,7 +1125,7 @@
 	{
 		"repository":"GATHERMD",
 		"description":" Build a dataset of variable information from multiple dataset",
-		"pushed_at":"2020-06-17T05:59:24Z",
+		"pushed_at":"2021-10-20T09:38:34Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1136,7 +1136,7 @@
 	{
 		"repository":"generalopen",
 		"description":" Open a data, syntax, or output file from a single dialog box",
-		"pushed_at":"2021-09-06T08:57:11Z",
+		"pushed_at":"2021-10-20T09:42:29Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1158,7 +1158,7 @@
 	{
 		"repository":"PLS",
 		"description":" Partial least squares regression",
-		"pushed_at":"2020-06-17T06:22:58Z",
+		"pushed_at":"2022-03-15T08:56:20Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1169,7 +1169,7 @@
 	{
 		"repository":"PROPOR",
 		"description":" Produce confidence intervals for proportions",
-		"pushed_at":"2021-09-06T04:15:12Z",
+		"pushed_at":"2021-10-20T09:52:02Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1180,7 +1180,7 @@
 	{
 		"repository":"PSM",
 		"description":" Propensity Score Matching",
-		"pushed_at":"2020-07-08T07:08:20Z",
+		"pushed_at":"2021-10-20T11:32:03Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1202,7 +1202,7 @@
 	{
 		"repository":"RBoxplotFamily",
 		"description":" R-based dialog for box plots from the box plot family",
-		"pushed_at":"2015-12-24T07:17:14Z",
+		"pushed_at":"2022-05-13T14:04:45Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1246,7 +1246,7 @@
 	{
 		"repository":"RMosaicAndAssociationPlots",
 		"description":" R-based dialog for Mosaic and Association plots",
-		"pushed_at":"2015-12-24T07:18:03Z",
+		"pushed_at":"2022-04-21T19:30:19Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1257,7 +1257,7 @@
 	{
 		"repository":"RRegDiagGraph",
 		"description":" Provides a large set of diagnostic plots and some tests for r",
-		"pushed_at":"2015-12-24T07:18:13Z",
+		"pushed_at":"2022-05-02T15:20:17Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1268,7 +1268,7 @@
 	{
 		"repository":"RRegDiagTest",
 		"description":" Regression diagnostic tests",
-		"pushed_at":"2015-12-24T07:18:26Z",
+		"pushed_at":"2022-04-26T19:20:37Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1279,7 +1279,7 @@
 	{
 		"repository":"RRegRidge",
 		"description":" Various methods for ridge regression and other approaches",
-		"pushed_at":"2015-12-24T07:18:39Z",
+		"pushed_at":"2022-05-02T15:25:51Z",
 		"type":"Extension",
 		"provider":"Community",
 		"software":"SPSS Statistics",
@@ -1323,7 +1323,7 @@
 	{
 		"repository":"SPSSINC_RECODEEX",
 		"description":" Extended RECODE command",
-		"pushed_at":"2020-06-17T02:58:48Z",
+		"pushed_at":"2022-04-20T19:11:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1345,7 +1345,7 @@
 	{
 		"repository":"SPSSINC_APRIORI",
 		"description":" Discover frequent itemsets, association rules using the Aprio",
-		"pushed_at":"2016-02-02T21:28:17Z",
+		"pushed_at":"2022-04-26T19:36:50Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1356,7 +1356,7 @@
 	{
 		"repository":"SPSSINC_TURF",
 		"description":" Perform TURF analysis",
-		"pushed_at":"2020-06-17T08:07:47Z",
+		"pushed_at":"2021-10-20T12:58:14Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1367,7 +1367,7 @@
 	{
 		"repository":"STATS_EXRASCH",
 		"description":" Calculate standard and extended Rasch models",
-		"pushed_at":"2016-02-03T17:16:42Z",
+		"pushed_at":"2022-04-27T13:28:55Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1378,7 +1378,7 @@
 	{
 		"repository":"STATS_FLEISS_KAPPA",
 		"description":" Compute Fleiss Multi-Rater Kappa Statistics",
-		"pushed_at":"2020-06-17T03:23:45Z",
+		"pushed_at":"2021-10-14T08:36:30Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1477,7 +1477,7 @@
 	{
 		"repository":"STATS_BAYES_ANOVA",
 		"description":"Calculate Bayesian Analysis of Variance",
-		"pushed_at":"2016-02-04T16:56:04Z",
+		"pushed_at":"2022-05-02T15:29:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1499,7 +1499,7 @@
 	{
 		"repository":"STATS_BAYES_CROSSTABS",
 		"description":"Calcuate Bayesian test of independence for two factors.",
-		"pushed_at":"2016-02-04T16:57:26Z",
+		"pushed_at":"2022-05-02T15:00:14Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1510,7 +1510,7 @@
 	{
 		"repository":"STATS_BAYES_REGR",
 		"description":"Compute Bayesian regression models.",
-		"pushed_at":"2016-02-04T16:58:24Z",
+		"pushed_at":"2022-05-02T15:03:26Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1521,7 +1521,7 @@
 	{
 		"repository":"STATS_BAYES_TTEST",
 		"description":"Bayesian T Test.",
-		"pushed_at":"2016-02-04T16:59:57Z",
+		"pushed_at":"2022-05-02T15:07:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1532,7 +1532,7 @@
 	{
 		"repository":"STATS_C50_TREE",
 		"description":"C5.0 Decision Tree",
-		"pushed_at":"2016-03-24T03:13:07Z",
+		"pushed_at":"2022-04-26T20:45:38Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1543,7 +1543,7 @@
 	{
 		"repository":"STATS_NONPAR_REGR",
 		"description":"Nonparametric regression.",
-		"pushed_at":"2016-02-04T17:09:23Z",
+		"pushed_at":"2022-04-27T15:02:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1565,7 +1565,7 @@
 	{
 		"repository":"STATS_POPULATION_DESCRIPTIVES",
 		"description":"Descriptive Statistics for a Population.",
-		"pushed_at":"2021-09-06T09:15:40Z",
+		"pushed_at":"2021-10-20T13:26:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1576,7 +1576,7 @@
 	{
 		"repository":"STATS_QUADE_ANCOVA",
 		"description":"Quade nonparametric analysis of covariance.",
-		"pushed_at":"2021-09-30T06:17:52Z",
+		"pushed_at":"2021-10-20T13:30:06Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1642,7 +1642,7 @@
 	{
 		"repository":"Benfords_Law_Analysis",
 		"description":"First Digit distribution of the selected variable graphed with the ideal Benford's Law distribution.",
-		"pushed_at":"2021-10-08T02:26:44Z",
+		"pushed_at":"2021-10-13T02:41:57Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1686,7 +1686,7 @@
 	{
 		"repository":"Traveling_Salesperson_Problem",
 		"description":"Solves the traveling salesperson optimization problem",
-		"pushed_at":"2021-07-20T06:25:21Z",
+		"pushed_at":"2022-04-27T19:54:50Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1741,7 +1741,7 @@
 	{
 		"repository":"Descriptive_Statistics_Example",
 		"description":"An example extension for automation test",
-		"pushed_at":"2021-10-08T02:29:44Z",
+		"pushed_at":"2021-10-20T07:27:07Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1862,7 +1862,7 @@
 	{
 		"repository":"STATS_CORRELATIONS",
 		"description":"Pairwise correlations with confidence intervals Description: This procedure computes pairwise correlations the same as   the built-in CORRELATIONS procedure but adds Fisher or bootstrap con  fidence intervals.",
-		"pushed_at":"2021-09-06T09:10:08Z",
+		"pushed_at":"2022-04-20T19:14:15Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1873,7 +1873,7 @@
 	{
 		"repository":"STATS_GAM",
 		"description":"This procedure estimates a generalied additive model. GAM  s are linear in predictor terms that can be simple variables or vario  us kinds of splines or polynomials.  You can specify the error distri  bution and link function for the model.",
-		"pushed_at":"2021-07-20T06:26:17Z",
+		"pushed_at":"2022-04-27T14:16:53Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1884,7 +1884,7 @@
 	{
 		"repository":"STATS_SPLINES",
 		"description":"Create basis variables for various kinds of splines Description: This procedure creates a dataset of spline basis or ortho  gonal polynomial variables.  It can create polynomial splines, natura  l spllines, or orthogonal polynomials",
-		"pushed_at":"2021-07-20T06:26:46Z",
+		"pushed_at":"2022-04-28T16:55:21Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -1917,7 +1917,7 @@
 	{
 		"repository":"Naive_Bayes_Classifier",
 		"description":"Naive Bayes classification with optional predictor selection Description: This extension provides a user interface for the NAIVEBAY  ES command. It fits the Naive Bayes classification model for a catego  rical dependent variable. You can specify whether all available predi  ctors are used or whether the procedure selects the best predictors.   The extension can also be used for predictor selection without classi  fication.",
-		"pushed_at":"2021-09-06T03:38:09Z",
+		"pushed_at":"2021-10-20T09:47:40Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2115,7 +2115,7 @@
 	{
 		"repository":"STATS_R33_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.3.",
-		"pushed_at":"2018-08-03T08:29:32Z",
+		"pushed_at":"2022-05-02T15:36:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2148,7 +2148,7 @@
 	{
 		"repository":"DataDotWorld_Export_SPSS_Stats",
 		"description":"This extension allows you to export datasets to Data.World from SPSS Statistics.",
-		"pushed_at":"2018-04-02T07:02:48Z",
+		"pushed_at":"2022-05-02T15:49:30Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2159,7 +2159,7 @@
 	{
 		"repository":"DataDotWorld_Import_SPSS_Stats",
 		"description":"This extension allows you to import datasets from Data.World into SPSS Statistics.",
-		"pushed_at":"2018-04-02T07:02:33Z",
+		"pushed_at":"2022-05-02T15:52:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2192,7 +2192,7 @@
 	{
 		"repository":"STATS_R35_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.5. ",
-		"pushed_at":"2019-02-25T07:01:34Z",
+		"pushed_at":"2022-05-02T15:39:05Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2203,7 +2203,7 @@
 	{
 		"repository":"STATS_R36_CONFIGURATION",
 		"description":"This extension provides the IBM SPSS Statistics R Configuration tool to assist with the installation of IBM SPSS Statistics - Integration Plug-in for R3.6",
-		"pushed_at":"2020-09-24T09:22:56Z",
+		"pushed_at":"2022-05-02T15:42:08Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2236,7 +2236,7 @@
 	{
 		"repository":"STATS_TEXTANALYSIS",
 		"description":"This procedure provides tools for working with text variables. It provides frequencies, sentiment analysis, searching, and spelling checks.",
-		"pushed_at":"2021-07-22T01:39:50Z",
+		"pushed_at":"2022-04-21T18:37:39Z",
 		"type":"Extension",
 		"provider":"IBM",
 		"software":"SPSS Statistics",
@@ -2264,6 +2264,50 @@
 		"software":"SPSS Statistics",
 		"language":"Python 3",
 		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"krr",
+		"description":"Fits kernel ridge regression models using the Python sklearn.kernel_ridge.KernelRidge class to estimate a kernel ridge regression of a dependent variable on one or more independent variables with specified model hyperparameters, or selection of hyperparameter values over a specified grid of values via crossvalidation by also using the sklearn.model_selection.GridSearchCV class.",
+		"pushed_at":"2022-03-15T05:48:34Z",
+		"type":"XTension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 3",
+		"category":"Analysis",
+		"promotion":"No"
+	},
+	{
+		"repository":"Fluctuation_Plot",
+		"description":"It produces a fluctuation plot, which is a nice way to look at a pair of categorical variables.",
+		"pushed_at":"2021-11-02T06:57:21Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native product",
+		"category":"Utility",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_POWERSIM",
+		"description":"Performs simulations of various parameters for the POWER procedures",
+		"pushed_at":"2021-11-11T08:41:16Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Native product",
+		"category":"Presentation",
+		"promotion":"No"
+	},
+	{
+		"repository":"STATS_POWERCHISQUARE",
+		"description":"Power Analysis for Chi-Square models",
+		"pushed_at":"2022-02-22T07:15:43Z",
+		"type":"Extension",
+		"provider":"IBM",
+		"software":"SPSS Statistics",
+		"language":"Python 3",
+		"category":"Presentation",
 		"promotion":"No"
 	}
 ]
