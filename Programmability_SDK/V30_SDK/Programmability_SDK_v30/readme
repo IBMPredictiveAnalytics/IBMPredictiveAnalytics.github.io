@@ -2,8 +2,8 @@ IBM® SPSS® Statistics Programmability Extension Software Developer's Kit (SDK)
 
 VERSION
 The IBM SPSS Statistics Programmability Extension SDK is intended to be used with:
-  -- IBM SPSS Statistics version 29.0.0 applications for win64 platforms
-  -- IBM SPSS Statistics version 29.0.0 applications for Linux64, ZLinux64,
+  -- IBM SPSS Statistics version 30.0.0 applications for win64 platforms
+  -- IBM SPSS Statistics version 30.0.0 applications for Linux64, ZLinux64,
      PLinux64 and MacOS platforms
 
 INTRODUCTION
