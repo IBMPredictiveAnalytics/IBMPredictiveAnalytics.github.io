@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "id": "testwrapper",
+    "version": "1.0",
+    "json_schema": "http://api.dataplatform.ibm.com/schemas/statistics/procedure-ui/component-properties-v1-schema.json",
+    "label": "Test Wrapper for Python Extensions"
+  },
+  "properties": [
+    {
+      "id": "dependent",
+      "type": "string",
+      "role": "field",
+      "required": true,
+      "storage": [
+        "numeric",
+        "date"
+      ]
+    },
+    {
+      "id": "covariates",
+      "type": "array[string]",
+      "role": "field",
+      "required": true,
+      "storage": [
+        "numeric",
+        "date"
+      ],
+      "constraints": [
+        {
+          "op": "min",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "weight_var",
+      "type": "string",
+      "role": "field",
+      "required": false,
+      "storage": [
+        "numeric",
+        "date"
+      ]
+    },
+    {
+      "id": "print",
+      "enum": [
+        "best",
+        "compare",
+        "verbose"
+      ],
+      "required": false,
+      "default": "best"
+    },
+    {
+      "id": "plot_residual",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "save_resid_newvar",
+      "type": "string",
+      "role": "new_field",
+      "default": "new_resid_var"
+    },
+    {
+      "id": "crossvalid",
+      "type": "boolean",
+      "default": false
+    }
+  ],
+  "complex_types": [
+    {
+      "id": "test_struct",
+      "parameters": [
+        {
+          "id": "enumeration",
+          "enum": [
+            "additive_chi2",
+            "chi2",
+            "cosine",
+            "laplacian",
+            "linear",
+            "polynomial",
+            "rbf",
+            "sigmoid"
+          ],
+          "default": "linear"
+        },
+        {
+          "id": "bool",
+          "type": "boolean"
+        },
+        {
+          "id": "str",
+          "type": "string"
+        },
+        {
+          "id": "num",
+          "type": "double"
+        }
+      ]
+    }
+  ],
+  "validations": [],
+  "backend_processing": {
+    "delete_missing": "listwise",
+    "handle_missing": "exclude",
+    "rounding_weight": "rounded",
+    "add_cps_table": true,
+    "records_per_chunk": 1000
+  }
+}

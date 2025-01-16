@@ -1,0 +1,142 @@
+Introduction to the SPSSXD API Examples
+
+Contents
+========
+This version of the SPSSXD API supports 2 modes: in_process and out_of_process. 
+The in_process mode typically has better performance than the out_of_process mode for executing large tasks, 
+however, the out_of_process mode is recommended when using the nesting feature.
+
+In each mode, there are 3 examples:
+      
+  simple:
+      A simple example of how to use the spssxd api by linking statically.
+
+  load_statically:
+      An example of how to use the spssxd api by linking statically. It tests most of
+      the functions of spssxd api iteratively. The spssxd.library or spssxd_p.library will
+      not be loaded and unloaded dynamically.
+
+  load_dynamically:
+      An example of how to use the spssxd api by loading and unloading dynamically.
+      It tests most of functions of the spssxd api iteratively. The spssxd or spssxd_p
+      library will be loaded and unloaded dynamically.
+
+
+Prerequisites
+=============
+    Visual Studio 2017 has to be installed (for win64 platform).
+    XCode 10.3 or later version (For MacOS platform)
+    
+    
+Environment Variables
+=====================
+Set the value of <SPSS_HOME>, which is the installation directory of IBM® SPSS® Statistics.
+  Win64:
+     Add <SPSS_HOME> to the system Path.
+     Add <SPSS_HOME>\common\ext\bin\spss.common to the system Path.
+  Linux64:
+     Add <SPSS_HOME>/common/ext/bin/spss.common to LD_LIBRARY_PATH.
+     Add <SPSS_HOME>/lib to LD_LIBRARY_PATH.
+  MacOS:
+	 Add <SPSS_HOME>/lib to DYLD_LIBRARY_PATH.
+     Add <SPSS_HOME>/common/ext/bin/spss.common to DYLD_LIBRARY_PATH.
+  ZLinux64:
+     Add <SPSS_HOME>/common/ext/bin/spss.common to LD_LIBRARY_PATH.
+     Add <SPSS_HOME>/lib to LD_LIBRARY_PATH.
+  PLinux64:
+     Add <SPSS_HOME>/common/ext/bin/spss.common to LD_LIBRARY_PATH.
+     Add <SPSS_HOME>/lib to LD_LIBRARY_PATH.
+
+
+Set the IBM SPSS Statistics Data File Path
+===========================
+  The examples use the data (sav) files which are supplied
+  with IBM SPSS Statistics, in its installation directory.
+  You need to edit testxd.cpp so that it contains the
+  path to those data files.
+
+  From the load_statically and load_dynamically subdirectories
+  respectively, open and edit testxd.cpp, find the function
+     void filelist(std::vector<std::string>& fList)
+  Check and correct the filepath as follows:
+    // Correct the path to data files to point to the installation directory of IBM SPSS Statistics
+    // For example, "c:\\Progra~1\\IBM\\SPSS\\Statistics\\samples\\" for Windows
+    // Or, "/usr/local/Statistics/samples/" for UNIX
+    std::string filepath = "C:\\Program Files\\IBM\\SPSS\\Statistics\\Samples\\English\\";
+  Save testxd.cpp
+  
+  From the simple subdirectory open and edit testxd.cpp, find the function
+	 int main(int argc, char* argv[])
+  Check and correct the filename as follows:
+	filename = "C:\\Program Files\\IBM\\SPSS\\Statistics\\Samples\\English\\demo.sav";
+  Save testxd.cpp
+
+
+Building
+========
+  From the simple, load_statically, and load_dynamically subdirectories
+  respectively, follow the steps below to build the App.
+
+  Win64:
+    Open .\PCBuild\testxd.vcproj, select release and x64 option, build it.
+  Unix:
+    Change to the gnumak directory and run the shell command: (g)make -f Makefile
+	If you need 64-bit lib on linux, use: (g)make -f Makefile
+
+
+Output and Usage
+================
+  Win64:
+     Output files will be put into the x64\Release subdirectory.
+     From there, run the command:
+         testxd.exe count_of_iteration
+  Linux64:
+     Output files will be put into the lintel64 subdirectory.
+     For in_process, copy xdApp.sh to that location and run the command:
+         ./xdApp.sh count_of_iteration
+     For out_of_process, run the following command from that location:
+         ./testxdApp count_of_iteration
+  MacOS:
+	 Output files will be put into the macosx subdirectory.
+     For in_process, copy xdApp.sh to that location and run the command:
+         ./xdApp.sh count_of_iteration
+     For out_of_process, run the following command from that location:
+         ./testxdApp count_of_iteration
+  ZLinux64:
+     Output files will be put into the zlinux64 subdirectory.
+     For in_process, copy xdApp.sh to that location and run the command:
+         ./xdApp.sh count_of_iteration
+     For out_of_process, run the following command from that location:
+         ./testxdApp count_of_iteration
+  PLinux64:
+     Output files will be put into the plinux64 subdirectory.
+     For in_process, copy xdApp.sh to that location and run the command:
+         ./xdApp.sh count_of_iteration
+     For out_of_process, run the following command from that location:
+         ./testxdApp count_of_iteration
+
+     Where count_of_iteration is the number of iterations, with default
+     value 1. 
+     For the simple example, the parameter count_of_iteration is invalid.
+     
+
+Notes
+=================
+For some linux distributions, to build the examples, users need to ensure
+that the standard C++ library is linked as libstdc++.so.6, which is the
+version the IBM SPSS Statistics backend libraries are built with.
+
+For Windows platforms, users need 
+to create a temporary folder c:/temp beforehand if one doesn't exist. 
+
+The function "AddOutlineFootnotes" has been deprecated.
+
+For SUSE Linux Enterprise Server 11 platforms, users may need include 
+following three header files in testxd.cpp:
+<stdlib.h> <stdio.h> and <string.h> 
+
+For PLinux64 platform, users may need include following header file in testxd.cpp:
+<stdlib.h> <stdio.h> and <string.h> 
+
+
+© Copyright IBM Corp. 1989, 2021

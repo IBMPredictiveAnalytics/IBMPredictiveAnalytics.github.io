@@ -1,0 +1,81 @@
+Building the InvokePython310 Shared Library
+
+Introduction
+------------
+This SDK directory is used to:
+    -- build InvokePython310 Library for Windows (e.g. Win64) with Python 3.10.*
+    -- build libInvokePython310 Library for UNIX platforms (e.g. Linux64, ZLinux64, PLinux64 and MacOS) with Python 3.10.*
+
+
+Prerequisites
+-------------
+    Visual Studio 2017 has to be installed (for win64 platform).
+    XCode 10.3 or later version (For MacOS platform)
+    Python 3.10.* has to be installed (for all supported platforms).
+
+
+Environment variables
+---------------------
+The following environment variable must be set prior to building the InvokePython310
+shared library:
+    PYTHON_HOME - must be defined as the location of your Python installation
+
+
+Building InvokePython310.dll (for win64 platform)
+----------------------------------------------
+Using Visual Studio 2017
+  There is a Visual Studio project file located under
+  \...\DX_API\InvokePython\PCBuild\.
+  Win64:
+    Open InvokePython310.vcproj, select release and x64 option, build it.
+
+Using a Makefile
+  You can also build InvokePython310.dll using invokepython.mak. First, open a
+  Visual Studio 2017 command prompt. Then go to the directory
+  \...\DX_API\InvokePython\mak\ and build InvokePython310.dll by
+  using the following command:
+      nmake -f invokePython.mak PYTHONVERSION=3.10
+      If you need the 64-bit dynamic library on Windows64, use: nmake -f invokePython.mak PLATFORM=Win64 PYTHONVERSION=3.10
+
+
+Building the InvokePython310 library (for UNIX platforms)
+---------------------------------------------
+There is a Makefile located under \...\DX_API\InvokePython\gnumak\.
+Go to the directory \...\DX_API\InvokePython\gnumak\
+and run the following command from the shell:
+      (g)make -f invokePython.mk PYTHONVERSION=3.10
+
+
+Output files
+------------
+  Win64:
+     If the project file is used, output files will be put into the \...\DX_API\InvokePython\PCBuild\X64\Release subdirectory.
+     If the make file is used, output files will be put into the \...\DX_API\InvokePython\X64\Release subdirectory.
+  Linux64:
+     Output files will be put into the \...\DX_API\InvokePython\lintel64 subdirectory.
+  MacOS:
+	 Output files will be put into the \...\DX_API\InvokePython\macosx subdirectory.
+  ZLinux64:
+     Output files will be put into the \...\DX_API\InvokePython\zlinux64 subdirectory.
+  PLinux64:
+     Output files will be put into the \...\DX_API\InvokePython\plinux64 subdirectory.
+
+Notes
+-----
+Built this way, the InvokePython310 library is a release build. To build a debug
+version of InvokePython310 library, the python310_d library is required, which
+is not currently supplied by the python-3.10.* installer.
+
+After the build succeeds, a corresponding change needs to be made to spssdxcfg.ini in
+order to use the Plug-in functionality with IBM® SPSS® Statistics. Also, you will
+need to copy this file and the libInvokePython library to your IBM SPSS Statistics installation
+location.
+On Windows, copy both spssdxcfg.ini and the InvokePython310 library to the
+root directory of $SPSS_HOME.
+On UNIX platforms, copy spssdxcfg.ini to $SPSS_HOME/bin and copy the libInvokePython310
+library to $SPSS_HOME/lib.
+
+On MacOS, please add $SPSS_HOME/lib to DYLD_LIBRARY_PATH before running the Python plug-in.
+
+
+© Copyright IBM Corp. 1989, 2022

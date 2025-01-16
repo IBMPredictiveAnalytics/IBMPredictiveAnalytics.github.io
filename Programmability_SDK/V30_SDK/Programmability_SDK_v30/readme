@@ -1,0 +1,27 @@
+IBM® SPSS® Statistics Programmability Extension Software Developer's Kit (SDK)
+
+VERSION
+The IBM SPSS Statistics Programmability Extension SDK is intended to be used with:
+  -- IBM SPSS Statistics version 29.0.0 applications for win64 platforms
+  -- IBM SPSS Statistics version 29.0.0 applications for Linux64, ZLinux64,
+     PLinux64 and MacOS platforms
+
+INTRODUCTION
+The IBM SPSS Statistics Programmability Extension SDK includes the following six subfolders:
+  -- documentation: All documentation for the IBM SPSS Statistics Programmability Extension SDK. It includes documentation on using the IBM SPSS Statistics Integration Plug-ins (Python and .NET), the C API (referred to as the XD API), and the Dictionary and Output schemas. It also includes a Developer's Guide with information on building custom Plug-ins.
+  -- DX_API: Tools for building shared libraries for the Python Plug-in can be found in the InvokePython sub-directory. An example of using the DX API to invoke Python from IBM SPSS Statistics can be found in the MyInvokePython sub-directory.
+  -- Statistics_Python: Building and installing the IBM SPSS Statistics-Python Package.
+  -- XD_API: Examples of using the XD API.
+  -- XTension_Utility: Tools for running IBM SPSS Statistics XTensions.
+
+KNOWN ISSUES
+StartSpss. Using the XD API StartSpss function without an argument may cause the application
+controlling the IBM SPSS Statistics backend to exit unexpectedly. You can avoid the problem by supplying an argument
+which can be a blank or an empty string, for example StartSpss("").
+
+In_process mode. Invoking StartSpss after having already invoked StartSpss and StopSpss may cause the application to exit unexpectedly.
+
+Nesting. When using the nesting feature, we recommend using the out_of_process mode.
+
+
+© Copyright IBM Corp. 1989, 2022

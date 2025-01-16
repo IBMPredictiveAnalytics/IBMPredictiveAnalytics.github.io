@@ -1,0 +1,176 @@
+[okay]     0:         No error.
+[okay]     1:         Comment.
+[warning]  2:         Warning.
+[error]    3:         Serious error.
+[error]    4:         Fatal error.
+[error]    5:         Catastrophic error.
+[error]    6:         Command syntax error.
+[error]    7:         Cannot stop SPSS backend.
+[error]    8:         Cannot start SPSS backend.
+[error]    9:         No active data.
+[error]    10:        Invalid index.
+[error]    11:        Cannot add object to XML workspace.
+[error]    12:        Invalid handle.
+[error]    13:        Cannot remove XML workspace object.
+[error]    14:        No string.
+[warning]  15:        No result.
+[error]    16:        Invalid value.
+[error]    17:        SPSS backend is not ready.
+[error]    18:        Programmability is not licensed (failed to get license for spssxd.dll).
+[error]    19:        SPSS is not licensed (failed to get license for SPSS Base).
+[warning]  20:        Reuse of an existing XML workspace handle.
+[error]    21:        Invalid XPath expression.
+[error]    22:        XML error.
+[warning]  23:        No more data are available.
+[error]    24:        Invalid data type.
+[error]    25:        Duplicate variable name.
+[error]    26:        Invalid variable type.
+[error]    27:        Invalid variable name.
+[error]    28:        Cannot open a dataset.
+[error]    29:        Duplicate data source.
+[error]    30:        Invalid case.
+[error]    31:        Cursor is running.
+[error]    32:        A user procedure is running.
+[error]    33:        The variable information has been committed..
+[error]    34:        Invalid measurement level.
+[error]    35:        Invalid alignment.
+[error]    36:        Invalid missing value format.
+[error]    37:        Please commit data.
+[error]    38:        The current Cursor instance is in read mode.
+[error]    39:        Illegal access type.
+[error]    40:        No procedure data source.
+[error]    41:        Can't execute end changes many times.
+[error]    42:        The current Cursor instance is in write mode.
+[error]    43:        The current Cursor instance is in append mode.
+[error]    44:        The active dataset is empty.
+[error]    45:        Invalid method call.
+[error]    46:        Invalid access type.
+[error]    47:        Invalid format type.
+[error]    48:        Invalid width.
+[error]    49:        Invalid decimal.
+[error]    50:        Invalid buffer size.
+[error]    51:        AllocNewVarsBuffer can only be called once for a Cursor instance.
+[error]    52:        Call AllocNewVarsBuffer first.
+[error]    53:        Buffer size is not large enough to accommodate a new variable.
+[error]    54:        No more data are available in the active dataset.
+[error]    55:        SetVarNameAndType can only be called once.
+[error]    56:        Only string variables are allowed.
+[error]    57:        Only numeric variables are allowed.
+[error]    58:        Invalid attribute name.
+[error]    59:        User-missing values for string variables must be 8 characters or less.
+[error]    60:        No Cursor instance is running.
+[error]    61:        Data value is too long.
+[error]    62:        String variable defined length cannot exceed 32767 bytes.
+[error]    63:        Submit cannot be used from within a user procedure or while there is a Cursor instance.
+[error]    64:        Cannot change data values or variable information in the original dataset.
+[error]    65:        A user procedure is not defined.
+[error]    66:        The variable name already exists in the active dataset.
+[warning]  67:        The case is at the end of the current split.
+[error]    68:        Within a user procedure only a single Cursor instance can exist, and its mode cannot be changed.
+[error]    69:        Procedure name is too long.
+[error]    70:        The label length is too long.
+[error]    71:        The value length is too long.
+[error]    72:        Reset data pass fail.
+[error]    73:        Cannot add or update variable information.
+[error]    74:        There are no variables to commit.
+[error]    75:        There are no data values to save.
+[error]    76:        Invalid function call.
+[error]    77:        Call commit dictionary first.
+[error]    78:        Value labels cannot be set for long string variables.
+[error]    79:        Missing values cannot be set for long string variables.
+[error]    80:        Call AllocNewVarsBuffer() before fetching data.
+[error]    81:        Reset must be called before retrieving more data.
+[error]    82:        The variable is not in the active dataset.
+[error]    83:        Cannot access Clementine.
+[error]    84:        Function requires an append Cursor.
+[error]    85:        Invalid drive mode.
+[error]    86:        No active data source.
+[error]    87:        Invalid dataset name.
+[error]    88:        This method can only be called between StartDataStep and EndDataStep.
+[error]    89:        Invalid function call because there is no data step or user procedure running.
+[error]    90:        Can't create an active dataset within a user procedure.
+[error]    91:        A dataset with the specified name already exists.
+[error]    92:        A data step is running.
+[warning]  93:        Active dataset has no associated Dataset object.
+[error]    94:        Can't start a data step with pending transformations.
+[error]    96:        Can't find specified attribute name.
+[error]    97:        Invalid case number.
+[error]    98:        Submit cannot be used from within a data step.
+[error]    99:        Can't create specified dataset.
+[error]    100:       Invalid multi response set definition.
+[error]    101:       Invalid VariableSet type.
+[error]    102:       Invalid VariableSet name.
+[error]    103:       Invalid column width.
+[error]    104:       Invalid file path or file access deny.
+[error]    105:       Can't save a data file.
+[error]    106:       Can't find specified multi response set.
+[error]    107:       Procedure name is wrong.
+[error]    108:       The column width is too long.
+[error]    109:       Invalid missing values.
+[error]    110:       Can't find specified value label.
+
+[error]    999999997: Unknown error.
+[error]    999999998: Processing was interrupted by the user.
+[error]    999999999: Unknown error.
+
+[PyError]  1000:      Expects an integer argument.
+[PyError]  1001:      Expects a string argument.
+[PyError]  1002:      Expects a tuple argument.
+[PyError]  1003:      Expects a list argument.
+[PyError]  1004:      Invalid argument type.
+[warning]  1006:      Invalid function call, cannot stop SPSS backend from SPSS.
+[PyError]  1007:      Argument must be either "on" or "off".
+[PyError]  1008:      Expects a boolean argument.
+[warning]  1009:      Invalid function call, cannot set output display from SPSS.
+[warning]  1010:      Invalid function call, SPSS backend is already started.
+[PyError]  1011:      Cannot load SPSSXD API.
+[warning]  1012:      Set locale to English.
+[PyError]  1013:      Specify an XPath handle.
+[PyError]  1020:      A Cursor is running. Delete it before you stop SPSS.
+[PyError]  1021:      Not enough memory.
+[PyError]  1022:      Cannot create object for SPSS data.
+[PyError]  1023:      Incorrect number of arguments.
+[PyError]  1024:      Cannot initialize Cursor.
+[PyError]  1025:      A Cursor is running, delete it before you create another Cursor.
+[PyError]  1026:      Variable indices must be integers.
+[PyError]  1027:      Argument must be either a tuple or a list.
+[PyError]  1028:      Variable index contains a value that is greater than the number of variables in the active dataset.
+[PyError]  1029:      Invalid Cursor object.
+[PyError]  1030:      Cursor object has been closed.
+[PyError]  1032:      Pivot table cell values do not match the label structure.
+[PyError]  1031:      Invalid dimension position.
+[PyError]  1033:      Argument must be integer or float.
+[PyError]  1034:      Invalid access type.
+[PyError]  1035:      Number must be positive.
+[PyError]  1036:      Invalid pivot table template name (name must start with a letter and be shorter than 64 bytes).
+[PyError]  1037:      Expect a Dimension object.
+[PyError]  1038:      Number of pivot table categories does not match the dimension size.
+[PyError]  1039:      Expects a CellText object.
+[PyError]  1040:      Cannot delete a dimension after it has been added to a pivot table.
+[PyError]  1041:      Set cell value before adding its footnotes.
+[PyError]  1042:      Invalid dimension place.
+[PyError]  1043:      Invalid dimension name.
+[PyError]  1044:      Too many row dimensions.
+[PyError]  1045:      Too many column dimensions.
+[PyError]  1046:      Add a dimension to the pivot table before adding its categories.
+[PyError]  1047:      Cannot delete a category after it has been added to a dimension.
+[PyError]  1048:      Cannot modify a category after it has been added to a dimension.
+[PyError]  1049:      Invalid FormatSpec.
+[PyError]  1050:      FormatSpec requires a varIndex.
+[PyError]  1051:      varValue expects a numeric or string value.
+[PyError]  1052:      Invalid missing value type code.
+[PyError]  1053:      missingVal1 should be less than missingVal2.
+[PyError]  1054:      Tuple or list should not be empty.
+[PyError]  1055:      varName and varType must have the same number of elements.
+[PyError]  1056:      bufSize should be greater than 0.
+[PyError]  1057:      Expects a string or None.
+[PyError]  1058:      Expects an integer specifying a variable index or a string specifying a variable name.
+[PyError]  1059:      Expects two integers (or slices) specifying case number(s) and variable index(es). 
+[PyError]  1060:      Number of specified cases does not match the slice size.
+[PyError]  1061:      Expects a list of three integers specifying format type, format width, and number of decimal digits.
+[PyError]  1062:      Expects a string, tuple or list.
+[PyError]  1063:      Expects a numeric value or a string.
+[PyError]  1064:      Expects a list of four elements specifying missing value type and missing values.
+[PyError]  1065:      Dataset object has been closed.
+[PyError]  1066:      Expects a tuple or list contains mrsetLabel,mrsetCodeAs,mrsetCountedValue,mrsetDataType and varNames.
+[PyError]  1067:      Invalid variable type.

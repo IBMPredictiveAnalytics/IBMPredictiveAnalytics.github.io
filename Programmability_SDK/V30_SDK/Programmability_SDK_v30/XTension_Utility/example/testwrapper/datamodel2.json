@@ -1,0 +1,24 @@
+{
+  "json_schema": "http://api.dataplatform.ibm.com/schemas/common-pipeline/datarecord-metadata/datarecord-metadata-v3-schema.json",
+  "id": "123.456.780",
+  "fields": [
+    {
+      "name": "newvar1",
+      "type": "double",
+      "metadata": {
+        "description": "A new numeric variable",
+        "measure": "range",
+        "modeling_role": "input"
+      }
+    },
+    {
+      "name": "newvar2",
+      "type": "string",
+      "metadata": {
+        "description": "A new string variable",
+        "measure": "nominal",
+        "modeling_role": "input"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "success_key1": "You have successfully run testwrapper",
+  "fail_key1": "The testwrapper extension has failed"
+}

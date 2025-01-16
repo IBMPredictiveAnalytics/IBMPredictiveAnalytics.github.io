@@ -1,0 +1,26 @@
+Installing the IBM® SPSS® Statistics XTension dependency packages
+© Copyright IBM Corp. 1989, 2022
+
+
+Introduction
+------------
+This top level directory includes the following four subfolders:
+  -- adapter: The adapter module provides low-level communication with the Statistics backend
+  -- util: Utilities for python extension, including localization and StatJSON helpers
+  -- wrapper: The wrapper base class module that parses extension properties and implements common wrapper functions
+  -- example: A simple wrapper implementation for testing
+
+
+Prerequisites
+-------------
+    Python 3.10.* must be installed
+
+
+Building and installing the XTension packages using setup.py
+----------------------------------------------------------
+Usage Synopsis:
+
+Building the packages, and installing it:
+  python(3) [path]setup.py install
+
+

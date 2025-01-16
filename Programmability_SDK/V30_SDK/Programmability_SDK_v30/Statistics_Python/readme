@@ -1,0 +1,106 @@
+Building and Installing the IBM® SPSS® Statistics-Python Package
+
+Introduction
+------------
+This directory is used to build and install the IBM SPSS Statistics-Python package for the following platforms:
+    - Win64
+    - UNIX (Linux64, MacOS, ZLinux64, PLinux64)
+
+
+Prerequisites
+-------------
+    Visual Studio 2017 has to be installed
+    XCode 10.3 or later version (For MacOS platform)
+    Python 3.10.* has to be installed
+
+
+Environment variables
+---------------------
+The following environment variables must be set prior to the building of Statistics-Python package:
+    Win64:
+        PYTHON_HOME - must be defined as the location of your Python installation
+        SPSS_HOME - must be defined as the location of your IBM SPSS Statistics installation
+    Linux64:
+        PYTHON_HOME - must be defined as the location of your Python installation
+        SPSS_HOME - must be defined as the location of your IBM SPSS Statistics installation
+        Add <SPSS_HOME>/lib and <PYTHON_HOME>/lib to LD_LIBRARY_PATH.
+    MacOS:
+        PYTHON_HOME - must be defined as the location of your Python installation
+        SPSS_HOME - must be defined as the location of your IBM SPSS Statistics installation
+        Add <SPSS_HOME>/lib and <PYTHON_HOME>/lib to DYLD_LIBRARY_PATH.
+    ZLinux64:
+        PYTHON_HOME - must be defined as the location of your Python installation
+        SPSS_HOME - must be defined as the location of your IBM SPSS Statistics installation
+        Add <SPSS_HOME>/lib and <PYTHON_HOME>/lib to LD_LIBRARY_PATH.
+    PLinux64:
+        PYTHON_HOME - must be defined as the location of your Python installation
+        SPSS_HOME - must be defined as the location of your IBM SPSS Statistics installation
+        Add <SPSS_HOME>/lib and <PYTHON_HOME>/lib to LD_LIBRARY_PATH.
+
+Building and installing the IBM SPSS Statistics-Python package using setup.py
+----------------------------------------------------------
+Usage Synopsis:
+
+Creating the IBM SPSS Statistics-Python source package:
+  python3 [path]setup.py sdist --force-manifest
+
+Building the IBM SPSS Statistics-Python binary package, without installing it:
+  python3 [path]setup.py build
+
+Building the IBM SPSS Statistics-Python binary package, and installing it:
+  python3 [path]setup.py install
+
+Default Location of Output files:
+  -- Binary package:
+     [path]build/lib.platformInfo-pythonversion/spss, if you do not install the package
+     <Python_Path>/Lib/site-packages/spss, if you do install the package
+  -- Source package:
+     [path]dist
+
+
+Building a Windows extension module for Python 3.10
+---------------------------------
+Currently setup.py does not support building an extension module PyInvokeSpss.pyd
+for the Windows platform so you need to follow the steps below to build the extension
+module. After it is built, copy the created extension module to your installed IBM SPSS Statistics-Python Plug-In
+package. For example, copy the extension module to <Python_home>/Lib/site-packages/spss.
+
+For Win64:
+  Prerequisites
+      Visual Studio 2017 has to be installed
+      Python-3.10.*-amd64 has to be installed
+
+  Environment variables
+    The following environment variable must be set prior to the building of
+    PyInvokeSPSS.pyd:
+      PYTHON_HOME - must be defined as the location of your Python installation
+
+  Building PyInvokeSPSS.pyd using Makefile
+    You can also build PyInvokeSpss.pyd using PyInvokeSpss.mak. First, open a
+    Visual Studio 2017 x64 command prompt. Then go to the directory
+    \...\Statistics_Python\spss\src\ and build PyInvokeSpss.pyd by
+    using the following command:
+      nmake -f PyInvokeSpss.mak PYTHONVERSION=3.10
+
+    Output files will be put into the \...\Statistics_Python\spss\src\X64\Release subdirectory.
+
+  Notes:
+    - Currently PyInvokeSpss.pyd only has a release build. To build a debug
+      PyInvokeSpss.pyd, python310_d.dll for x64 is required and that file is not
+      supplied by the python-3.10.*-amd64 installer.
+
+
+Notes
+-----
+For Mac, we recommend to use the system pre-installed Python to build package.
+
+After the build succeeds, spssxd_path needs to be changed in the file spssxdcfg.ini in order to run the package successfully.
+For windows this file should be located at <Python_Path>/Lib/site-packages/spss/spssxdcfg.ini,
+For UNIX it should be at <Python_Path>/lib/python3.10/site-packages/spss/spssxdcfg.ini for Python 3.10
+
+Change the package location.
+On Windows, copy the package to <SPSS_HOME>/Python/Lib/site-packages
+On UNIX platforms, copy the package to <SPSS_HOME>/Python3/lib/python3.10/site-packages for Python 3.10
+On MacOS, copy the package to <SPSS_HOME>/../../Python3/lib/python3.10/site-packages for Python 3.10
+
+© Copyright IBM Corp. 1989, 2022
